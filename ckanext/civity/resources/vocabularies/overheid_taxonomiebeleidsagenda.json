@@ -1,0 +1,772 @@
+{
+    "http://standaarden.overheid.nl/owms/terms/Afval_(thema)": {
+        "labels": {
+            "nl-NL": "Afval",
+            "en-US": "Afval"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Natuur_en_milieu"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Arbeidsomstandigheden_(thema)": {
+        "labels": {
+            "nl-NL": "Arbeidsomstandigheden",
+            "en-US": "Arbeidsomstandigheden"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Werk_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Arbeidsvoorwaarden": {
+        "labels": {
+            "nl-NL": "Arbeidsvoorwaarden",
+            "en-US": "Arbeidsvoorwaarden"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Werk_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Basisonderwijs_(thema)": {
+        "labels": {
+            "nl-NL": "Basisonderwijs",
+            "en-US": "Basisonderwijs"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Begroting": {
+        "labels": {
+            "nl-NL": "Begroting",
+            "en-US": "Begroting"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Financien"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Belasting": {
+        "labels": {
+            "nl-NL": "Belasting",
+            "en-US": "Belasting"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Financien"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Beroepsonderwijs_(thema)": {
+        "labels": {
+            "nl-NL": "Middelbaar beroepsonderwijs",
+            "en-US": "Vocational education"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Bestuur": {
+        "labels": {
+            "nl-NL": "Bestuur",
+            "en-US": "Bestuur"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Bestuursrecht": {
+        "labels": {
+            "nl-NL": "Bestuursrecht",
+            "en-US": "Bestuursrecht"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Recht_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Bezwaar_en_klachten": {
+        "labels": {
+            "nl-NL": "Bezwaar en klachten",
+            "en-US": "Bezwaar en klachten"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Recht_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Bodem": {
+        "labels": {
+            "nl-NL": "Bodem",
+            "en-US": "Bodem"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Natuur_en_milieu"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Bouwen_en_verbouwen": {
+        "labels": {
+            "nl-NL": "Bouwen en verbouwen",
+            "en-US": "Bouwen en verbouwen"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Huisvesting_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Bouwnijverheid": {
+        "labels": {
+            "nl-NL": "Bouwnijverheid",
+            "en-US": "Bouwnijverheid"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Economie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Burgerlijk_recht": {
+        "labels": {
+            "nl-NL": "Burgerlijk recht",
+            "en-US": "Burgerlijk recht"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Recht_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Criminaliteit": {
+        "labels": {
+            "nl-NL": "Criminaliteit",
+            "en-US": "Criminaliteit"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Openbare_orde_en_veiligheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Cultuur_(thema)": {
+        "labels": {
+            "nl-NL": "Cultuur",
+            "en-US": "Cultuur"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Cultuur_en_recreatie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Cultuur_en_recreatie": {
+        "labels": {
+            "nl-NL": "Cultuur en recreatie",
+            "en-US": "Cultuur en recreatie"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/De_Nederlandse_Antillen_en_Aruba": {
+        "labels": {
+            "nl-NL": "De Nederlandse Antillen en Aruba",
+            "en-US": "De Nederlandse Antillen en Aruba"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Bestuur"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Defensie_(thema)": {
+        "labels": {
+            "nl-NL": "Defensie",
+            "en-US": "Defensie"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Internationaal"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Dieren_(thema)": {
+        "labels": {
+            "nl-NL": "Dieren",
+            "en-US": "Dieren"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Landbouw_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Economie": {
+        "labels": {
+            "nl-NL": "Economie",
+            "en-US": "Economie"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Emigratie_(thema)": {
+        "labels": {
+            "nl-NL": "Emigratie",
+            "en-US": "Emigratie"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Migratie_en_integratie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Energie": {
+        "labels": {
+            "nl-NL": "Energie",
+            "en-US": "Energie"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Natuur_en_milieu"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Ethiek": {
+        "labels": {
+            "nl-NL": "Ethiek",
+            "en-US": "Ethiek"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Zorg_en_gezondheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Europese_zaken": {
+        "labels": {
+            "nl-NL": "Europese zaken",
+            "en-US": "Europese zaken"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Internationaal"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Financieel_toezicht": {
+        "labels": {
+            "nl-NL": "Financieel toezicht",
+            "en-US": "Financieel toezicht"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Financien"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Financien": {
+        "labels": {
+            "nl-NL": "Financien",
+            "en-US": "Financien"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Geluid_(thema)": {
+        "labels": {
+            "nl-NL": "Geluid_(thema)",
+            "en-US": "Geluid_(thema)"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Natuur_en_milieu"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Gemeenten": {
+        "labels": {
+            "nl-NL": "Gemeenten",
+            "en-US": "Gemeenten"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Bestuur"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Geneesmiddelen_en_medische_hulpmiddelen": {
+        "labels": {
+            "nl-NL": "Geneesmiddelen en medische hulpmiddelen",
+            "en-US": "Geneesmiddelen en medische hulpmiddelen"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Zorg_en_gezondheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Gezin_en_kinderen": {
+        "labels": {
+            "nl-NL": "Gezin en kinderen",
+            "en-US": "Gezin en kinderen"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Sociale_zekerheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Gezondheidsrisico's": {
+        "labels": {
+            "nl-NL": "Gezondheidsrisico's",
+            "en-US": "Gezondheidsrisico's"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Zorg_en_gezondheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Handel": {
+        "labels": {
+            "nl-NL": "Handel",
+            "en-US": "Handel"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Economie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Hoger_onderwijs_(thema)": {
+        "labels": {
+            "nl-NL": "Hoger onderwijs",
+            "en-US": "Hoger onderwijs"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Huisvesting_(thema)": {
+        "labels": {
+            "nl-NL": "Huisvesting",
+            "en-US": "Huisvesting"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Huren_en_verhuren": {
+        "labels": {
+            "nl-NL": "Huren en verhuren",
+            "en-US": "Huren en verhuren"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Huisvesting_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/ICT": {
+        "labels": {
+            "nl-NL": "ICT",
+            "en-US": "ICT"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Economie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Immigratie_(thema)": {
+        "labels": {
+            "nl-NL": "Immigratie",
+            "en-US": "Immigratie"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Migratie_en_integratie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Industrie_(thema)": {
+        "labels": {
+            "nl-NL": "Industrie",
+            "en-US": "Industrie"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Economie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Inkomensbeleid": {
+        "labels": {
+            "nl-NL": "Inkomensbeleid",
+            "en-US": "Inkomensbeleid"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Financien"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Integratie_(thema)": {
+        "labels": {
+            "nl-NL": "Integratie",
+            "en-US": "Integratie"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Migratie_en_integratie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Internationaal": {
+        "labels": {
+            "nl-NL": "Internationaal",
+            "en-US": "Internationaal"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Internationale_samenwerking_(thema)": {
+        "labels": {
+            "nl-NL": "Internationale samenwerking",
+            "en-US": "Internationale samenwerking"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Internationaal"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Jongeren_(thema)": {
+        "labels": {
+            "nl-NL": "Jongeren",
+            "en-US": "Jongeren"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Sociale_zekerheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Jongeren_(gezondheid-thema)": {
+        "labels": {
+            "nl-NL": "Jongeren",
+            "en-US": "Jongeren"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Zorg_en_gezondheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Koninklijk_Huis_(thema)": {
+        "labels": {
+            "nl-NL": "Koninklijk Huis",
+            "en-US": "Koninklijk Huis"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Bestuur"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Kopen_en_verkopen": {
+        "labels": {
+            "nl-NL": "Kopen en verkopen",
+            "en-US": "Kopen en verkopen"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Huisvesting_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Kunst_(thema)": {
+        "labels": {
+            "nl-NL": "Kunst",
+            "en-US": "Kunst"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Cultuur_en_recreatie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Landbouw_(thema)": {
+        "labels": {
+            "nl-NL": "Landbouw",
+            "en-US": "Landbouw"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Levensloop": {
+        "labels": {
+            "nl-NL": "Levensloop",
+            "en-US": "Levensloop"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Werk_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Lucht": {
+        "labels": {
+            "nl-NL": "Lucht",
+            "en-US": "Lucht"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Natuur_en_milieu"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Luchtvaart": {
+        "labels": {
+            "nl-NL": "Luchtvaart",
+            "en-US": "Luchtvaart"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Verkeer_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Markttoezicht": {
+        "labels": {
+            "nl-NL": "Markttoezicht",
+            "en-US": "Markttoezicht"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Economie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Media": {
+        "labels": {
+            "nl-NL": "Media",
+            "en-US": "Media"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Cultuur_en_recreatie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Migratie_en_integratie": {
+        "labels": {
+            "nl-NL": "Migratie en integratie",
+            "en-US": "Migratie en integratie"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Militaire_missies": {
+        "labels": {
+            "nl-NL": "Militaire missies",
+            "en-US": "Militaire missies"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Internationaal"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Nabestaanden": {
+        "labels": {
+            "nl-NL": "Nabestaanden",
+            "en-US": "Nabestaanden"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Sociale_zekerheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Natuur_en_milieu": {
+        "labels": {
+            "nl-NL": "Natuur en milieu",
+            "en-US": "Natuur en milieu"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Natuur-_en_landschapsbeheer": {
+        "labels": {
+            "nl-NL": "Natuur- en landschapsbeheer",
+            "en-US": "Natuur- en landschapsbeheer"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Natuur_en_milieu"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Nederlanderschap_(thema)": {
+        "labels": {
+            "nl-NL": "Nederlanderschap",
+            "en-US": "Nederlanderschap"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Migratie_en_integratie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Netwerken": {
+        "labels": {
+            "nl-NL": "Netwerken",
+            "en-US": "Netwerken"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Ruimte_en_infrastructuur"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Ondernemen": {
+        "labels": {
+            "nl-NL": "Ondernemen",
+            "en-US": "Ondernemen"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Economie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap": {
+        "labels": {
+            "nl-NL": "Onderwijs en wetenschap",
+            "en-US": "Onderwijs en wetenschap"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Onderzoek_en_wetenschap": {
+        "labels": {
+            "nl-NL": "Onderzoek en wetenschap",
+            "en-US": "Onderzoek en wetenschap"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Ontslag_(thema)": {
+        "labels": {
+            "nl-NL": "Ontslag",
+            "en-US": "Ontslag"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Werk_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Ontwikkelingssamenwerking": {
+        "labels": {
+            "nl-NL": "Ontwikkelingssamenwerking",
+            "en-US": "Ontwikkelingssamenwerking"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Internationaal"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Openbare_orde_en_veiligheid": {
+        "labels": {
+            "nl-NL": "Openbare orde en veiligheid",
+            "en-US": "Openbare orde en veiligheid"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Organisatie_en_beleid": {
+        "labels": {
+            "nl-NL": "Organisatie en beleid",
+            "en-US": "Organisatie en beleid"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Bestuur"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Ouderen": {
+        "labels": {
+            "nl-NL": "Ouderen",
+            "en-US": "Ouderen"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Sociale_zekerheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Overige_economische_sectoren": {
+        "labels": {
+            "nl-NL": "Overige economische sectoren",
+            "en-US": "Overige economische sectoren"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Economie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Overige_vormen_van_onderwijs": {
+        "labels": {
+            "nl-NL": "Overige vormen van onderwijs",
+            "en-US": "Overige vormen van onderwijs"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Parlement": {
+        "labels": {
+            "nl-NL": "Parlement",
+            "en-US": "Parlement"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Bestuur"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Planten": {
+        "labels": {
+            "nl-NL": "Planten",
+            "en-US": "Planten"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Landbouw_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Politie_brandweer_en_hulpdiensten": {
+        "labels": {
+            "nl-NL": "Politie, brandweer en hulpdiensten",
+            "en-US": "Politie, brandweer en hulpdiensten"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Openbare_orde_en_veiligheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Provincies": {
+        "labels": {
+            "nl-NL": "Provincies",
+            "en-US": "Provincies"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Bestuur"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Rampen": {
+        "labels": {
+            "nl-NL": "Rampen",
+            "en-US": "Rampen"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Openbare_orde_en_veiligheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Recht_(thema)": {
+        "labels": {
+            "nl-NL": "Recht",
+            "en-US": "Recht"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Rechtspraak": {
+        "labels": {
+            "nl-NL": "Rechtspraak",
+            "en-US": "Rechtspraak"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Recht_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Recreatie_(thema)": {
+        "labels": {
+            "nl-NL": "Recreatie",
+            "en-US": "Recreatie"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Cultuur_en_recreatie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Reizen": {
+        "labels": {
+            "nl-NL": "Reizen",
+            "en-US": "Reizen"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Internationaal"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Religie": {
+        "labels": {
+            "nl-NL": "Religie",
+            "en-US": "Religie"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Cultuur_en_recreatie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Rijksoverheid": {
+        "labels": {
+            "nl-NL": "Rijksoverheid",
+            "en-US": "Rijksoverheid"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Bestuur"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Ruimte_en_infrastructuur": {
+        "labels": {
+            "nl-NL": "Ruimte en infrastructuur",
+            "en-US": "Ruimte en infrastructuur"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Ruimtelijke_ordening": {
+        "labels": {
+            "nl-NL": "Ruimtelijke ordening",
+            "en-US": "Ruimtelijke ordening"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Ruimte_en_infrastructuur"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Sociale_zekerheid": {
+        "labels": {
+            "nl-NL": "Sociale zekerheid",
+            "en-US": "Sociale zekerheid"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Spoor": {
+        "labels": {
+            "nl-NL": "Spoor",
+            "en-US": "Spoor"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Verkeer_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Sport_(thema)": {
+        "labels": {
+            "nl-NL": "Sport",
+            "en-US": "Sport"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Cultuur_en_recreatie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Staatsrecht": {
+        "labels": {
+            "nl-NL": "Staatsrecht",
+            "en-US": "Staatsrecht"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Recht_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Staatsveiligheid": {
+        "labels": {
+            "nl-NL": "Staatsveiligheid",
+            "en-US": "Staatsveiligheid"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Openbare_orde_en_veiligheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Stoffen": {
+        "labels": {
+            "nl-NL": "Stoffen",
+            "en-US": "Stoffen"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Natuur_en_milieu"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Strafrecht": {
+        "labels": {
+            "nl-NL": "Strafrecht",
+            "en-US": "Strafrecht"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Recht_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Terrorisme_(thema)": {
+        "labels": {
+            "nl-NL": "Terrorisme",
+            "en-US": "Terrorisme"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Openbare_orde_en_veiligheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Tijdelijk_verblijf": {
+        "labels": {
+            "nl-NL": "Tijdelijk verblijf",
+            "en-US": "Tijdelijk verblijf"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Migratie_en_integratie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Toerisme": {
+        "labels": {
+            "nl-NL": "Toerisme",
+            "en-US": "Toerisme"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Economie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Transport_(thema)": {
+        "labels": {
+            "nl-NL": "Transport",
+            "en-US": "Transport"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Economie"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Verkeer_(thema)": {
+        "labels": {
+            "nl-NL": "Verkeer",
+            "en-US": "Verkeer"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Verzekeringen": {
+        "labels": {
+            "nl-NL": "Verzekeringen",
+            "en-US": "Verzekeringen"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Zorg_en_gezondheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Voeding": {
+        "labels": {
+            "nl-NL": "Voeding",
+            "en-US": "Voeding"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Zorg_en_gezondheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Voedselkwaliteit": {
+        "labels": {
+            "nl-NL": "Voedselkwaliteit",
+            "en-US": "Voedselkwaliteit"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Landbouw_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Voortgezet_onderwijs_(thema)": {
+        "labels": {
+            "nl-NL": "Voortgezet onderwijs",
+            "en-US": "Voortgezet onderwijs"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Water_(verkeer-thema)": {
+        "labels": {
+            "nl-NL": "Water",
+            "en-US": "Water"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Verkeer_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Waterkeringen_en_waterbeheer": {
+        "labels": {
+            "nl-NL": "Waterkeringen en waterbeheer",
+            "en-US": "Waterkeringen en waterbeheer"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Ruimte_en_infrastructuur"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Waterschappen": {
+        "labels": {
+            "nl-NL": "Waterschappen",
+            "en-US": "Waterschappen"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Bestuur"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Weg_(thema)": {
+        "labels": {
+            "nl-NL": "Weg",
+            "en-US": "Weg"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Verkeer_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Werk_(thema)": {
+        "labels": {
+            "nl-NL": "Werk",
+            "en-US": "Werk"
+        },
+        "parent": null
+    },
+    "http://standaarden.overheid.nl/owms/terms/Werkgelegenheid": {
+        "labels": {
+            "nl-NL": "Werkgelegenheid",
+            "en-US": "Werkgelegenheid"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Werk_(thema)"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Werkloosheid": {
+        "labels": {
+            "nl-NL": "Werkloosheid",
+            "en-US": "Werkloosheid"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Sociale_zekerheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Ziekte_en_arbeidsongeschiktheid": {
+        "labels": {
+            "nl-NL": "Ziekte en arbeidsongeschiktheid",
+            "en-US": "Ziekte en arbeidsongeschiktheid"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Sociale_zekerheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Ziekten_en_behandelingen": {
+        "labels": {
+            "nl-NL": "Ziekten en behandelingen",
+            "en-US": "Ziekten en behandelingen"
+        },
+        "parent": "http://standaarden.overheid.nl/owms/terms/Zorg_en_gezondheid"
+    },
+    "http://standaarden.overheid.nl/owms/terms/Zorg_en_gezondheid": {
+        "labels": {
+            "nl-NL": "Zorg en gezondheid",
+            "en-US": "Zorg en gezondheid"
+        },
+        "parent": null
+    }
+}

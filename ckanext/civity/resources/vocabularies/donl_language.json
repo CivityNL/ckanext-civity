@@ -1,0 +1,26 @@
+{
+    "http://publications.europa.eu/resource/authority/language/DEU": {
+        "labels": {
+            "nl-NL": "Duits",
+            "en-US": "German"
+        }
+    },
+    "http://publications.europa.eu/resource/authority/language/ENG": {
+        "labels": {
+            "nl-NL": "Engels",
+            "en-US": "English"
+        }
+    },
+    "http://publications.europa.eu/resource/authority/language/FRY": {
+        "labels": {
+            "nl-NL": "Fries",
+            "en-US": "Frisian"
+        }
+    },
+    "http://publications.europa.eu/resource/authority/language/NLD": {
+        "labels": {
+            "nl-NL": "Nederlands",
+            "en-US": "Dutch"
+        }
+    }
+}

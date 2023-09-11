@@ -1,0 +1,74 @@
+{
+  "http://standaarden.overheid.nl/owms/terms/Drenthe": {
+    "labels": {
+      "nl-NL": "Drenthe",
+      "en-US": "Drenthe"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Flevoland": {
+    "labels": {
+      "nl-NL": "Flevoland",
+      "en-US": "Flevoland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Fryslan": {
+    "labels": {
+      "nl-NL": "Friesland",
+      "en-US": "Friesland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Gelderland": {
+    "labels": {
+      "nl-NL": "Gelderland",
+      "en-US": "Gelderland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Groningen_(provincie)": {
+    "labels": {
+      "nl-NL": "Groningen",
+      "en-US": "Groningen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Limburg": {
+    "labels": {
+      "nl-NL": "Limburg",
+      "en-US": "Limburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Noord-Brabant": {
+    "labels": {
+      "nl-NL": "Noord-Brabant",
+      "en-US": "North-Brabant"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Noord-Holland": {
+    "labels": {
+      "nl-NL": "Noord-Holland",
+      "en-US": "Noord-Holland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Overijssel": {
+    "labels": {
+      "nl-NL": "Overijssel",
+      "en-US": "Overijssel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Utrecht_(provincie)": {
+    "labels": {
+      "nl-NL": "Utrecht",
+      "en-US": "Utrecht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zeeland_(provincie)": {
+    "labels": {
+      "nl-NL": "Zeeland",
+      "en-US": "Zeeland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zuid-Holland": {
+    "labels": {
+      "nl-NL": "Zuid-Holland",
+      "en-US": "Zuid-Holland"
+    }
+  }
+}

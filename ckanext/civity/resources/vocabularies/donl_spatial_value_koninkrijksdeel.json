@@ -1,0 +1,32 @@
+{
+  "http://standaarden.overheid.nl/owms/terms/Aruba": {
+    "labels": {
+      "nl-NL": "Aruba",
+      "en-US": "Aruba"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Curacao": {
+    "labels": {
+      "nl-NL": "Curaçao",
+      "en-US": "Curaçao"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nederland": {
+    "labels": {
+      "nl-NL": "Nederland",
+      "en-US": "Netherlands"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nederlandse_Antillen": {
+    "labels": {
+      "nl-NL": "Nederlandse Antillen",
+      "en-US": "Netherlands Antilles"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sint_Maarten_(Nederlandse_Antillen)": {
+    "labels": {
+      "nl-NL": "Sint Maarten",
+      "en-US": "Sint Maarten"
+    }
+  }
+}

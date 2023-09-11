@@ -1,0 +1,38 @@
+{
+  "http://standaarden.overheid.nl/owms/4.0/doc/syntax-codeerschemas/overheid.epsg28992": {
+    "labels": {
+      "nl-NL": "EPSG:28992",
+      "en-US": "EPSG:28992"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/overheid.gemeente": {
+    "labels": {
+      "nl-NL": "Gemeente",
+      "en-US": "Municipality"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/overheid.koninkrijksdeel": {
+    "labels": {
+      "nl-NL": "Koninkrijksdeel",
+      "en-US": "Part kingdom"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/4.0/doc/syntax-codeerschemas/overheid.postcodehuisnummer": {
+    "labels": {
+      "nl-NL": "PostcodeHuisnummer",
+      "en-US": "PostcodeHousenumber"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/overheid.provincie": {
+    "labels": {
+      "nl-NL": "Provincie",
+      "en-US": "Province"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/overheid.waterschap": {
+    "labels": {
+      "nl-NL": "Waterschap",
+      "en-US": "Water authority"
+    }
+  }
+}

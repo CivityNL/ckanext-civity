@@ -1,0 +1,16 @@
+{
+    "jordbruk": "http://publications.europa.eu/resource/authority/data-theme/AGRI",
+    "ekonomi": "http://publications.europa.eu/resource/authority/data-theme/ECON",
+    "utbildning": "http://publications.europa.eu/resource/authority/data-theme/EDUC",
+    "energi": "http://publications.europa.eu/resource/authority/data-theme/ENER",
+    "miljo": "http://publications.europa.eu/resource/authority/data-theme/ENVI",
+    "regeringen": "http://publications.europa.eu/resource/authority/data-theme/GOVE",
+    "halsa": "http://publications.europa.eu/resource/authority/data-theme/HEAL",
+    "internationella-fragor": "http://publications.europa.eu/resource/authority/data-theme/INTR",
+    "rattvisa": "http://publications.europa.eu/resource/authority/data-theme/JUST",
+    "regioner": "http://publications.europa.eu/resource/authority/data-theme/REGI",
+    "befolkning": "http://publications.europa.eu/resource/authority/data-theme/SOCI",
+    "vetenskap": "http://publications.europa.eu/resource/authority/data-theme/TECH",
+    "transport": "http://publications.europa.eu/resource/authority/data-theme/TRAN",
+    "temporary": "http://publications.europa.eu/resource/authority/data-theme/OP_DATPRO"
+}

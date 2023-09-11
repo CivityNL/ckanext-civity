@@ -1,0 +1,194 @@
+{
+  "http://standaarden.overheid.nl/owms/terms/Hoogheemraadschap_De_Stichtse_Rijnlanden": {
+    "labels": {
+      "nl-NL": "Hoogheemraadschap De Stichtse Rijnlanden",
+      "en-US": "Hoogheemraadschap De Stichtse Rijnlanden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hoogheemraadschap_Hollands_Noorderkwartier": {
+    "labels": {
+      "nl-NL": "Hoogheemraadschap Hollands Noorderkwartier",
+      "en-US": "Hoogheemraadschap Hollands Noorderkwartier"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hoogheemraadschap_van_Delfland": {
+    "labels": {
+      "nl-NL": "Hoogheemraadschap van Delfland",
+      "en-US": "Hoogheemraadschap van Delfland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hoogheemraadschap_van_Rijnland": {
+    "labels": {
+      "nl-NL": "Hoogheemraadschap van Rijnland",
+      "en-US": "Hoogheemraadschap van Rijnland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hoogheemraadschap_van_Schieland_en_de_Krimpenerwaard": {
+    "labels": {
+      "nl-NL": "Hoogheemraadschap van Schieland en de Krimpenerwaard",
+      "en-US": "Hoogheemraadschap van Schieland en de Krimpenerwaard"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Aa_en_Maas": {
+    "labels": {
+      "nl-NL": "Waterschap Aa en Maas",
+      "en-US": "Waterschap Aa en Maas"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/wsagv": {
+    "labels": {
+      "nl-NL": "Waterschap Amstel, Gooi en Vecht",
+      "en-US": "Waterschap Amstel, Gooi en Vecht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Blija_Buitendijks": {
+    "labels": {
+      "nl-NL": "Waterschap Blija Buitendijks",
+      "en-US": "Waterschap Blija Buitendijks"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Brabantse_Delta": {
+    "labels": {
+      "nl-NL": "Waterschap Brabantse Delta",
+      "en-US": "Waterschap Brabantse Delta"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_De_Dommel": {
+    "labels": {
+      "nl-NL": "Waterschap De Dommel",
+      "en-US": "Waterschap De Dommel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Drents_Overijsselse_Delta": {
+    "labels": {
+      "nl-NL": "Waterschap Drents Overijsselse Delta",
+      "en-US": "Waterschap Drents Overijsselse Delta"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Groot_Salland": {
+    "labels": {
+      "nl-NL": "Waterschap Groot Salland",
+      "en-US": "Waterschap Groot Salland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Hollandse_Delta": {
+    "labels": {
+      "nl-NL": "Waterschap Hollandse Delta",
+      "en-US": "Waterschap Hollandse Delta"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Hunze_en_Aa's": {
+    "labels": {
+      "nl-NL": "Waterschap Hunze en Aa's",
+      "en-US": "Waterschap Hunze en Aa's"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Limburg": {
+    "labels": {
+      "nl-NL": "Waterschap Limburg",
+      "en-US": "Waterschap Limburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Noorderzijlvest": {
+    "labels": {
+      "nl-NL": "Waterschap Noorderzijlvest",
+      "en-US": "Waterschap Noorderzijlvest"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Peel_en_Maasvallei": {
+    "labels": {
+      "nl-NL": "Waterschap Peel en Maasvallei",
+      "en-US": "Waterschap Peel en Maasvallei"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Reest_en_Wieden": {
+    "labels": {
+      "nl-NL": "Waterschap Reest en Wieden",
+      "en-US": "Waterschap Reest en Wieden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Regge_en_Dinkel": {
+    "labels": {
+      "nl-NL": "Waterschap Regge en Dinkel",
+      "en-US": "Waterschap Regge en Dinkel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Rijn_en_IJssel": {
+    "labels": {
+      "nl-NL": "Waterschap Rijn en IJssel",
+      "en-US": "Waterschap Rijn en IJssel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Rivierenland": {
+    "labels": {
+      "nl-NL": "Waterschap Rivierenland",
+      "en-US": "Waterschap Rivierenland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Roer_en_Overmaas": {
+    "labels": {
+      "nl-NL": "Waterschap Roer en Overmaas",
+      "en-US": "Waterschap Roer en Overmaas"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Scheldestromen": {
+    "labels": {
+      "nl-NL": "Waterschap Scheldestromen",
+      "en-US": "Waterschap Scheldestromen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Vallei_&_Eem": {
+    "labels": {
+      "nl-NL": "Waterschap Vallei & Eem",
+      "en-US": "Waterschap Vallei & Eem"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Vallei_en_Veluwe": {
+    "labels": {
+      "nl-NL": "Waterschap Vallei en Veluwe",
+      "en-US": "Waterschap Vallei en Veluwe"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Vechtstromen": {
+    "labels": {
+      "nl-NL": "Waterschap Vechtstromen",
+      "en-US": "Waterschap Vechtstromen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Velt_en_Vecht": {
+    "labels": {
+      "nl-NL": "Waterschap Velt en Vecht",
+      "en-US": "Waterschap Velt en Vecht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Veluwe": {
+    "labels": {
+      "nl-NL": "Waterschap Veluwe",
+      "en-US": "Waterschap Veluwe"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Zeeuws-Vlaanderen": {
+    "labels": {
+      "nl-NL": "Waterschap Zeeuws-Vlaanderen",
+      "en-US": "Waterschap Zeeuws-Vlaanderen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Zeeuwse_Eilanden": {
+    "labels": {
+      "nl-NL": "Waterschap Zeeuwse Eilanden",
+      "en-US": "Waterschap Zeeuwse Eilanden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterschap_Zuiderzeeland": {
+    "labels": {
+      "nl-NL": "Waterschap Zuiderzeeland",
+      "en-US": "Waterschap Zuiderzeeland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wetterskip_Fryslan": {
+    "labels": {
+      "nl-NL": "Wetterskip Fryslan",
+      "en-US": "Wetterskip Fryslan"
+    }
+  }
+}

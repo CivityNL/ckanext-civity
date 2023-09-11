@@ -1,0 +1,3572 @@
+{
+  "http://standaarden.overheid.nl/owms/terms/'s-Gravendeel_(gemeente)": {
+    "labels": {
+      "nl-NL": "'s-Gravendeel",
+      "en-US": "'s-Gravendeel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/'s-Gravenhage": {
+    "labels": {
+      "nl-NL": "'s-Gravenhage",
+      "en-US": "'s-Gravenhage"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/'s-Gravenzande_(gemeente)": {
+    "labels": {
+      "nl-NL": "'s-Gravenzande",
+      "en-US": "'s-Gravenzande"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/'s-Hertogenbosch": {
+    "labels": {
+      "nl-NL": "'s-Hertogenbosch",
+      "en-US": "'s-Hertogenbosch"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Aa_en_Hunze": {
+    "labels": {
+      "nl-NL": "Aa en Hunze",
+      "en-US": "Aa en Hunze"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Aalburg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Aalburg",
+      "en-US": "Aalburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Aalsmeer_(gemeente)": {
+    "labels": {
+      "nl-NL": "Aalsmeer",
+      "en-US": "Aalsmeer"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Aalten_(gemeente)": {
+    "labels": {
+      "nl-NL": "Aalten",
+      "en-US": "Aalten"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Abcoude_(gemeente)": {
+    "labels": {
+      "nl-NL": "Abcoude",
+      "en-US": "Abcoude"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Achtkarspelen": {
+    "labels": {
+      "nl-NL": "Achtkarspelen",
+      "en-US": "Achtkarspelen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Akersloot_(gemeente)": {
+    "labels": {
+      "nl-NL": "Akersloot",
+      "en-US": "Akersloot"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Alblasserdam_(gemeente)": {
+    "labels": {
+      "nl-NL": "Alblasserdam",
+      "en-US": "Alblasserdam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Albrandswaard": {
+    "labels": {
+      "nl-NL": "Albrandswaard",
+      "en-US": "Albrandswaard"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Alkemade_(gemeente)": {
+    "labels": {
+      "nl-NL": "Alkemade",
+      "en-US": "Alkemade"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Alkmaar_(gemeente)": {
+    "labels": {
+      "nl-NL": "Alkmaar",
+      "en-US": "Alkmaar"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Almelo": {
+    "labels": {
+      "nl-NL": "Almelo",
+      "en-US": "Almelo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Almere_(gemeente)": {
+    "labels": {
+      "nl-NL": "Almere",
+      "en-US": "Almere"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Alphen_aan_den_Rijn_(gemeente)": {
+    "labels": {
+      "nl-NL": "Alphen aan den Rijn",
+      "en-US": "Alphen aan den Rijn"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Alphen-Chaam": {
+    "labels": {
+      "nl-NL": "Alphen-Chaam",
+      "en-US": "Alphen-Chaam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ambt_Delden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Ambt Delden",
+      "en-US": "Ambt Delden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ambt_Montfort": {
+    "labels": {
+      "nl-NL": "Ambt Montfort",
+      "en-US": "Ambt Montfort"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ameland": {
+    "labels": {
+      "nl-NL": "Ameland",
+      "en-US": "Ameland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Amerongen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Amerongen",
+      "en-US": "Amerongen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Amersfoort_(gemeente)": {
+    "labels": {
+      "nl-NL": "Amersfoort",
+      "en-US": "Amersfoort"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Amstelveen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Amstelveen",
+      "en-US": "Amstelveen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Amsterdam": {
+    "labels": {
+      "nl-NL": "Amsterdam",
+      "en-US": "Amsterdam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Andijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Andijk",
+      "en-US": "Andijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Angerlo_(gemeente)": {
+    "labels": {
+      "nl-NL": "Angerlo",
+      "en-US": "Angerlo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Anna_Paulowna_(gemeente)": {
+    "labels": {
+      "nl-NL": "Anna Paulowna",
+      "en-US": "Anna Paulowna"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Apeldoorn_(gemeente)": {
+    "labels": {
+      "nl-NL": "Apeldoorn",
+      "en-US": "Apeldoorn"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Appingedam_(gemeente)": {
+    "labels": {
+      "nl-NL": "Appingedam",
+      "en-US": "Appingedam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Arcen_en_Velden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Arcen en Velden",
+      "en-US": "Arcen en Velden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Arnhem_(gemeente)": {
+    "labels": {
+      "nl-NL": "Arnhem",
+      "en-US": "Arnhem"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Assen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Assen",
+      "en-US": "Assen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Asten_(gemeente)": {
+    "labels": {
+      "nl-NL": "Asten",
+      "en-US": "Asten"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Avereest_(gemeente)": {
+    "labels": {
+      "nl-NL": "Avereest",
+      "en-US": "Avereest"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Axel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Axel",
+      "en-US": "Axel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Baarle-Nassau_(gemeente)": {
+    "labels": {
+      "nl-NL": "Baarle-Nassau",
+      "en-US": "Baarle-Nassau"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Baarn_(gemeente)": {
+    "labels": {
+      "nl-NL": "Baarn",
+      "en-US": "Baarn"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Barendrecht_(gemeente)": {
+    "labels": {
+      "nl-NL": "Barendrecht",
+      "en-US": "Barendrecht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Barneveld_(gemeente)": {
+    "labels": {
+      "nl-NL": "Barneveld",
+      "en-US": "Barneveld"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bathmen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bathmen",
+      "en-US": "Bathmen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bedum_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bedum",
+      "en-US": "Bedum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Beek_(gemeente)": {
+    "labels": {
+      "nl-NL": "Beek",
+      "en-US": "Beek"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Beemster_(gemeente)": {
+    "labels": {
+      "nl-NL": "Beemster",
+      "en-US": "Beemster"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Beesel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Beesel",
+      "en-US": "Beesel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Belfeld_(gemeente)": {
+    "labels": {
+      "nl-NL": "Belfeld",
+      "en-US": "Belfeld"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bellingwedde": {
+    "labels": {
+      "nl-NL": "Bellingwedde",
+      "en-US": "Bellingwedde"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bemmel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bemmel",
+      "en-US": "Bemmel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bennebroek_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bennebroek",
+      "en-US": "Bennebroek"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Berg_en_Dal": {
+    "labels": {
+      "nl-NL": "Berg en Dal",
+      "en-US": "Berg en Dal"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bergambacht_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bergambacht",
+      "en-US": "Bergambacht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bergeijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bergeijk",
+      "en-US": "Bergeijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bergen_(Li)": {
+    "labels": {
+      "nl-NL": "Bergen (L)",
+      "en-US": "Bergen (L)"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bergen_oud": {
+    "labels": {
+      "nl-NL": "Bergen (Li)",
+      "en-US": "Bergen (Li)"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bergen_(NH)": {
+    "labels": {
+      "nl-NL": "Bergen (NH)",
+      "en-US": "Bergen (NH)"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bergen_op_Zoom_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bergen op Zoom",
+      "en-US": "Bergen op Zoom"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bergh_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bergh",
+      "en-US": "Bergh"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bergschenhoek_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bergschenhoek",
+      "en-US": "Bergschenhoek"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Berkel_en_Rodenrijs_(gemeente)": {
+    "labels": {
+      "nl-NL": "Berkel en Rodenrijs",
+      "en-US": "Berkel en Rodenrijs"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Berkelland": {
+    "labels": {
+      "nl-NL": "Berkelland",
+      "en-US": "Berkelland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bernheze": {
+    "labels": {
+      "nl-NL": "Bernheze",
+      "en-US": "Bernheze"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bernisse_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bernisse",
+      "en-US": "Bernisse"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Best_(gemeente)": {
+    "labels": {
+      "nl-NL": "Best",
+      "en-US": "Best"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Beuningen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Beuningen",
+      "en-US": "Beuningen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Beverwijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Beverwijk",
+      "en-US": "Beverwijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Binnenmaas": {
+    "labels": {
+      "nl-NL": "Binnenmaas",
+      "en-US": "Binnenmaas"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bladel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bladel",
+      "en-US": "Bladel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Blaricum_(gemeente)": {
+    "labels": {
+      "nl-NL": "Blaricum",
+      "en-US": "Blaricum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bleiswijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bleiswijk",
+      "en-US": "Bleiswijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bloemendaal_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bloemendaal",
+      "en-US": "Bloemendaal"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Boarnsterhim": {
+    "labels": {
+      "nl-NL": "Boarnsterhim",
+      "en-US": "Boarnsterhim"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bodegraven": {
+    "labels": {
+      "nl-NL": "Bodegraven",
+      "en-US": "Bodegraven"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bodegraven-Reeuwijk": {
+    "labels": {
+      "nl-NL": "Bodegraven-Reeuwijk",
+      "en-US": "Bodegraven-Reeuwijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Boekel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Boekel",
+      "en-US": "Boekel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bolsward_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bolsward",
+      "en-US": "Bolsward"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Borculo_(gemeente)": {
+    "labels": {
+      "nl-NL": "Borculo",
+      "en-US": "Borculo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Borger-Odoorn": {
+    "labels": {
+      "nl-NL": "Borger-Odoorn",
+      "en-US": "Borger-Odoorn"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Born_(gemeente)": {
+    "labels": {
+      "nl-NL": "Born",
+      "en-US": "Born"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Borne_(gemeente)": {
+    "labels": {
+      "nl-NL": "Borne",
+      "en-US": "Borne"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Borsele_(gemeente)": {
+    "labels": {
+      "nl-NL": "Borsele",
+      "en-US": "Borsele"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Boskoop_(gemeente)": {
+    "labels": {
+      "nl-NL": "Boskoop",
+      "en-US": "Boskoop"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Boxmeer_(gemeente)": {
+    "labels": {
+      "nl-NL": "Boxmeer",
+      "en-US": "Boxmeer"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Boxtel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Boxtel",
+      "en-US": "Boxtel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Breda_(gemeente)": {
+    "labels": {
+      "nl-NL": "Breda",
+      "en-US": "Breda"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Brederwiede_(gemeente)": {
+    "labels": {
+      "nl-NL": "Brederwiede",
+      "en-US": "Brederwiede"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Breukelen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Breukelen",
+      "en-US": "Breukelen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Brielle_(gemeente)": {
+    "labels": {
+      "nl-NL": "Brielle",
+      "en-US": "Brielle"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Broekhuizen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Broekhuizen",
+      "en-US": "Broekhuizen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bronckhorst": {
+    "labels": {
+      "nl-NL": "Bronckhorst",
+      "en-US": "Bronckhorst"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Brummen": {
+    "labels": {
+      "nl-NL": "Brummen",
+      "en-US": "Brummen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Brunssum_(gemeente)": {
+    "labels": {
+      "nl-NL": "Brunssum",
+      "en-US": "Brunssum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bunnik_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bunnik",
+      "en-US": "Bunnik"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bunschoten_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bunschoten",
+      "en-US": "Bunschoten"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Buren_(gemeente)": {
+    "labels": {
+      "nl-NL": "Buren",
+      "en-US": "Buren"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Bussum_(gemeente)": {
+    "labels": {
+      "nl-NL": "Bussum",
+      "en-US": "Bussum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Capelle_aan_den_IJssel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Capelle aan den IJssel",
+      "en-US": "Capelle aan den IJssel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Castricum_(gemeente)": {
+    "labels": {
+      "nl-NL": "Castricum",
+      "en-US": "Castricum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Coevorden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Coevorden",
+      "en-US": "Coevorden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Cranendonck": {
+    "labels": {
+      "nl-NL": "Cranendonck",
+      "en-US": "Cranendonck"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Cromstrijen": {
+    "labels": {
+      "nl-NL": "Cromstrijen",
+      "en-US": "Cromstrijen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Cuijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Cuijk",
+      "en-US": "Cuijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Culemborg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Culemborg",
+      "en-US": "Culemborg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Dalfsen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Dalfsen",
+      "en-US": "Dalfsen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Dantumadeel": {
+    "labels": {
+      "nl-NL": "Dantumadeel",
+      "en-US": "Dantumadeel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Dantumadiel": {
+    "labels": {
+      "nl-NL": "Dantumadiel",
+      "en-US": "Dantumadiel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/De_Bilt_(gemeente)": {
+    "labels": {
+      "nl-NL": "De Bilt",
+      "en-US": "De Bilt"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Friese_Meren": {
+    "labels": {
+      "nl-NL": "De Friese Meren",
+      "en-US": "De Friese Meren"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/De_Fryske_Marren": {
+    "labels": {
+      "nl-NL": "De Fryske Marren",
+      "en-US": "De Fryske Marren"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/De_Lier_(gemeente)": {
+    "labels": {
+      "nl-NL": "De Lier",
+      "en-US": "De Lier"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/De_Marne": {
+    "labels": {
+      "nl-NL": "De Marne",
+      "en-US": "De Marne"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/De_Ronde_Venen": {
+    "labels": {
+      "nl-NL": "De Ronde Venen",
+      "en-US": "De Ronde Venen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/De_Wolden": {
+    "labels": {
+      "nl-NL": "De Wolden",
+      "en-US": "De Wolden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Delft_(gemeente)": {
+    "labels": {
+      "nl-NL": "Delft",
+      "en-US": "Delft"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Delfzijl_(gemeente)": {
+    "labels": {
+      "nl-NL": "Delfzijl",
+      "en-US": "Delfzijl"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Den_Ham_(gemeente)": {
+    "labels": {
+      "nl-NL": "Den Ham",
+      "en-US": "Den Ham"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Den_Helder_(gemeente)": {
+    "labels": {
+      "nl-NL": "Den Helder",
+      "en-US": "Den Helder"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Denekamp_(gemeente)": {
+    "labels": {
+      "nl-NL": "Denekamp",
+      "en-US": "Denekamp"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Deurne_(gemeente)": {
+    "labels": {
+      "nl-NL": "Deurne",
+      "en-US": "Deurne"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Deventer_(gemeente)": {
+    "labels": {
+      "nl-NL": "Deventer",
+      "en-US": "Deventer"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Didam_(gemeente)": {
+    "labels": {
+      "nl-NL": "Didam",
+      "en-US": "Didam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Diemen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Diemen",
+      "en-US": "Diemen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Diepenheim_(gemeente)": {
+    "labels": {
+      "nl-NL": "Diepenheim",
+      "en-US": "Diepenheim"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Dinkelland": {
+    "labels": {
+      "nl-NL": "Dinkelland",
+      "en-US": "Dinkelland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Dinxperlo_(gemeente)": {
+    "labels": {
+      "nl-NL": "Dinxperlo",
+      "en-US": "Dinxperlo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Dirksland_(gemeente)": {
+    "labels": {
+      "nl-NL": "Dirksland",
+      "en-US": "Dirksland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Dodewaard_(gemeente)": {
+    "labels": {
+      "nl-NL": "Dodewaard",
+      "en-US": "Dodewaard"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Doesburg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Doesburg",
+      "en-US": "Doesburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Doetinchem": {
+    "labels": {
+      "nl-NL": "Doetinchem",
+      "en-US": "Doetinchem"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Dongen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Dongen",
+      "en-US": "Dongen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Dongeradeel": {
+    "labels": {
+      "nl-NL": "Dongeradeel",
+      "en-US": "Dongeradeel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Doorn_(gemeente)": {
+    "labels": {
+      "nl-NL": "Doorn",
+      "en-US": "Doorn"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Dordrecht_(gemeente)": {
+    "labels": {
+      "nl-NL": "Dordrecht",
+      "en-US": "Dordrecht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Drechterland_(gemeente)": {
+    "labels": {
+      "nl-NL": "Drechterland",
+      "en-US": "Drechterland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Driebergen-Rijsenburg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Driebergen-Rijsenburg",
+      "en-US": "Driebergen-Rijsenburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Drimmelen": {
+    "labels": {
+      "nl-NL": "Drimmelen",
+      "en-US": "Drimmelen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Dronten_(gemeente)": {
+    "labels": {
+      "nl-NL": "Dronten",
+      "en-US": "Dronten"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Druten_(gemeente)": {
+    "labels": {
+      "nl-NL": "Druten",
+      "en-US": "Druten"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Duiven_(gemeente)": {
+    "labels": {
+      "nl-NL": "Duiven",
+      "en-US": "Duiven"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Echt_(gemeente)": {
+    "labels": {
+      "nl-NL": "Echt",
+      "en-US": "Echt"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Echt-Susteren": {
+    "labels": {
+      "nl-NL": "Echt-Susteren",
+      "en-US": "Echt-Susteren"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Echteld_(gemeente)": {
+    "labels": {
+      "nl-NL": "Echteld",
+      "en-US": "Echteld"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Edam-Volendam": {
+    "labels": {
+      "nl-NL": "Edam-Volendam",
+      "en-US": "Edam-Volendam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ede_(gemeente)": {
+    "labels": {
+      "nl-NL": "Ede",
+      "en-US": "Ede"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Eemnes_(gemeente)": {
+    "labels": {
+      "nl-NL": "Eemnes",
+      "en-US": "Eemnes"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Eemsmond": {
+    "labels": {
+      "nl-NL": "Eemsmond",
+      "en-US": "Eemsmond"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Eersel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Eersel",
+      "en-US": "Eersel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Egmond": {
+    "labels": {
+      "nl-NL": "Egmond",
+      "en-US": "Egmond"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Eibergen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Eibergen",
+      "en-US": "Eibergen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Eijsden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Eijsden",
+      "en-US": "Eijsden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Eijsden-Margraten": {
+    "labels": {
+      "nl-NL": "Eijsden-Margraten",
+      "en-US": "Eijsden-Margraten"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Eindhoven_(gemeente)": {
+    "labels": {
+      "nl-NL": "Eindhoven",
+      "en-US": "Eindhoven"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Elburg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Elburg",
+      "en-US": "Elburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Elst_(gemeente)": {
+    "labels": {
+      "nl-NL": "Elst",
+      "en-US": "Elst"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Emmen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Emmen",
+      "en-US": "Emmen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Enkhuizen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Enkhuizen",
+      "en-US": "Enkhuizen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Enschede_(gemeente)": {
+    "labels": {
+      "nl-NL": "Enschede",
+      "en-US": "Enschede"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Epe": {
+    "labels": {
+      "nl-NL": "Epe",
+      "en-US": "Epe"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ermelo_(gemeente)": {
+    "labels": {
+      "nl-NL": "Ermelo",
+      "en-US": "Ermelo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Etten-Leur_(gemeente)": {
+    "labels": {
+      "nl-NL": "Etten-Leur",
+      "en-US": "Etten-Leur"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ferwerderadiel": {
+    "labels": {
+      "nl-NL": "Ferwerderadiel",
+      "en-US": "Ferwerderadiel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Franekeradeel": {
+    "labels": {
+      "nl-NL": "Franekeradeel",
+      "en-US": "Franekeradeel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Gaasterlan-Sleat": {
+    "labels": {
+      "nl-NL": "Gaasterlan-Sleat",
+      "en-US": "Gaasterlan-Sleat"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Geertruidenberg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Geertruidenberg",
+      "en-US": "Geertruidenberg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Geldermalsen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Geldermalsen",
+      "en-US": "Geldermalsen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Geldrop_(gemeente)": {
+    "labels": {
+      "nl-NL": "Geldrop",
+      "en-US": "Geldrop"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Geldrop-Mierlo": {
+    "labels": {
+      "nl-NL": "Geldrop-Mierlo",
+      "en-US": "Geldrop-Mierlo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Geleen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Geleen",
+      "en-US": "Geleen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Gemert-Bakel": {
+    "labels": {
+      "nl-NL": "Gemert-Bakel",
+      "en-US": "Gemert-Bakel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Gendringen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Gendringen",
+      "en-US": "Gendringen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Gendt_(gemeente)": {
+    "labels": {
+      "nl-NL": "Gendt",
+      "en-US": "Gendt"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Genemuiden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Genemuiden",
+      "en-US": "Genemuiden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Gennep_(gemeente)": {
+    "labels": {
+      "nl-NL": "Gennep",
+      "en-US": "Gennep"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Giessenlanden": {
+    "labels": {
+      "nl-NL": "Giessenlanden",
+      "en-US": "Giessenlanden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Gilze_en_Rijen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Gilze en Rijen",
+      "en-US": "Gilze en Rijen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Goedereede_(gemeente)": {
+    "labels": {
+      "nl-NL": "Goedereede",
+      "en-US": "Goedereede"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Goeree-Overflakkee": {
+    "labels": {
+      "nl-NL": "Goeree-Overflakkee",
+      "en-US": "Goeree-Overflakkee"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Goes_(gemeente)": {
+    "labels": {
+      "nl-NL": "Goes",
+      "en-US": "Goes"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Goirle_(gemeente)": {
+    "labels": {
+      "nl-NL": "Goirle",
+      "en-US": "Goirle"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Gooise_Meren": {
+    "labels": {
+      "nl-NL": "Gooise Meren",
+      "en-US": "Gooise Meren"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Goor_(gemeente)": {
+    "labels": {
+      "nl-NL": "Goor",
+      "en-US": "Goor"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Gorinchem_(gemeente)": {
+    "labels": {
+      "nl-NL": "Gorinchem",
+      "en-US": "Gorinchem"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Gorssel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Gorssel",
+      "en-US": "Gorssel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Gouda_(gemeente)": {
+    "labels": {
+      "nl-NL": "Gouda",
+      "en-US": "Gouda"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Graafstroom": {
+    "labels": {
+      "nl-NL": "Graafstroom",
+      "en-US": "Graafstroom"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Graft-De_Rijp_(gemeente)": {
+    "labels": {
+      "nl-NL": "Graft-De Rijp",
+      "en-US": "Graft-De Rijp"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Gramsbergen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Gramsbergen",
+      "en-US": "Gramsbergen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Grave_(gemeente)": {
+    "labels": {
+      "nl-NL": "Grave",
+      "en-US": "Grave"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Groenlo_(gemeente)": {
+    "labels": {
+      "nl-NL": "Groenlo",
+      "en-US": "Groenlo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Groesbeek_(gemeente)": {
+    "labels": {
+      "nl-NL": "Groesbeek",
+      "en-US": "Groesbeek"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Groningen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Groningen",
+      "en-US": "Groningen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Groningen_oud": {
+    "labels": {
+      "nl-NL": "Groningen (Gr)",
+      "en-US": "Groningen (Gr)"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Grootegast_(gemeente)": {
+    "labels": {
+      "nl-NL": "Grootegast",
+      "en-US": "Grootegast"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Grubbenvorst_(gemeente)": {
+    "labels": {
+      "nl-NL": "Grubbenvorst",
+      "en-US": "Grubbenvorst"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Gulpen-Wittem": {
+    "labels": {
+      "nl-NL": "Gulpen-Wittem",
+      "en-US": "Gulpen-Wittem"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Haaksbergen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Haaksbergen",
+      "en-US": "Haaksbergen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Haaren_(gemeente)": {
+    "labels": {
+      "nl-NL": "Haaren",
+      "en-US": "Haaren"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Haarlem": {
+    "labels": {
+      "nl-NL": "Haarlem",
+      "en-US": "Haarlem"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Haarlemmerliede_en_Spaarnwoude": {
+    "labels": {
+      "nl-NL": "Haarlemmerliede en Spaarnwoude",
+      "en-US": "Haarlemmerliede en Spaarnwoude"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Haarlemmermeer_(gemeente)": {
+    "labels": {
+      "nl-NL": "Haarlemmermeer",
+      "en-US": "Haarlemmermeer"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Haelen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Haelen",
+      "en-US": "Haelen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Halderberge": {
+    "labels": {
+      "nl-NL": "Halderberge",
+      "en-US": "Halderberge"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hardenberg": {
+    "labels": {
+      "nl-NL": "Hardenberg",
+      "en-US": "Hardenberg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Harderwijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Harderwijk",
+      "en-US": "Harderwijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hardinxveld-Giessendam_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hardinxveld-Giessendam",
+      "en-US": "Hardinxveld-Giessendam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Haren_(gemeente)": {
+    "labels": {
+      "nl-NL": "Haren",
+      "en-US": "Haren"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Harenkarspel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Harenkarspel",
+      "en-US": "Harenkarspel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Harlingen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Harlingen",
+      "en-US": "Harlingen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Harmelen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Harmelen",
+      "en-US": "Harmelen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hasselt_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hasselt",
+      "en-US": "Hasselt"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hattem_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hattem",
+      "en-US": "Hattem"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heel": {
+    "labels": {
+      "nl-NL": "Heel",
+      "en-US": "Heel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heemskerk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Heemskerk",
+      "en-US": "Heemskerk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heemstede_(gemeente)": {
+    "labels": {
+      "nl-NL": "Heemstede",
+      "en-US": "Heemstede"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heerde_(gemeente)": {
+    "labels": {
+      "nl-NL": "Heerde",
+      "en-US": "Heerde"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heerenveen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Heerenveen",
+      "en-US": "Heerenveen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heerhugowaard_(gemeente)": {
+    "labels": {
+      "nl-NL": "Heerhugowaard",
+      "en-US": "Heerhugowaard"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heerjansdam_(gemeente)": {
+    "labels": {
+      "nl-NL": "Heerjansdam",
+      "en-US": "Heerjansdam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heerlen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Heerlen",
+      "en-US": "Heerlen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heeze-Leende": {
+    "labels": {
+      "nl-NL": "Heeze-Leende",
+      "en-US": "Heeze-Leende"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heiloo_(gemeente)": {
+    "labels": {
+      "nl-NL": "Heiloo",
+      "en-US": "Heiloo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heino_(gemeente)": {
+    "labels": {
+      "nl-NL": "Heino",
+      "en-US": "Heino"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Helden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Helden",
+      "en-US": "Helden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hellendoorn_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hellendoorn",
+      "en-US": "Hellendoorn"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hellevoetsluis_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hellevoetsluis",
+      "en-US": "Hellevoetsluis"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Helmond_(gemeente)": {
+    "labels": {
+      "nl-NL": "Helmond",
+      "en-US": "Helmond"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hendrik-Ido-Ambacht_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hendrik-Ido-Ambacht",
+      "en-US": "Hendrik-Ido-Ambacht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hengelo": {
+    "labels": {
+      "nl-NL": "Hengelo",
+      "en-US": "Hengelo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Het_Bildt_oud": {
+    "labels": {
+      "nl-NL": "Het Bildt",
+      "en-US": "Het Bildt"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heteren_(gemeente)": {
+    "labels": {
+      "nl-NL": "Heteren",
+      "en-US": "Heteren"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heumen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Heumen",
+      "en-US": "Heumen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heusden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Heusden",
+      "en-US": "Heusden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Heythuysen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Heythuysen",
+      "en-US": "Heythuysen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hillegom_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hillegom",
+      "en-US": "Hillegom"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hilvarenbeek_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hilvarenbeek",
+      "en-US": "Hilvarenbeek"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hilversum_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hilversum",
+      "en-US": "Hilversum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hoevelaken_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hoevelaken",
+      "en-US": "Hoevelaken"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hof_van_Twente": {
+    "labels": {
+      "nl-NL": "Hof van Twente",
+      "en-US": "Hof van Twente"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hollands_Kroon": {
+    "labels": {
+      "nl-NL": "Hollands Kroon",
+      "en-US": "Hollands Kroon"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Holten_(gemeente)": {
+    "labels": {
+      "nl-NL": "Holten",
+      "en-US": "Holten"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hontenisse_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hontenisse",
+      "en-US": "Hontenisse"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hoogeveen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hoogeveen",
+      "en-US": "Hoogeveen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hoogezand-Sappemeer": {
+    "labels": {
+      "nl-NL": "Hoogezand-Sappemeer",
+      "en-US": "Hoogezand-Sappemeer"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hoorn_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hoorn",
+      "en-US": "Hoorn"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Horst_(gemeente)": {
+    "labels": {
+      "nl-NL": "Horst",
+      "en-US": "Horst"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Horst_aan_de_Maas": {
+    "labels": {
+      "nl-NL": "Horst aan de Maas",
+      "en-US": "Horst aan de Maas"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Houten_(gemeente)": {
+    "labels": {
+      "nl-NL": "Houten",
+      "en-US": "Houten"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Huissen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Huissen",
+      "en-US": "Huissen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Huizen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Huizen",
+      "en-US": "Huizen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hulst_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hulst",
+      "en-US": "Hulst"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hummelo_en_Keppel_oud": {
+    "labels": {
+      "nl-NL": "Hummelo",
+      "en-US": "Hummelo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hummelo_en_Keppel": {
+    "labels": {
+      "nl-NL": "Hummelo en Keppel",
+      "en-US": "Hummelo en Keppel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Hunsel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Hunsel",
+      "en-US": "Hunsel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/IJsselham_(gemeente)": {
+    "labels": {
+      "nl-NL": "IJsselham",
+      "en-US": "IJsselham"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/IJsselmuiden_(gemeente)": {
+    "labels": {
+      "nl-NL": "IJsselmuiden",
+      "en-US": "IJsselmuiden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/IJsselstein_(gemeente)": {
+    "labels": {
+      "nl-NL": "IJsselstein",
+      "en-US": "IJsselstein"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Jacobswoude": {
+    "labels": {
+      "nl-NL": "Jacobswoude",
+      "en-US": "Jacobswoude"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Kaag_en_Braassem": {
+    "labels": {
+      "nl-NL": "Kaag en Braassem",
+      "en-US": "Kaag en Braassem"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Kampen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Kampen",
+      "en-US": "Kampen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Kapelle_(gemeente)": {
+    "labels": {
+      "nl-NL": "Kapelle",
+      "en-US": "Kapelle"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Katwijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Katwijk",
+      "en-US": "Katwijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Kerkrade_(gemeente)": {
+    "labels": {
+      "nl-NL": "Kerkrade",
+      "en-US": "Kerkrade"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Kessel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Kessel",
+      "en-US": "Kessel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Kesteren_(gemeente)": {
+    "labels": {
+      "nl-NL": "Kesteren",
+      "en-US": "Kesteren"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Koggenland": {
+    "labels": {
+      "nl-NL": "Koggenland",
+      "en-US": "Koggenland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Kollumerland_en_Nieuwkruisland": {
+    "labels": {
+      "nl-NL": "Kollumerland en Nieuwkruisland",
+      "en-US": "Kollumerland en Nieuwkruisland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Korendijk": {
+    "labels": {
+      "nl-NL": "Korendijk",
+      "en-US": "Korendijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Krimpen_aan_den_IJssel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Krimpen aan den IJssel",
+      "en-US": "Krimpen aan den IJssel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Krimpenerwaard": {
+    "labels": {
+      "nl-NL": "Krimpenerwaard",
+      "en-US": "Krimpenerwaard"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Laarbeek": {
+    "labels": {
+      "nl-NL": "Laarbeek",
+      "en-US": "Laarbeek"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Landerd": {
+    "labels": {
+      "nl-NL": "Landerd",
+      "en-US": "Landerd"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Landgraaf_(gemeente)": {
+    "labels": {
+      "nl-NL": "Landgraaf",
+      "en-US": "Landgraaf"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Landsmeer_(gemeente)": {
+    "labels": {
+      "nl-NL": "Landsmeer",
+      "en-US": "Landsmeer"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Langedijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Langedijk",
+      "en-US": "Langedijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Lansingerland": {
+    "labels": {
+      "nl-NL": "Lansingerland",
+      "en-US": "Lansingerland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Laren_(gemeente)": {
+    "labels": {
+      "nl-NL": "Laren",
+      "en-US": "Laren"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Leek_(gemeente)": {
+    "labels": {
+      "nl-NL": "Leek",
+      "en-US": "Leek"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Leerdam_(gemeente)": {
+    "labels": {
+      "nl-NL": "Leerdam",
+      "en-US": "Leerdam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Leersum_(gemeente)": {
+    "labels": {
+      "nl-NL": "Leersum",
+      "en-US": "Leersum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Leeuwarden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Leeuwarden",
+      "en-US": "Leeuwarden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Leeuwarderadeel": {
+    "labels": {
+      "nl-NL": "Leeuwarderadeel",
+      "en-US": "Leeuwarderadeel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Leiden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Leiden",
+      "en-US": "Leiden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Leiderdorp_(gemeente)": {
+    "labels": {
+      "nl-NL": "Leiderdorp",
+      "en-US": "Leiderdorp"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Leidschendam": {
+    "labels": {
+      "nl-NL": "Leidschendam",
+      "en-US": "Leidschendam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Leidschendam-Voorburg": {
+    "labels": {
+      "nl-NL": "Leidschendam-Voorburg",
+      "en-US": "Leidschendam-Voorburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Lelystad_(gemeente)": {
+    "labels": {
+      "nl-NL": "Lelystad",
+      "en-US": "Lelystad"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Lemsterland": {
+    "labels": {
+      "nl-NL": "Lemsterland",
+      "en-US": "Lemsterland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Leudal": {
+    "labels": {
+      "nl-NL": "Leudal",
+      "en-US": "Leudal"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Leusden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Leusden",
+      "en-US": "Leusden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Lichtenvoorde": {
+    "labels": {
+      "nl-NL": "Lichtenvoorde",
+      "en-US": "Lichtenvoorde"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Liemeer": {
+    "labels": {
+      "nl-NL": "Liemeer",
+      "en-US": "Liemeer"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Liesveld": {
+    "labels": {
+      "nl-NL": "Liesveld",
+      "en-US": "Liesveld"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Limmen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Limmen",
+      "en-US": "Limmen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Lingewaal": {
+    "labels": {
+      "nl-NL": "Lingewaal",
+      "en-US": "Lingewaal"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Lingewaard": {
+    "labels": {
+      "nl-NL": "Lingewaard",
+      "en-US": "Lingewaard"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Lisse_(gemeente)": {
+    "labels": {
+      "nl-NL": "Lisse",
+      "en-US": "Lisse"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Lith_(gemeente)": {
+    "labels": {
+      "nl-NL": "Lith",
+      "en-US": "Lith"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Littenseradiel": {
+    "labels": {
+      "nl-NL": "Littenseradiel",
+      "en-US": "Littenseradiel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Lochem_(gemeente)": {
+    "labels": {
+      "nl-NL": "Lochem",
+      "en-US": "Lochem"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Loenen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Loenen",
+      "en-US": "Loenen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Loon_op_Zand_(gemeente)": {
+    "labels": {
+      "nl-NL": "Loon op Zand",
+      "en-US": "Loon op Zand"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Loosdrecht_(gemeente)": {
+    "labels": {
+      "nl-NL": "Loosdrecht",
+      "en-US": "Loosdrecht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Lopik_(gemeente)": {
+    "labels": {
+      "nl-NL": "Lopik",
+      "en-US": "Lopik"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Loppersum_(gemeente)": {
+    "labels": {
+      "nl-NL": "Loppersum",
+      "en-US": "Loppersum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Losser_(gemeente)": {
+    "labels": {
+      "nl-NL": "Losser",
+      "en-US": "Losser"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Maarn_(gemeente)": {
+    "labels": {
+      "nl-NL": "Maarn",
+      "en-US": "Maarn"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Maarssen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Maarssen",
+      "en-US": "Maarssen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Maartensdijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Maartensdijk",
+      "en-US": "Maartensdijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Maasbracht_(gemeente)": {
+    "labels": {
+      "nl-NL": "Maasbracht",
+      "en-US": "Maasbracht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Maasbree_(gemeente)": {
+    "labels": {
+      "nl-NL": "Maasbree",
+      "en-US": "Maasbree"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Maasdonk": {
+    "labels": {
+      "nl-NL": "Maasdonk",
+      "en-US": "Maasdonk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Maasdriel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Maasdriel",
+      "en-US": "Maasdriel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Maasgouw": {
+    "labels": {
+      "nl-NL": "Maasgouw",
+      "en-US": "Maasgouw"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Maasland_(gemeente)": {
+    "labels": {
+      "nl-NL": "Maasland",
+      "en-US": "Maasland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Maassluis_(gemeente)": {
+    "labels": {
+      "nl-NL": "Maassluis",
+      "en-US": "Maassluis"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Maastricht_(gemeente)": {
+    "labels": {
+      "nl-NL": "Maastricht",
+      "en-US": "Maastricht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Margraten_(gemeente)": {
+    "labels": {
+      "nl-NL": "Margraten",
+      "en-US": "Margraten"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Markelo_(gemeente)": {
+    "labels": {
+      "nl-NL": "Markelo",
+      "en-US": "Markelo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Marum_(gemeente)": {
+    "labels": {
+      "nl-NL": "Marum",
+      "en-US": "Marum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Medemblik_(gemeente)": {
+    "labels": {
+      "nl-NL": "Medemblik",
+      "en-US": "Medemblik"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Meerlo-Wanssum": {
+    "labels": {
+      "nl-NL": "Meerlo-Wanssum",
+      "en-US": "Meerlo-Wanssum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Meerssen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Meerssen",
+      "en-US": "Meerssen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Meierijstad": {
+    "labels": {
+      "nl-NL": "Meierijstad",
+      "en-US": "Meierijstad"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Meijel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Meijel",
+      "en-US": "Meijel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Menaldumadeel": {
+    "labels": {
+      "nl-NL": "Menaldumadeel",
+      "en-US": "Menaldumadeel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Menameradiel": {
+    "labels": {
+      "nl-NL": "Menameradiel",
+      "en-US": "Menameradiel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Menterwolde": {
+    "labels": {
+      "nl-NL": "Menterwolde",
+      "en-US": "Menterwolde"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Meppel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Meppel",
+      "en-US": "Meppel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Middelburg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Middelburg",
+      "en-US": "Middelburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Middelharnis_(gemeente)": {
+    "labels": {
+      "nl-NL": "Middelharnis",
+      "en-US": "Middelharnis"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Midden-Delfland": {
+    "labels": {
+      "nl-NL": "Midden-Delfland",
+      "en-US": "Midden-Delfland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Midden-Drenthe": {
+    "labels": {
+      "nl-NL": "Midden-Drenthe",
+      "en-US": "Midden-Drenthe"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Midden-Groningen": {
+    "labels": {
+      "nl-NL": "Midden-Groningen",
+      "en-US": "Midden-Groningen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Mierlo_(gemeente)": {
+    "labels": {
+      "nl-NL": "Mierlo",
+      "en-US": "Mierlo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Mill_en_Sint_Hubert": {
+    "labels": {
+      "nl-NL": "Mill en Sint Hubert",
+      "en-US": "Mill en Sint Hubert"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Millingen_aan_de_Rijn": {
+    "labels": {
+      "nl-NL": "Millingen aan de Rijn",
+      "en-US": "Millingen aan de Rijn"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Moerdijk": {
+    "labels": {
+      "nl-NL": "Moerdijk",
+      "en-US": "Moerdijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Molenwaard": {
+    "labels": {
+      "nl-NL": "Molenwaard",
+      "en-US": "Molenwaard"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Monster_(gemeente)": {
+    "labels": {
+      "nl-NL": "Monster",
+      "en-US": "Monster"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Montferland": {
+    "labels": {
+      "nl-NL": "Montferland",
+      "en-US": "Montferland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Montfoort_(gemeente)": {
+    "labels": {
+      "nl-NL": "Montfoort",
+      "en-US": "Montfoort"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Mook_en_Middelaar_(gemeente)": {
+    "labels": {
+      "nl-NL": "Mook en Middelaar",
+      "en-US": "Mook en Middelaar"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Moordrecht_(gemeente)": {
+    "labels": {
+      "nl-NL": "Moordrecht",
+      "en-US": "Moordrecht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Muiden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Muiden",
+      "en-US": "Muiden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Naaldwijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Naaldwijk",
+      "en-US": "Naaldwijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Naarden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Naarden",
+      "en-US": "Naarden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Neder-Betuwe": {
+    "labels": {
+      "nl-NL": "Neder-Betuwe",
+      "en-US": "Neder-Betuwe"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nederhorst_den_Berg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Nederhorst den Berg",
+      "en-US": "Nederhorst den Berg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nederlek": {
+    "labels": {
+      "nl-NL": "Nederlek",
+      "en-US": "Nederlek"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nederweert_(gemeente)": {
+    "labels": {
+      "nl-NL": "Nederweert",
+      "en-US": "Nederweert"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Neede_(gemeente)": {
+    "labels": {
+      "nl-NL": "Neede",
+      "en-US": "Neede"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Neerijnen": {
+    "labels": {
+      "nl-NL": "Neerijnen",
+      "en-US": "Neerijnen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Niedorp_(gemeente)": {
+    "labels": {
+      "nl-NL": "Niedorp",
+      "en-US": "Niedorp"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nieuw-Lekkerland": {
+    "labels": {
+      "nl-NL": "Nieuw-Lekkerland",
+      "en-US": "Nieuw-Lekkerland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nieuwegein": {
+    "labels": {
+      "nl-NL": "Nieuwegein",
+      "en-US": "Nieuwegein"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nieuwerkerk_aan_den_IJssel": {
+    "labels": {
+      "nl-NL": "Nieuwerkerk aan den IJssel",
+      "en-US": "Nieuwerkerk aan den IJssel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nieuwkoop_(gemeente)": {
+    "labels": {
+      "nl-NL": "Nieuwkoop",
+      "en-US": "Nieuwkoop"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nieuwleusen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Nieuwleusen",
+      "en-US": "Nieuwleusen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nijefurd": {
+    "labels": {
+      "nl-NL": "Nijefurd",
+      "en-US": "Nijefurd"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nijkerk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Nijkerk",
+      "en-US": "Nijkerk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nijmegen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Nijmegen",
+      "en-US": "Nijmegen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nissewaard": {
+    "labels": {
+      "nl-NL": "Nissewaard",
+      "en-US": "Nissewaard"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Noord-Beveland": {
+    "labels": {
+      "nl-NL": "Noord-Beveland",
+      "en-US": "Noord-Beveland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Noordenveld": {
+    "labels": {
+      "nl-NL": "Noordenveld",
+      "en-US": "Noordenveld"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Noorder-Koggenland_(gemeente)": {
+    "labels": {
+      "nl-NL": "Noorder-Koggenland",
+      "en-US": "Noorder-Koggenland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Noordoostpolder_(gemeente)": {
+    "labels": {
+      "nl-NL": "Noordoostpolder",
+      "en-US": "Noordoostpolder"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Noordwijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Noordwijk",
+      "en-US": "Noordwijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Noordwijkerhout_(gemeente)": {
+    "labels": {
+      "nl-NL": "Noordwijkerhout",
+      "en-US": "Noordwijkerhout"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nootdorp_(gemeente)": {
+    "labels": {
+      "nl-NL": "Nootdorp",
+      "en-US": "Nootdorp"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nuenen,_Gerwen_en_Nederwetten": {
+    "labels": {
+      "nl-NL": "Nuenen, Gerwen en Nederwetten",
+      "en-US": "Nuenen, Gerwen en Nederwetten"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nunspeet_(gemeente)": {
+    "labels": {
+      "nl-NL": "Nunspeet",
+      "en-US": "Nunspeet"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Nuth_(gemeente)": {
+    "labels": {
+      "nl-NL": "Nuth",
+      "en-US": "Nuth"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Obdam_(gemeente)": {
+    "labels": {
+      "nl-NL": "Obdam",
+      "en-US": "Obdam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oegstgeest_(gemeente)": {
+    "labels": {
+      "nl-NL": "Oegstgeest",
+      "en-US": "Oegstgeest"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oirschot_(gemeente)": {
+    "labels": {
+      "nl-NL": "Oirschot",
+      "en-US": "Oirschot"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oisterwijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Oisterwijk",
+      "en-US": "Oisterwijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oldambt": {
+    "labels": {
+      "nl-NL": "Oldambt",
+      "en-US": "Oldambt"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oldebroek_(gemeente)": {
+    "labels": {
+      "nl-NL": "Oldebroek",
+      "en-US": "Oldebroek"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oldenzaal_(gemeente)": {
+    "labels": {
+      "nl-NL": "Oldenzaal",
+      "en-US": "Oldenzaal"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Olst_(gemeente)": {
+    "labels": {
+      "nl-NL": "Olst",
+      "en-US": "Olst"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Olst-Wijhe": {
+    "labels": {
+      "nl-NL": "Olst-Wijhe",
+      "en-US": "Olst-Wijhe"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ommen": {
+    "labels": {
+      "nl-NL": "Ommen",
+      "en-US": "Ommen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Onderbanken": {
+    "labels": {
+      "nl-NL": "Onderbanken",
+      "en-US": "Onderbanken"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oost_Gelre": {
+    "labels": {
+      "nl-NL": "Oost Gelre",
+      "en-US": "Oost Gelre"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oostburg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Oostburg",
+      "en-US": "Oostburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oosterhout_(gemeente)": {
+    "labels": {
+      "nl-NL": "Oosterhout",
+      "en-US": "Oosterhout"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oostflakkee_(gemeente)": {
+    "labels": {
+      "nl-NL": "Oostflakkee",
+      "en-US": "Oostflakkee"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ooststellingwerf": {
+    "labels": {
+      "nl-NL": "Ooststellingwerf",
+      "en-US": "Ooststellingwerf"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oostzaan_(gemeente)": {
+    "labels": {
+      "nl-NL": "Oostzaan",
+      "en-US": "Oostzaan"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ootmarsum_(gemeente)": {
+    "labels": {
+      "nl-NL": "Ootmarsum",
+      "en-US": "Ootmarsum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Opmeer": {
+    "labels": {
+      "nl-NL": "Opmeer",
+      "en-US": "Opmeer"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Opsterland": {
+    "labels": {
+      "nl-NL": "Opsterland",
+      "en-US": "Opsterland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oss_(gemeente)": {
+    "labels": {
+      "nl-NL": "Oss",
+      "en-US": "Oss"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oud-Beijerland_(gemeente)": {
+    "labels": {
+      "nl-NL": "Oud-Beijerland",
+      "en-US": "Oud-Beijerland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oude_IJsselstreek": {
+    "labels": {
+      "nl-NL": "Oude IJsselstreek",
+      "en-US": "Oude IJsselstreek"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ouder-Amstel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Ouder-Amstel",
+      "en-US": "Ouder-Amstel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ouderkerk": {
+    "labels": {
+      "nl-NL": "Ouderkerk",
+      "en-US": "Ouderkerk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Oudewater_(gemeente)": {
+    "labels": {
+      "nl-NL": "Oudewater",
+      "en-US": "Oudewater"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Overbetuwe": {
+    "labels": {
+      "nl-NL": "Overbetuwe",
+      "en-US": "Overbetuwe"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Papendrecht_(gemeente)": {
+    "labels": {
+      "nl-NL": "Papendrecht",
+      "en-US": "Papendrecht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Peel_en_Maas": {
+    "labels": {
+      "nl-NL": "Peel en Maas",
+      "en-US": "Peel en Maas"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Pekela": {
+    "labels": {
+      "nl-NL": "Pekela",
+      "en-US": "Pekela"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Pijnacker_(gemeente)": {
+    "labels": {
+      "nl-NL": "Pijnacker",
+      "en-US": "Pijnacker"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Pijnacker-Nootdorp": {
+    "labels": {
+      "nl-NL": "Pijnacker-Nootdorp",
+      "en-US": "Pijnacker-Nootdorp"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Purmerend_(gemeente)": {
+    "labels": {
+      "nl-NL": "Purmerend",
+      "en-US": "Purmerend"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Putten_(gemeente)": {
+    "labels": {
+      "nl-NL": "Putten",
+      "en-US": "Putten"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Raalte_(gemeente)": {
+    "labels": {
+      "nl-NL": "Raalte",
+      "en-US": "Raalte"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ravenstein_(gemeente)": {
+    "labels": {
+      "nl-NL": "Ravenstein",
+      "en-US": "Ravenstein"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Reeuwijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Reeuwijk",
+      "en-US": "Reeuwijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Reiderland": {
+    "labels": {
+      "nl-NL": "Reiderland",
+      "en-US": "Reiderland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Reimerswaal_(gemeente)": {
+    "labels": {
+      "nl-NL": "Reimerswaal",
+      "en-US": "Reimerswaal"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Renkum_(gemeente)": {
+    "labels": {
+      "nl-NL": "Renkum",
+      "en-US": "Renkum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Renswoude_(gemeente)": {
+    "labels": {
+      "nl-NL": "Renswoude",
+      "en-US": "Renswoude"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Reusel-De_Mierden": {
+    "labels": {
+      "nl-NL": "Reusel-De Mierden",
+      "en-US": "Reusel-De Mierden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Rheden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Rheden",
+      "en-US": "Rheden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Rhenen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Rhenen",
+      "en-US": "Rhenen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ridderkerk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Ridderkerk",
+      "en-US": "Ridderkerk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Rijnsburg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Rijnsburg",
+      "en-US": "Rijnsburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Rijnwaarden": {
+    "labels": {
+      "nl-NL": "Rijnwaarden",
+      "en-US": "Rijnwaarden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Rijnwoude": {
+    "labels": {
+      "nl-NL": "Rijnwoude",
+      "en-US": "Rijnwoude"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Rijssen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Rijssen",
+      "en-US": "Rijssen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Rijssen-Holten": {
+    "labels": {
+      "nl-NL": "Rijssen-Holten",
+      "en-US": "Rijssen-Holten"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Rijswijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Rijswijk",
+      "en-US": "Rijswijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Roerdalen": {
+    "labels": {
+      "nl-NL": "Roerdalen",
+      "en-US": "Roerdalen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Roermond_(gemeente)": {
+    "labels": {
+      "nl-NL": "Roermond",
+      "en-US": "Roermond"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Roggel_en_Neer": {
+    "labels": {
+      "nl-NL": "Roggel en Neer",
+      "en-US": "Roggel en Neer"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Roosendaal": {
+    "labels": {
+      "nl-NL": "Roosendaal",
+      "en-US": "Roosendaal"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Rotterdam": {
+    "labels": {
+      "nl-NL": "Rotterdam",
+      "en-US": "Rotterdam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Rozenburg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Rozenburg",
+      "en-US": "Rozenburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Rozendaal_(gemeente)": {
+    "labels": {
+      "nl-NL": "Rozendaal",
+      "en-US": "Rozendaal"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Rucphen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Rucphen",
+      "en-US": "Rucphen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ruurlo_(gemeente)": {
+    "labels": {
+      "nl-NL": "Ruurlo",
+      "en-US": "Ruurlo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sas_van_Gent_(gemeente)": {
+    "labels": {
+      "nl-NL": "Sas van Gent",
+      "en-US": "Sas van Gent"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sassenheim_(gemeente)": {
+    "labels": {
+      "nl-NL": "Sassenheim",
+      "en-US": "Sassenheim"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Schagen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Schagen",
+      "en-US": "Schagen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Scheemda_(gemeente)": {
+    "labels": {
+      "nl-NL": "Scheemda",
+      "en-US": "Scheemda"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Schermer_(gemeente)": {
+    "labels": {
+      "nl-NL": "Schermer",
+      "en-US": "Schermer"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Scherpenzeel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Scherpenzeel",
+      "en-US": "Scherpenzeel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Schiedam_(gemeente)": {
+    "labels": {
+      "nl-NL": "Schiedam",
+      "en-US": "Schiedam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Schiermonnikoog_(gemeente)": {
+    "labels": {
+      "nl-NL": "Schiermonnikoog",
+      "en-US": "Schiermonnikoog"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Schijndel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Schijndel",
+      "en-US": "Schijndel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Schinnen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Schinnen",
+      "en-US": "Schinnen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Schipluiden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Schipluiden",
+      "en-US": "Schipluiden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Schoonhoven_(gemeente)": {
+    "labels": {
+      "nl-NL": "Schoonhoven",
+      "en-US": "Schoonhoven"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Schoorl_(gemeente)": {
+    "labels": {
+      "nl-NL": "Schoorl",
+      "en-US": "Schoorl"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Schouwen-Duiveland": {
+    "labels": {
+      "nl-NL": "Schouwen-Duiveland",
+      "en-US": "Schouwen-Duiveland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sevenum_(gemeente)": {
+    "labels": {
+      "nl-NL": "Sevenum",
+      "en-US": "Sevenum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Simpelveld_(gemeente)": {
+    "labels": {
+      "nl-NL": "Simpelveld",
+      "en-US": "Simpelveld"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sint_Anthonis": {
+    "labels": {
+      "nl-NL": "Sint Anthonis",
+      "en-US": "Sint Anthonis"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sint-Michielsgestel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Sint-Michielsgestel",
+      "en-US": "Sint-Michielsgestel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sint-Oedenrode": {
+    "labels": {
+      "nl-NL": "Sint-Oedenrode",
+      "en-US": "Sint-Oedenrode"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sittard_(gemeente)": {
+    "labels": {
+      "nl-NL": "Sittard",
+      "en-US": "Sittard"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sittard-Geleen": {
+    "labels": {
+      "nl-NL": "Sittard-Geleen",
+      "en-US": "Sittard-Geleen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Skarsterlan": {
+    "labels": {
+      "nl-NL": "Skarsterlan",
+      "en-US": "Skarsterlan"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sliedrecht_(gemeente)": {
+    "labels": {
+      "nl-NL": "Sliedrecht",
+      "en-US": "Sliedrecht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Slochteren": {
+    "labels": {
+      "nl-NL": "Slochteren",
+      "en-US": "Slochteren"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sluis_(gemeente)": {
+    "labels": {
+      "nl-NL": "Sluis",
+      "en-US": "Sluis"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sluis-Aardenburg": {
+    "labels": {
+      "nl-NL": "Sluis-Aardenburg",
+      "en-US": "Sluis-Aardenburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Smallingerland": {
+    "labels": {
+      "nl-NL": "Smallingerland",
+      "en-US": "Smallingerland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sneek_(gemeente)": {
+    "labels": {
+      "nl-NL": "Sneek",
+      "en-US": "Sneek"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Soest_(gemeente)": {
+    "labels": {
+      "nl-NL": "Soest",
+      "en-US": "Soest"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Someren_(gemeente)": {
+    "labels": {
+      "nl-NL": "Someren",
+      "en-US": "Someren"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Son_en_Breugel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Son en Breugel",
+      "en-US": "Son en Breugel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Spijkenisse_(gemeente)": {
+    "labels": {
+      "nl-NL": "Spijkenisse",
+      "en-US": "Spijkenisse"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Stad_Delden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Stad Delden",
+      "en-US": "Stad Delden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Stadskanaal": {
+    "labels": {
+      "nl-NL": "Stadskanaal",
+      "en-US": "Stadskanaal"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Staphorst_(gemeente)": {
+    "labels": {
+      "nl-NL": "Staphorst",
+      "en-US": "Staphorst"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Stede_Broec_(gemeente)": {
+    "labels": {
+      "nl-NL": "Stede Broec",
+      "en-US": "Stede Broec"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Steenbergen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Steenbergen",
+      "en-US": "Steenbergen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Steenderen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Steenderen",
+      "en-US": "Steenderen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Steenwijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Steenwijk",
+      "en-US": "Steenwijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Steenwijkerland": {
+    "labels": {
+      "nl-NL": "Steenwijkerland",
+      "en-US": "Steenwijkerland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Stein_(gemeente)": {
+    "labels": {
+      "nl-NL": "Stein",
+      "en-US": "Stein"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Stichtse_Vecht": {
+    "labels": {
+      "nl-NL": "Stichtse Vecht",
+      "en-US": "Stichtse Vecht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Strijen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Strijen",
+      "en-US": "Strijen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sudwest_Fryslan_oud": {
+    "labels": {
+      "nl-NL": "Sudwest Fryslan",
+      "en-US": "Sudwest Fryslan"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Sudwest_Fryslan": {
+    "labels": {
+      "nl-NL": "Sudwest-Fryslan",
+      "en-US": "Sudwest-Fryslan"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Susteren_(gemeente)": {
+    "labels": {
+      "nl-NL": "Susteren",
+      "en-US": "Susteren"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Swalmen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Swalmen",
+      "en-US": "Swalmen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Tegelen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Tegelen",
+      "en-US": "Tegelen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ten_Boer_(gemeente)": {
+    "labels": {
+      "nl-NL": "Ten Boer",
+      "en-US": "Ten Boer"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ter_Aar_(gemeente)": {
+    "labels": {
+      "nl-NL": "Ter Aar",
+      "en-US": "Ter Aar"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Terneuzen": {
+    "labels": {
+      "nl-NL": "Terneuzen",
+      "en-US": "Terneuzen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Terschelling_(gemeente)": {
+    "labels": {
+      "nl-NL": "Terschelling",
+      "en-US": "Terschelling"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Texel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Texel",
+      "en-US": "Texel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Teylingen": {
+    "labels": {
+      "nl-NL": "Teylingen",
+      "en-US": "Teylingen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Tholen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Tholen",
+      "en-US": "Tholen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Thorn_(gemeente)": {
+    "labels": {
+      "nl-NL": "Thorn",
+      "en-US": "Thorn"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Tiel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Tiel",
+      "en-US": "Tiel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Tilburg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Tilburg",
+      "en-US": "Tilburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Tubbergen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Tubbergen",
+      "en-US": "Tubbergen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Twenterand": {
+    "labels": {
+      "nl-NL": "Twenterand",
+      "en-US": "Twenterand"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Tynaarlo": {
+    "labels": {
+      "nl-NL": "Tynaarlo",
+      "en-US": "Tynaarlo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Tytsjerksteradiel": {
+    "labels": {
+      "nl-NL": "Tytsjerksteradiel",
+      "en-US": "Tytsjerksteradiel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Ubbergen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Ubbergen",
+      "en-US": "Ubbergen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Uden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Uden",
+      "en-US": "Uden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Uitgeest_(gemeente)": {
+    "labels": {
+      "nl-NL": "Uitgeest",
+      "en-US": "Uitgeest"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Uithoorn_(gemeente)": {
+    "labels": {
+      "nl-NL": "Uithoorn",
+      "en-US": "Uithoorn"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Urk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Urk",
+      "en-US": "Urk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Utrecht_(gemeente)": {
+    "labels": {
+      "nl-NL": "Utrecht",
+      "en-US": "Utrecht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Utrecht_oud": {
+    "labels": {
+      "nl-NL": "Utrecht (Utr)",
+      "en-US": "Utrecht (Utr)"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Utrechtse_Heuvelrug": {
+    "labels": {
+      "nl-NL": "Utrechtse Heuvelrug",
+      "en-US": "Utrechtse Heuvelrug"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Vaals_(gemeente)": {
+    "labels": {
+      "nl-NL": "Vaals",
+      "en-US": "Vaals"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Valburg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Valburg",
+      "en-US": "Valburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Valkenburg": {
+    "labels": {
+      "nl-NL": "Valkenburg",
+      "en-US": "Valkenburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Valkenburg_aan_de_Geul": {
+    "labels": {
+      "nl-NL": "Valkenburg aan de Geul",
+      "en-US": "Valkenburg aan de Geul"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Valkenswaard_(gemeente)": {
+    "labels": {
+      "nl-NL": "Valkenswaard",
+      "en-US": "Valkenswaard"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Veendam_(gemeente)": {
+    "labels": {
+      "nl-NL": "Veendam",
+      "en-US": "Veendam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Veenendaal_(gemeente)": {
+    "labels": {
+      "nl-NL": "Veenendaal",
+      "en-US": "Veenendaal"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Veere": {
+    "labels": {
+      "nl-NL": "Veere",
+      "en-US": "Veere"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Veghel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Veghel",
+      "en-US": "Veghel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Veldhoven_(gemeente)": {
+    "labels": {
+      "nl-NL": "Veldhoven",
+      "en-US": "Veldhoven"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Velsen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Velsen",
+      "en-US": "Velsen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Venhuizen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Venhuizen",
+      "en-US": "Venhuizen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Venlo_(gemeente)": {
+    "labels": {
+      "nl-NL": "Venlo",
+      "en-US": "Venlo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Venray_(gemeente)": {
+    "labels": {
+      "nl-NL": "Venray",
+      "en-US": "Venray"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Vianen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Vianen",
+      "en-US": "Vianen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Vlaardingen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Vlaardingen",
+      "en-US": "Vlaardingen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Vlagtwedde_(gemeente)": {
+    "labels": {
+      "nl-NL": "Vlagtwedde",
+      "en-US": "Vlagtwedde"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Vleuten-De_Meern": {
+    "labels": {
+      "nl-NL": "Vleuten-De Meern",
+      "en-US": "Vleuten-De Meern"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Vlieland_(gemeente)": {
+    "labels": {
+      "nl-NL": "Vlieland",
+      "en-US": "Vlieland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Vlissingen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Vlissingen",
+      "en-US": "Vlissingen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Vlist_(gemeente)": {
+    "labels": {
+      "nl-NL": "Vlist",
+      "en-US": "Vlist"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Voerendaal_(gemeente)": {
+    "labels": {
+      "nl-NL": "Voerendaal",
+      "en-US": "Voerendaal"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Voorburg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Voorburg",
+      "en-US": "Voorburg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Voorhout_(gemeente)": {
+    "labels": {
+      "nl-NL": "Voorhout",
+      "en-US": "Voorhout"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Voorschoten_(gemeente)": {
+    "labels": {
+      "nl-NL": "Voorschoten",
+      "en-US": "Voorschoten"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Voorst_(gemeente)": {
+    "labels": {
+      "nl-NL": "Voorst",
+      "en-US": "Voorst"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Vorden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Vorden",
+      "en-US": "Vorden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Vriezenveen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Vriezenveen",
+      "en-US": "Vriezenveen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Vught_(gemeente)": {
+    "labels": {
+      "nl-NL": "Vught",
+      "en-US": "Vught"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waadhoeke": {
+    "labels": {
+      "nl-NL": "Waadhoeke",
+      "en-US": "Waadhoeke"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waalre_(gemeente)": {
+    "labels": {
+      "nl-NL": "Waalre",
+      "en-US": "Waalre"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waalwijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Waalwijk",
+      "en-US": "Waalwijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waddinxveen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Waddinxveen",
+      "en-US": "Waddinxveen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wageningen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Wageningen",
+      "en-US": "Wageningen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Warmond_(gemeente)": {
+    "labels": {
+      "nl-NL": "Warmond",
+      "en-US": "Warmond"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Warnsveld_(gemeente)": {
+    "labels": {
+      "nl-NL": "Warnsveld",
+      "en-US": "Warnsveld"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wassenaar_(gemeente)": {
+    "labels": {
+      "nl-NL": "Wassenaar",
+      "en-US": "Wassenaar"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wateringen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Wateringen",
+      "en-US": "Wateringen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Waterland_(gemeente)": {
+    "labels": {
+      "nl-NL": "Waterland",
+      "en-US": "Waterland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Weerselo_(gemeente)": {
+    "labels": {
+      "nl-NL": "Weerselo",
+      "en-US": "Weerselo"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Weert_(gemeente)": {
+    "labels": {
+      "nl-NL": "Weert",
+      "en-US": "Weert"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Weesp_(gemeente)": {
+    "labels": {
+      "nl-NL": "Weesp",
+      "en-US": "Weesp"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wehl_(gemeente)": {
+    "labels": {
+      "nl-NL": "Wehl",
+      "en-US": "Wehl"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Werkendam_(gemeente)": {
+    "labels": {
+      "nl-NL": "Werkendam",
+      "en-US": "Werkendam"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wervershoof_(gemeente)": {
+    "labels": {
+      "nl-NL": "Wervershoof",
+      "en-US": "Wervershoof"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/West_Maas_en_Waal": {
+    "labels": {
+      "nl-NL": "West Maas en Waal",
+      "en-US": "West Maas en Waal"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wester-Koggenland_(gemeente)": {
+    "labels": {
+      "nl-NL": "Wester-Koggenland",
+      "en-US": "Wester-Koggenland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Westerveld": {
+    "labels": {
+      "nl-NL": "Westerveld",
+      "en-US": "Westerveld"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Westervoort_(gemeente)": {
+    "labels": {
+      "nl-NL": "Westervoort",
+      "en-US": "Westervoort"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Westerwolde": {
+    "labels": {
+      "nl-NL": "Westerwolde",
+      "en-US": "Westerwolde"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Westland": {
+    "labels": {
+      "nl-NL": "Westland",
+      "en-US": "Westland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Weststellingwerf": {
+    "labels": {
+      "nl-NL": "Weststellingwerf",
+      "en-US": "Weststellingwerf"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Westvoorne_(gemeente)": {
+    "labels": {
+      "nl-NL": "Westvoorne",
+      "en-US": "Westvoorne"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wierden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Wierden",
+      "en-US": "Wierden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wieringen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Wieringen",
+      "en-US": "Wieringen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wieringermeer_(gemeente)": {
+    "labels": {
+      "nl-NL": "Wieringermeer",
+      "en-US": "Wieringermeer"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wijchen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Wijchen",
+      "en-US": "Wijchen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wijdemeren": {
+    "labels": {
+      "nl-NL": "Wijdemeren",
+      "en-US": "Wijdemeren"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wijhe_(gemeente)": {
+    "labels": {
+      "nl-NL": "Wijhe",
+      "en-US": "Wijhe"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wijk_bij_Duurstede_(gemeente)": {
+    "labels": {
+      "nl-NL": "Wijk bij Duurstede",
+      "en-US": "Wijk bij Duurstede"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Winschoten_(gemeente)": {
+    "labels": {
+      "nl-NL": "Winschoten",
+      "en-US": "Winschoten"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Winsum_(gemeente)": {
+    "labels": {
+      "nl-NL": "Winsum",
+      "en-US": "Winsum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Winterswijk_(gemeente)": {
+    "labels": {
+      "nl-NL": "Winterswijk",
+      "en-US": "Winterswijk"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wisch_(gemeente)": {
+    "labels": {
+      "nl-NL": "Wisch",
+      "en-US": "Wisch"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Woensdrecht_(gemeente)": {
+    "labels": {
+      "nl-NL": "Woensdrecht",
+      "en-US": "Woensdrecht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Woerden_(gemeente)": {
+    "labels": {
+      "nl-NL": "Woerden",
+      "en-US": "Woerden"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wognum_(gemeente)": {
+    "labels": {
+      "nl-NL": "Wognum",
+      "en-US": "Wognum"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wormerland": {
+    "labels": {
+      "nl-NL": "Wormerland",
+      "en-US": "Wormerland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Woudenberg_(gemeente)": {
+    "labels": {
+      "nl-NL": "Woudenberg",
+      "en-US": "Woudenberg"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Woudrichem_(gemeente)": {
+    "labels": {
+      "nl-NL": "Woudrichem",
+      "en-US": "Woudrichem"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wunseradiel": {
+    "labels": {
+      "nl-NL": "Wunseradiel",
+      "en-US": "Wunseradiel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Wymbritseradiel": {
+    "labels": {
+      "nl-NL": "Wymbritseradiel",
+      "en-US": "Wymbritseradiel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zaanstad": {
+    "labels": {
+      "nl-NL": "Zaanstad",
+      "en-US": "Zaanstad"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zaltbommel_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zaltbommel",
+      "en-US": "Zaltbommel"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zandvoort_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zandvoort",
+      "en-US": "Zandvoort"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zederik_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zederik",
+      "en-US": "Zederik"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zeevang": {
+    "labels": {
+      "nl-NL": "Zeevang",
+      "en-US": "Zeevang"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zeewolde_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zeewolde",
+      "en-US": "Zeewolde"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zeist_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zeist",
+      "en-US": "Zeist"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zelhem_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zelhem",
+      "en-US": "Zelhem"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zevenaar_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zevenaar",
+      "en-US": "Zevenaar"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zevenhuizen-Moerkapelle": {
+    "labels": {
+      "nl-NL": "Zevenhuizen-Moerkapelle",
+      "en-US": "Zevenhuizen-Moerkapelle"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zijpe_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zijpe",
+      "en-US": "Zijpe"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zoetermeer_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zoetermeer",
+      "en-US": "Zoetermeer"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zoeterwoude_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zoeterwoude",
+      "en-US": "Zoeterwoude"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zuidhorn_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zuidhorn",
+      "en-US": "Zuidhorn"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zuidplas": {
+    "labels": {
+      "nl-NL": "Zuidplas",
+      "en-US": "Zuidplas"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zundert_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zundert",
+      "en-US": "Zundert"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zutphen_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zutphen",
+      "en-US": "Zutphen"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zwartewaterland": {
+    "labels": {
+      "nl-NL": "Zwartewaterland",
+      "en-US": "Zwartewaterland"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zwartsluis_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zwartsluis",
+      "en-US": "Zwartsluis"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zwijndrecht_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zwijndrecht",
+      "en-US": "Zwijndrecht"
+    }
+  },
+  "http://standaarden.overheid.nl/owms/terms/Zwolle_(gemeente)": {
+    "labels": {
+      "nl-NL": "Zwolle",
+      "en-US": "Zwolle"
+    }
+  }
+}
