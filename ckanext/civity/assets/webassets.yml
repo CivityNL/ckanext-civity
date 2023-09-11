@@ -1,0 +1,14 @@
+# civity-js:
+#   filter: rjsmin
+#   output: ckanext-civity/%(version)s-civity.js
+#   contents:
+#     - js/civity.js
+#   extra:
+#     preload:
+#       - base/main
+
+# civity-css:
+#   filter: cssrewrite
+#   output: ckanext-civity/%(version)s-civity.css
+#   contents:
+#     - css/civity.css
