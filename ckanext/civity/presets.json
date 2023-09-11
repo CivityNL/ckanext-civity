@@ -1,0 +1,66 @@
+{
+  "scheming_presets_version": 1,
+  "about": "Custom Civity Presets",
+  "about_url": "http://github.com/ckan/ckanext-scheming#preset",
+  "presets": [
+    {
+      "preset_name": "text_with_datalist",
+      "values": {
+        "form_snippet": "text_with_datalist.html",
+        "display_snippet": "text.html",
+        "validators": "scheming_required scheming_choices"
+      }
+    },
+    {
+      "preset_name": "select_civity",
+      "values": {
+        "form_snippet": "select_civity.html",
+        "display_snippet": "select.html",
+        "validators": "scheming_required scheming_choices"
+      }
+    },
+    {
+      "preset_name": "select_field_with_parent",
+      "values": {
+        "form_snippet": "select_field_with_parent.html",
+        "display_snippet": "select.html",
+        "validators": "scheming_required scheming_choices"
+      }
+    },
+    {
+      "preset_name": "select_boolean_with_parent",
+      "values": {
+        "form_snippet": "select_boolean_with_parent.html",
+        "display_snippet": "select.html",
+        "validators": "scheming_required scheming_choices"
+      }
+    },
+    {
+      "preset_name": "custom_resource_url_upload",
+      "values": {
+        "validators": "ignore_missing unicode remove_whitespace custom_url_resource_validator",
+        "form_snippet": "upload.html",
+        "form_placeholder": "http://example.com/my-data.csv",
+        "upload_field": "upload",
+        "upload_clear": "clear_upload",
+        "upload_label": "File"
+      }
+    },
+    {
+      "preset_name": "select_without_choices_validation",
+      "values": {
+        "form_snippet": "select.html",
+        "display_snippet": "select.html",
+        "validators": "scheming_required"
+      }
+    },
+    {
+      "preset_name": "non_empty_org",
+      "values": {
+        "validators": "not_empty unicode name_validator group_name_validator non_empty_org_validator",
+        "form_snippet": "slug.html",
+        "form_placeholder": "my-theme"
+      }
+    }
+  ]
+}
