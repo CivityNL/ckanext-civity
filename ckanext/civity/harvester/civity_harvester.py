@@ -33,8 +33,6 @@ class CivityHarvester(HarvesterBase):
     the harvester specific work to a RecordProvider (to access records from a harvest source) and a
     RecordToPackageConverter to convert proprietary data from the harvest source to CKAN packages.
     """
-    plugins.implements(IHarvester)
-
     record_provider = None
 
     record_to_package_converter = None
