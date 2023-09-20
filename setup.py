@@ -85,7 +85,7 @@ setup(
     entry_points='''
         [ckan.plugins]
         civity=ckanext.civity.plugin:CivityPlugin
-        civityharvester=ckanext.civity.harvester:CivityHarvester
+        civityharvester=ckanext.civity.harvesters:CivityHarvester
 
         [babel.extractors]
         ckan = ckan.lib.extract:extract_ckan

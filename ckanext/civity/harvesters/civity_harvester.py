@@ -6,10 +6,8 @@ import warnings
 from abc import abstractmethod
 
 from ckan import model
-import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 
-from ckanext.harvest.interfaces import IHarvester
 from ckanext.harvest.harvesters import HarvesterBase
 from ckanext.harvest.model import HarvestObject
 from ckanext.harvest.model import HarvestObjectExtra as HOExtra

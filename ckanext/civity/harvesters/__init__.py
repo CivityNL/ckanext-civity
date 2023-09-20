@@ -1,0 +1,1 @@
+from ckanext.civity.harvesters.civity_harvester import CivityHarvester
