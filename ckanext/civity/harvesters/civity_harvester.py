@@ -13,6 +13,8 @@ from ckanext.harvest.model import HarvestObject
 from ckanext.harvest.model import HarvestObjectExtra as HOExtra
 import logging
 
+from ckanext.civity.harvesters.domain.record_to_package_converter import RecordToPackageConverterException
+
 log = logging.getLogger(__name__)
 
 
@@ -23,6 +25,10 @@ def text_traceback():
             cgitb.text(sys.exc_info()).split('the original traceback:')[1:]
         ).strip()
     return res
+
+
+class CivityHarvesterException(Exception):
+    pass
 
 
 class CivityHarvester(HarvesterBase):
@@ -167,8 +173,7 @@ class CivityHarvester(HarvesterBase):
                 if record:
                     try:
                         # Save the fetch contents in the HarvestObject
-                        harvest_object.content = json.dumps(
-                            record.to_json())  # TODO move JSON stuff to record provider?
+                        harvest_object.content = record  # TODO move JSON stuff to record provider for Gisweb harvester
                         harvest_object.save()
                     except Exception as e:
                         self._save_object_error(
@@ -253,7 +258,7 @@ class CivityHarvester(HarvesterBase):
             return False
 
         try:
-            package_dict = self.record_to_package_converter.record_to_package(unicode(harvest_object.content))
+            package_dict = self.record_to_package_converter.record_to_package(str(harvest_object.content))
         except RecordToPackageConverterException as e:
             logger.error('Error converting record to package for identifier [%s] [%r]' % (harvest_object.id, e))
             self._save_object_error(
@@ -298,7 +303,7 @@ class CivityHarvester(HarvesterBase):
 
         if status == 'new':
             # We need to explicitly provide a package ID
-            package_dict['id'] = unicode(uuid.uuid4())
+            package_dict['id'] = str(uuid.uuid4())
 
             # Save reference to the package on the object
             harvest_object.package_id = package_dict['id']
@@ -351,7 +356,8 @@ class CivityHarvester(HarvesterBase):
         return True
 
     def _create_or_update_package(self, package_dict, create_or_update, context, harvest_object):
-        package_dict.pop('revision_id')
+        if 'revision_id' in package_dict.keys():
+            package_dict.pop('revision_id')
 
         try:
             action = 'package_' + create_or_update
@@ -372,8 +378,12 @@ class CivityHarvester(HarvesterBase):
         result = True;
 
         for resource_dict in resource_dicts:
-            resource_dict.pop('id')
-            resource_dict.pop('revision_id')
+            if 'id' in resource_dict.keys():
+                resource_dict.pop('id')
+
+            if 'revision_id' in resource_dict.keys():
+                resource_dict.pop('revision_id')
+
             resource_dict['package_id'] = package_id
             try:
                 resource_dict = toolkit.get_action('resource_create')(context.copy(), resource_dict)
@@ -464,6 +474,48 @@ class CivityHarvester(HarvesterBase):
             if extra.key == key:
                 return extra.value
         return None
+
+    def _get_template_package_dict(self, harvest_config_dict):
+        """
+        Get template package dictionary. This approach has the advantage that in case someone modifies the
+        schema, the harvester configuration can be left untouched without the harvester breaking. Disadvantage is
+        that there is a package which should never be shown to users.
+        TODO
+          is this the most convenient solution? Are there better alternatives which provide the same functionality
+          without the drawback of running the risk of the template showing up somewhere unexpectedly.
+        :param harvest_config_dict:
+        :return:
+        """
+        context = {
+            'user': self._get_user_name(),
+            'return_id_only': True,
+            'ignore_auth': True,
+        }
+
+        template_package_id = self._get_template_package_id(harvest_config_dict)
+        try:
+            result = toolkit.get_action('package_show')(context.copy(), {
+                'id': template_package_id
+            })
+        except toolkit.ObjectNotFound as e:
+            log.error('Error looking up template package [%s]: [%s]', template_package_id, e.message)
+            result = None
+
+        return result
+
+    @staticmethod
+    def _get_template_package_id(harvest_config_dict):
+        """
+        Retrieves template package ID from harvest_config dictionary key 'template_package_id_id' if it exists
+        ex. {'template_package_id': 'template_for_rotterdam_dataplatform'}
+        """
+
+        if 'template_package_id' in harvest_config_dict.keys():
+            result = harvest_config_dict.get('template_package_id', 'template')
+        else:
+            result = 'template'
+
+        return result
 
     def _get_package_name(self, harvest_object, title):
         package = harvest_object.package
