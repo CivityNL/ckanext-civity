@@ -15,6 +15,8 @@ import logging
 
 from ckanext.civity.harvesters.domain.record_to_package_converter import RecordToPackageConverterException
 
+ID = 'id'
+
 log = logging.getLogger(__name__)
 
 
@@ -185,7 +187,7 @@ class CivityHarvester(HarvesterBase):
                     model.Session.commit()
 
                     logger.debug(
-                        'Record content saved for Gisweb ID [%s], harvest object ID [%s]',
+                        'Record content saved for ID [%s], harvest object ID [%s]',
                         harvest_object.guid,
                         harvest_object.id
                     )
@@ -248,7 +250,7 @@ class CivityHarvester(HarvesterBase):
             # Delete package
             context = {'model': model, 'session': model.Session, 'user': self._get_user_name()}
 
-            toolkit.get_action('package_delete')(context, {'id': harvest_object.package_id})
+            toolkit.get_action('package_delete')(context, {ID: harvest_object.package_id})
             logger.info('Deleted package {0} with guid {1}'.format(harvest_object.package_id, harvest_object.guid))
 
             return True
@@ -258,7 +260,10 @@ class CivityHarvester(HarvesterBase):
             return False
 
         try:
-            package_dict = self.record_to_package_converter.record_to_package(str(harvest_object.content))
+            package_dict = self.record_to_package_converter.record_to_package(
+                harvest_object.guid,
+                str(harvest_object.content)
+            )
         except RecordToPackageConverterException as e:
             logger.error('Error converting record to package for identifier [%s] [%r]' % (harvest_object.id, e))
             self._save_object_error(
@@ -272,15 +277,26 @@ class CivityHarvester(HarvesterBase):
 
         # TODO Doesn't this mean a new name will be generated for each update? This should be a new which never ever
         #  changes as long as the record in the harvester source does not change
+        logger.info('Generating package name from title [{}]'.format(package_dict['title']))
         try:
             # Set name for new package to prevent name conflict, see ckanext-harvest issue #117
-            logger.info('Generating Package name from title [{}]'.format(package_dict['title']))
-            package_dict['name'] = self._gen_new_name(package_dict['title'])
+            try:
+                package_dict['name'] = self._gen_new_name(package_dict['title'])
+            except TypeError:
+                logger.error(
+                    'TypeError: error generating package name. Package title {} is not a string'.format(
+                        str(package_dict['title'])))
+                self._save_object_error(
+                    'TypeError: error generating package name. Package title [%s] is not a string.' %
+                    (str(package_dict['title']), harvest_object)
+                )
+                return False
 
         except toolkit.ValidationError:
-            logger.info('ValidationError:Name already exists. Generating new Package name from "name" --> {}'.format(
+            logger.info('ValidationError: name already exists. Generating new package name from existing name {}'.format(
                 package_dict['name']))
             package_dict['name'] = self._gen_new_name(package_dict['name'])
+        logger.info('Generated package name from title [{}]: [{}]'.format(package_dict['title'], package_dict['name']))
 
         # Unless already set by an extension, get the owner organization (if any)
         # from the harvest source dataset
@@ -302,11 +318,13 @@ class CivityHarvester(HarvesterBase):
         resources = package_dict.pop('resources')
 
         if status == 'new':
-            # We need to explicitly provide a package ID
-            package_dict['id'] = str(uuid.uuid4())
+            # If a package ID has not been assigned by the RecordToPackageConverter...
+            if ID not in package_dict.keys():
+                # ... we need to explicitly provide a new package ID.
+                package_dict[ID] = str(uuid.uuid4())
 
             # Save reference to the package on the object
-            harvest_object.package_id = package_dict['id']
+            harvest_object.package_id = package_dict[ID]
             harvest_object.add()
 
             # Defer constraints and flush so the dataset can be indexed with
@@ -320,7 +338,7 @@ class CivityHarvester(HarvesterBase):
 
         elif status == 'change':
             # Updating existing package, if all is well...
-            package_dict['id'] = harvest_object.package_id
+            package_dict[ID] = harvest_object.package_id
 
             # Update existing package
             package_id = self._create_or_update_package(package_dict, 'update', context, harvest_object)

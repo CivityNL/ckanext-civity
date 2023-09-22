@@ -14,5 +14,5 @@ class IRecordToPackageConverter:
         pass
 
     @abstractmethod
-    def record_to_package(self, record):
+    def record_to_package(self, guid, record):
         pass
