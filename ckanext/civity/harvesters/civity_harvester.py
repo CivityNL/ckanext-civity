@@ -293,8 +293,9 @@ class CivityHarvester(HarvesterBase):
                 return False
 
         except toolkit.ValidationError:
-            logger.info('ValidationError: name already exists. Generating new package name from existing name {}'.format(
-                package_dict['name']))
+            logger.info(
+                'ValidationError: name already exists. Generating new package name from existing name {}'.format(
+                    package_dict['name']))
             package_dict['name'] = self._gen_new_name(package_dict['name'])
         logger.info('Generated package name from title [{}]: [{}]'.format(package_dict['title'], package_dict['name']))
 
@@ -382,12 +383,9 @@ class CivityHarvester(HarvesterBase):
             result = toolkit.get_action(action)(context.copy(), package_dict)
             log.info('Successful [%s] for package with id [%s]', create_or_update, result)
         except toolkit.ValidationError as e:
-            log.error('Error in [%s] for package [%s]: [%s]', create_or_update, package_dict['title'], e.message)
-            self._save_object_error(
-                'Error in [%s] for package [%s] for identifier [%s] [%r]' % (
-                    create_or_update, package_dict['title'], harvest_object.id, e),
-                harvest_object
-            )
+            error_message = 'Error in [{}] for package [{}]: [{}]'.format(create_or_update, package_dict['title'], e)
+            log.error(error_message)
+            self._save_object_error(error_message, harvest_object)
             result = None
 
         return result
