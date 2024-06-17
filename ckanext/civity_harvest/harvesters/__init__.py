@@ -1,0 +1,2 @@
+from ckanext.civity_harvest.harvesters.json_dcat import CivityDCATJSONHarvester
+from ckanext.civity_harvest.harvesters.csw import CivityCSWHarvester

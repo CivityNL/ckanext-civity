@@ -48,21 +48,20 @@ setup(
         'Programming Language :: Python :: 2.7',
     ],
 
-
     # What does your project relate to?
     keywords='''CKAN Civity''',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
-        namespace_packages=['ckanext'],
+    namespace_packages=['ckanext'],
 
     install_requires=[
-      # CKAN extensions should not list dependencies here, but in a separate
-      # ``requirements.txt`` file.
-      #
-      # http://docs.ckan.org/en/latest/extensions/best-practices.html
-      # add-third-party-libraries-to-requirements-txt
+        # CKAN extensions should not list dependencies here, but in a separate
+        # ``requirements.txt`` file.
+        #
+        # http://docs.ckan.org/en/latest/extensions/best-practices.html
+        # add-third-party-libraries-to-requirements-txt
     ],
 
     # If there are data files included in your packages that need to be
@@ -86,6 +85,14 @@ setup(
         [ckan.plugins]
         civity=ckanext.civity.plugin:CivityPlugin
         civityharvester=ckanext.civity.harvesters:CivityHarvester
+
+        civity_harvest=ckanext.civity_harvest.plugin:CivityHarvestPlugin
+        civity_dcat_json_harvester=ckanext.civity_harvest.harvesters:CivityDCATJSONHarvester
+        civity_csw_harvester=ckanext.civity_harvest.harvesters:CivityCSWHarvester
+        civity_ua = ckanext.useragent.plugin:UseragentPlugin
+        civity_spatial = ckanext.civityspatial.plugin:CivitySpatialPlugin
+        civity_metadataquality = ckanext.civity_metadataquality.plugin:MetaDataQualityPlugin
+
 
         [babel.extractors]
         ckan = ckan.lib.extract:extract_ckan

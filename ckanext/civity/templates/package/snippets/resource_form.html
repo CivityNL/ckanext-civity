@@ -1,0 +1,11 @@
+{% ckan_extends %}
+
+{#
+  Monkey Patched for https://civity.atlassian.net/browse/DEV-2376
+  Awaiting the resolution of the issue -->  https://github.com/ckan/ckan/pull/5336
+  Will be solved when the following branch is merged --> https://github.com/ckan/ckan/pull/5336
+#}
+
+{% block previous_button %}
+  <a href="{{ h.url_for(controller='package', action='edit', id=pkg_name) }}" class="btn btn-default">{{ _('Previous') }}</a>
+{% endblock %}

@@ -1,14 +1,39 @@
-# civity-js:
-#   filter: rjsmin
-#   output: ckanext-civity/%(version)s-civity.js
-#   contents:
-#     - js/civity.js
-#   extra:
-#     preload:
-#       - base/main
+civity_css:
+  output: ckanext-civity/%(version)s_civity_css.css
+  contents:
+    - civity.css
 
-# civity-css:
-#   filter: cssrewrite
-#   output: ckanext-civity/%(version)s-civity.css
-#   contents:
-#     - css/civity.css
+jquery_ui_css:
+  output: ckanext-civity/%(version)s_jquery_ui_css.css
+  contents:
+    - jquery-ui.css
+
+jquery_ui_structure_css:
+  output: ckanext-civity/%(version)s_jquery_ui_structure_css.css
+  contents:
+    - jquery-ui.structure.css
+
+jquery_ui_theme_css:
+  output: ckanext-civity/%(version)s_jquery_ui_theme_css.css
+  contents:
+    - jquery-ui.theme.css
+
+datepicker_js:
+  output: ckanext-civity/%(version)s_datepicker_js.js
+  contents:
+    - datepicker.js
+
+jquery_ui_js:
+  output: ckanext-civity/%(version)s_jquery_ui_js.js
+  contents:
+    - jquery-ui.js
+
+select_boolean_child_js:
+  output: ckanext-civity/%(version)s_select_boolean_child_js.js
+  contents:
+    - select_boolean_child.js
+
+select_child_js:
+  output: ckanext-civity/%(version)s_select_child_js.js
+  contents:
+    - select_child.js

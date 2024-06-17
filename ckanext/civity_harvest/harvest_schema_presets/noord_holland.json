@@ -1,0 +1,275 @@
+{
+  "about": "Dataset",
+  "about_url": "dataset",
+  "dataset_type": "all",
+  "scheming_version": 1,
+  "dataset_fields": [
+    {
+      "field_name": "title",
+      "harmonized_field_name": "title",
+      "harmonized_default_value": "Naamloze dataset",
+      "required": true
+    },
+    {
+      "field_name": "name",
+      "harmonized_field_name": "name",
+      "harmonized_default_value": "None",
+      "required": true
+    },
+    {
+      "field_name": "owner_org",
+      "harmonized_field_name": "owner_org",
+      "harmonized_default_value": "Noord Holland",
+      "required": true
+    },
+    {
+      "field_name": "notes",
+      "harmonized_field_name": "notes",
+      "harmonized_default_value": "Geen beschrijving",
+      "required": true
+    },
+    {
+      "field_name": "tags",
+      "harmonized_field_name": "tags",
+      "harmonized_default_value": [
+        {
+          "name": "opendata"
+        }
+      ],
+      "required": true
+    },
+    {
+      "field_name": "access_rights",
+      "harmonized_field_name": "access_rights",
+      "harmonized_value_mapping": {
+        "http://publications.europa.eu/resource/authority/access-right/RESTRICTED": "http://publications.europa.eu/resource/authority/access-right/RESTRICTED",
+        "http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC": "http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC",
+        "Openbaar": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "http://publications.europa.eu/resource/authority/access-right/PUBLIC": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "Volledig Open": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "open": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "Public": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "Beschikbaar": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "harmonized_default_value": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+      "required": true
+    },
+    {
+      "field_name": "authority",
+      "harmonized_field_name": "authority",
+      "harmonized_value_mapping": {},
+      "harmonized_default_value": "http://standaarden.overheid.nl/owms/terms/Noord-Holland",
+      "required": true
+    },
+    {
+      "field_name": "contact-email",
+      "harmonized_field_name": "contact_point_email",
+      "harmonized_default_value": "niet gevonden",
+      "required": true
+    },
+    {
+      "field_name": {
+        "responsible-party": [
+          {
+            "key": "name"
+          }
+        ]
+      },
+      "harmonized_field_name": "contact_point_name",
+      "harmonized_default_value": "Noord Holland",
+      "required": true
+    },
+    {
+      "field_name": "language",
+      "harmonized_field_name": "language",
+      "harmonized_default_value": "http://publications.europa.eu/resource/authority/language/NLD",
+      "harmonized_value_mapping": {
+        "EN": "http://publications.europa.eu/resource/authority/language/ENG",
+        "NL": "http://publications.europa.eu/resource/authority/language/NLD",
+        "Nederland": "http://publications.europa.eu/resource/authority/language/NLD",
+        "Dutch": "http://publications.europa.eu/resource/authority/language/NLD",
+        "dutch": "http://publications.europa.eu/resource/authority/language/NLD",
+        "dut": "http://publications.europa.eu/resource/authority/language/NLD",
+        "nederlands": "http://publications.europa.eu/resource/authority/language/NLD",
+        "English": "http://publications.europa.eu/resource/authority/language/ENG",
+        "Frisian": "http://publications.europa.eu/resource/authority/language/FRY"
+      },
+      "required": true
+    },
+    {
+      "field_name": "licence",
+      "harmonized_field_name": "license_id",
+      "harmonized_value_mapping": {},
+      "harmonized_default_value": "http://www.opendefinition.org/licenses/cc-zero",
+      "required": true
+    },
+    {
+      "field_name": "metadata-language",
+      "harmonized_field_name": "metadata_language",
+      "harmonized_default_value": "http://publications.europa.eu/resource/authority/language/NLD",
+      "harmonized_value_mapping": {
+        "EN": "http://publications.europa.eu/resource/authority/language/ENG",
+        "NL": "http://publications.europa.eu/resource/authority/language/NLD",
+        "Nederland": "http://publications.europa.eu/resource/authority/language/NLD",
+        "Dutch": "http://publications.europa.eu/resource/authority/language/NLD",
+        "dutch": "http://publications.europa.eu/resource/authority/language/NLD",
+        "dut": "http://publications.europa.eu/resource/authority/language/NLD",
+        "nederlands": "http://publications.europa.eu/resource/authority/language/NLD",
+        "English": "http://publications.europa.eu/resource/authority/language/ENG",
+        "Frisian": "http://publications.europa.eu/resource/authority/language/FRY"
+      },
+      "required": true
+    },
+    {
+      "field_name": "publisher",
+      "harmonized_field_name": "publisher",
+      "harmonized_default_value": "http://standaarden.overheid.nl/op/terms/overig",
+      "required": true
+    },
+    {
+      "field_name": "theme",
+      "harmonized_field_name": "theme",
+      "harmonized_default_value": "http://standaarden.overheid.nl/owms/terms/Bestuur",
+      "harmonized_value_mapping": {
+        "bestuur": "http://standaarden.overheid.nl/owms/terms/Bestuur",
+        "cultuur-en": "http://standaarden.overheid.nl/owms/terms/Cultuur_en_recreatie",
+        "economie": "http://standaarden.overheid.nl/owms/terms/Economie",
+        "financien": "http://standaarden.overheid.nl/owms/terms/Financien",
+        "huisvesting": "http://standaarden.overheid.nl/owms/terms/Huisvesting_(thema)",
+        "landbouw": "http://standaarden.overheid.nl/owms/terms/Landbouw_(thema)",
+        "migratie-en-integratie": "http://standaarden.overheid.nl/owms/terms/Migratie_en_integratie",
+        "natuur-en-milieu": "http://standaarden.overheid.nl/owms/terms/Natuur_en_milieu",
+        "onderwijs-en-wetenschap": "http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap",
+        "openbare": "http://standaarden.overheid.nl/owms/terms/Openbare_orde_en_veiligheid",
+        "recht": "http://standaarden.overheid.nl/owms/terms/Recht_(thema)",
+        "ruimte-en-infrastructuur": "http://standaarden.overheid.nl/owms/terms/Ruimte_en_infrastructuur",
+        "sociale-zekerheid": "http://standaarden.overheid.nl/owms/terms/Sociale_zekerheid",
+        "verkeer": "http://standaarden.overheid.nl/owms/terms/Verkeer_(thema)",
+        "werk": "http://standaarden.overheid.nl/owms/terms/Werk_(thema)",
+        "zorg-en-gezondheid": "http://standaarden.overheid.nl/owms/terms/Zorg_en_gezondheid",
+        "farming": "http://standaarden.overheid.nl/owms/terms/Landbouw_(thema)",
+        "biota": "http://standaarden.overheid.nl/owms/terms/Natuur_en_milieu",
+        "boundaries": "http://standaarden.overheid.nl/owms/terms/Bestuur",
+        "climatologyMeteorologyAtmosphere": "http://standaarden.overheid.nl/owms/terms/Natuur_en_milieu",
+        "economy": "http://standaarden.overheid.nl/owms/terms/Economie",
+        "elevation": "http://standaarden.overheid.nl/owms/terms/Ruimte_en_infrastructuur",
+        "environment": "http://standaarden.overheid.nl/owms/terms/Natuur_en_milieu",
+        "geoscientificInformation": "http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap",
+        "health": "http://standaarden.overheid.nl/owms/terms/Zorg_en_gezondheid",
+        "imageryBaseMapsEarthCover": "http://standaarden.overheid.nl/owms/terms/Ruimte_en_infrastructuur",
+        "intelligenceMilitary": "http://standaarden.overheid.nl/owms/terms/Openbare_orde_en_veiligheid",
+        "inlandWaters": "http://standaarden.overheid.nl/owms/terms/Ruimte_en_infrastructuur",
+        "location": "http://standaarden.overheid.nl/owms/terms/Ruimte_en_infrastructuur",
+        "oceans": "http://standaarden.overheid.nl/owms/terms/Natuur_en_milieu",
+        "planningCadastre": "http://standaarden.overheid.nl/owms/terms/Ruimte_en_infrastructuur",
+        "society": "http://standaarden.overheid.nl/owms/terms/Cultuur_en_recreatie",
+        "structure": "http://standaarden.overheid.nl/owms/terms/Ruimte_en_infrastructuur",
+        "transportation": "http://standaarden.overheid.nl/owms/terms/Verkeer_(thema)",
+        "utilitiesCommunication": "http://standaarden.overheid.nl/owms/terms/Ruimte_en_infrastructuur"
+      },
+      "required": true
+    },
+    {
+      "field_name": "frequency-of-update",
+      "harmonized_field_name": "update_frequency",
+      "harmonized_value_mapping": {},
+      "harmonized_default_value": "onbekend",
+      "required": true
+    },
+    {
+      "field_name": "geoserver_link_enabled",
+      "harmonized_field_name": "geoserver_link_enabled",
+      "harmonized_default_value": "False",
+      "required": true
+    },
+    {
+      "field_name": "geonetwork_link_enabled",
+      "harmonized_field_name": "geonetwork_link_enabled",
+      "harmonized_default_value": "False",
+      "required": true
+    },
+    {
+      "field_name": "donl_link_enabled",
+      "harmonized_field_name": "donl_link_enabled",
+      "harmonized_default_value": "False",
+      "required": true
+    }
+  ],
+  "resource_fields": [
+    {
+      "field_name": "name",
+      "harmonized_field_name": "name",
+      "harmonized_default_value": "Naamloze bron",
+      "required": true
+    },
+    {
+      "field_name": "description",
+      "harmonized_field_name": "description",
+      "harmonized_default_value": "Geen beschrijving",
+      "required": true
+    },
+    {
+      "field_name": "url",
+      "harmonized_field_name": "url"
+    },
+    {
+      "field_name": "format",
+      "harmonized_field_name": "format",
+      "harmonized_default_value": "None",
+      "required": true
+    },
+    {
+      "field_name": "language",
+      "harmonized_field_name": "language",
+      "harmonized_value_mapping": {
+        "EN": "http://publications.europa.eu/resource/authority/language/ENG",
+        "NL": "http://publications.europa.eu/resource/authority/language/NLD",
+        "Nederland": "http://publications.europa.eu/resource/authority/language/NLD",
+        "Dutch": "http://publications.europa.eu/resource/authority/language/NLD",
+        "dutch": "http://publications.europa.eu/resource/authority/language/NLD",
+        "dut": "http://publications.europa.eu/resource/authority/language/NLD",
+        "nederlands": "http://publications.europa.eu/resource/authority/language/NLD",
+        "English": "http://publications.europa.eu/resource/authority/language/ENG",
+        "Frisian": "http://publications.europa.eu/resource/authority/language/FRY"
+      },
+      "harmonized_default_value": "http://publications.europa.eu/resource/authority/language/NLD",
+      "required": true
+    },
+    {
+      "field_name": "layer_srid",
+      "harmonized_field_name": "layer_srid",
+      "harmonized_default_value": null,
+      "required": false
+    },
+    {
+      "field_name": "layer_extent",
+      "harmonized_field_name": "layer_extent",
+      "harmonized_default_value": null,
+      "required": false
+    },
+    {
+      "field_name": "ows_url",
+      "harmonized_field_name": "ows_url",
+      "harmonized_default_value": null,
+      "required": false
+    },
+    {
+      "field_name": "ows_layer",
+      "harmonized_field_name": "ows_layer",
+      "harmonized_default_value": null,
+      "required": false
+    },
+    {
+      "field_name": "wms_url",
+      "harmonized_field_name": "wms_url",
+      "harmonized_default_value": null,
+      "required": false
+    },
+    {
+      "field_name": "wfs_url",
+      "harmonized_field_name": "wfs_url",
+      "harmonized_default_value": null,
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{% ckan_extends %}
+
+{% block secondary_content %}
+
+  {{ super() }}
+
+  {% if 'civity_metadataquality' in pkg %}
+    {% block package_metadata_quality %}
+      {% snippet "snippets/civity_metadataquality.html", pkg_dict=pkg %}
+    {% endblock %}
+  {% endif %}
+
+{% endblock %}

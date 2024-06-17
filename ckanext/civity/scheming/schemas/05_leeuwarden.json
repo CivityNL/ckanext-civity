@@ -1,0 +1,832 @@
+{
+  "scheming_version": 1,
+  "dataset_type": "all",
+  "about": "Dataset",
+  "about_url": "dataset",
+  "dataset_fields": [
+    {
+      "field_name": "title",
+      "sort_order": 1,
+      "help_inline": true,
+      "help_text": {
+        "en": "The title of the dataset [ckan]",
+        "nl": "Korte beschrijving van de vermelding.",
+        "sv": "Datamängdens namn. Denna egenskap kan upprepas för parallella språkversioner av namnet."
+      }
+    },
+    {
+      "field_name": "name",
+      "sort_order": 2
+    },
+    {
+      "field_name": "notes",
+      "sort_order": 3,
+      "help_inline": true,
+      "help_text": {
+        "en": "The description of the dataset [ckan]",
+        "nl": "Uitgebreide beschrijving van de vermelding",
+        "sv": "Datamängdens beskrivning. Denna egenskap kan upprepas för parallella språkversioner av beskrivningen."
+      }
+    },
+    {
+      "field_name": "tag_string",
+      "sort_order": 4,
+      "help_inline": true,
+      "help_text": {
+        "en": "Keywords to describe the dataset [ckan]",
+        "nl": "Trefwoorden die betrekking hebben op de vermelding.",
+        "sv": "Egenskapen innehåller ett nyckelord som beskriver datamängden"
+      }
+    },
+    {
+      "field_name": "vermelding_type",
+      "sort_order": 4,
+      "choices": [
+        {
+          "value": "bi_rapportage",
+          "label": "BI Rapportage"
+        },
+        {
+          "value": "bronbestand",
+          "label": "Bronbestand"
+        },
+        {
+          "value": "dashboard",
+          "label": "Dashboard"
+        },
+        {
+          "value": "databron",
+          "label": "Databron"
+        },
+        {
+          "value": "dataset",
+          "label": {
+            "en": "Dataset",
+            "nl": "Dataset"
+          }
+        },
+        {
+          "value": "geo_dataset",
+          "label": "Geo Dataset"
+        },
+        {
+          "value": "onderzoeksrapport",
+          "label": "Onderzoeksrapport"
+        },
+        {
+          "value": "voorspelmodel",
+          "label": "Voorspelmodel"
+        }
+      ],
+      "label": {
+        "en": "Vermelding Type",
+        "nl": "Soort vermelding"
+      }
+    },
+    {
+      "field_name": "owner_org",
+      "sort_order": 5
+    },
+    {
+      "field_name": "theme",
+      "sort_order": 7,
+      "choices_helper": "civity_donl_theme_list_choices",
+      "help_inline": true,
+      "help_text": {
+        "en": "One or more themes that describe the dataset [DCAT mandatory]",
+        "nl": "Thema waar de vermelding betrekking op heeft.",
+        "sv": "En kategori för datamängden. En datamängd kan associeras med flera teman."
+      }
+    },
+    {
+      "field_name": "subtheme",
+      "choices": [
+        {
+          "parent": "Geen Thema",
+          "value": "geen-subtheme",
+          "label": "Geen Subthema"
+        },
+        {
+          "parent": "Bestuur & Politiek",
+          "value": "rijksoverheid",
+          "label": "Rijksoverheid"
+        },
+        {
+          "parent": "Bestuur & Politiek",
+          "value": "waterschappen",
+          "label": "Waterschappen"
+        },
+        {
+          "parent": "Bestuur & Politiek",
+          "value": "organisatie & beleid",
+          "label": "Organisatie & Beleid"
+        },
+        {
+          "parent": "Bestuur & Politiek",
+          "value": "provincie",
+          "label": "Provincie"
+        },
+        {
+          "parent": "Bevolking",
+          "value": "migratie",
+          "label": "Migratie"
+        },
+        {
+          "parent": "Bevolking",
+          "value": "integratie",
+          "label": "Integratie"
+        },
+        {
+          "parent": "Cultuur",
+          "value": "media",
+          "label": "Media"
+        },
+        {
+          "parent": "Cultuur",
+          "value": "religie",
+          "label": "Religie"
+        },
+        {
+          "parent": "Cultuur",
+          "value": "musea & kunst",
+          "label": "Musea & kunst"
+        },
+        {
+          "parent": "Cultuur",
+          "value": "monumenten",
+          "label": "Monumenten"
+        },
+        {
+          "parent": "Dienstverlening",
+          "value": "afval",
+          "label": "Afval"
+        },
+        {
+          "parent": "Dienstverlening",
+          "value": "melddesk",
+          "label": "Melddesk"
+        },
+        {
+          "parent": "Dienstverlening",
+          "value": "onderhoud",
+          "label": "Onderhoud"
+        },
+        {
+          "parent": "Economie",
+          "value": "industrie",
+          "label": "Industrie"
+        },
+        {
+          "parent": "Economie",
+          "value": "ondernemen",
+          "label": "Ondernemen"
+        },
+        {
+          "parent": "Economie",
+          "value": "overig",
+          "label": "Overig"
+        },
+        {
+          "parent": "Economie",
+          "value": "transport",
+          "label": "Transport"
+        },
+        {
+          "parent": "Economie",
+          "value": "handel",
+          "label": "Handel"
+        },
+        {
+          "parent": "Economie",
+          "value": "markttoezicht",
+          "label": "Markttoezicht"
+        },
+        {
+          "parent": "Financiën",
+          "value": "financieel toezicht",
+          "label": "Financieel toezicht"
+        },
+        {
+          "parent": "Financiën",
+          "value": "begroting",
+          "label": "Begroting"
+        },
+        {
+          "parent": "Financiën",
+          "value": "inkomensbeleid",
+          "label": "Inkomensbeleid"
+        },
+        {
+          "parent": "Financiën",
+          "value": "belasting",
+          "label": "Belasting"
+        },
+        {
+          "parent": "Gezondheid & Welzijn",
+          "value": "zorg",
+          "label": "Zorg"
+        },
+        {
+          "parent": "ICT",
+          "value": "systemen",
+          "label": "Systemen"
+        },
+        {
+          "parent": "ICT",
+          "value": "netwerken",
+          "label": "Netwerken"
+        },
+        {
+          "parent": "Internationaal",
+          "value": "Europa",
+          "label": "Europa"
+        },
+        {
+          "parent": "Internationaal",
+          "value": "ontwikkelingssamenwerking",
+          "label": "Ontwikkelingssamenwerking"
+        },
+        {
+          "parent": "Internationaal",
+          "value": "internationale samenwerking",
+          "label": "Internationale samenwerking"
+        },
+        {
+          "parent": "Landbouw",
+          "value": "voedselkwaliteit",
+          "label": "Voedselkwaliteit"
+        },
+        {
+          "parent": "Landbouw",
+          "value": "dieren",
+          "label": "Dieren"
+        },
+        {
+          "parent": "Landbouw",
+          "value": "planten",
+          "label": "Planten"
+        },
+        {
+          "parent": "Natuur & Milieu",
+          "value": "luchtkwaliteit",
+          "label": "Luchtkwaliteit"
+        },
+        {
+          "parent": "Natuur & Milieu",
+          "value": "langschapsbeheer",
+          "label": "Langschapsbeheer"
+        },
+        {
+          "parent": "Natuur & Milieu",
+          "value": "bodem",
+          "label": "Bodem"
+        },
+        {
+          "parent": "Onderwijs",
+          "value": "basisonderwijs",
+          "label": "Basisonderwijs"
+        },
+        {
+          "parent": "Onderwijs",
+          "value": "speciaal onderwijs",
+          "label": "Speciaal onderwijs"
+        },
+        {
+          "parent": "Onderwijs",
+          "value": "voortgezet onderwijs",
+          "label": "Voortgezet onderwijs"
+        },
+        {
+          "parent": "Onderwijs",
+          "value": "MBO",
+          "label": "MBO"
+        },
+        {
+          "parent": "Onderwijs",
+          "value": "HBO & WO",
+          "label": "HBO & WO"
+        },
+        {
+          "parent": "Ruimtelijke ordening",
+          "value": "infrastructuur",
+          "label": "Infrastructuur"
+        },
+        {
+          "parent": "Ruimtelijke ordening",
+          "value": "ruimte",
+          "label": "Ruimte"
+        },
+        {
+          "parent": "Ruimtelijke ordening",
+          "value": "verkeer",
+          "label": "Verkeer"
+        },
+        {
+          "parent": "Ruimtelijke ordening",
+          "value": "geo-informatie",
+          "label": "Geo-informatie"
+        },
+        {
+          "parent": "Ruimtelijke ordening",
+          "value": "waterbeheer",
+          "label": "Waterbeheer"
+        },
+        {
+          "parent": "Veiligheid & Openbare Orde",
+          "value": "Recht",
+          "label": "Recht"
+        },
+        {
+          "parent": "Veiligheid & Openbare Orde",
+          "value": "hulpdiensten",
+          "label": "Hulpdiensten"
+        },
+        {
+          "parent": "Veiligheid & Openbare Orde",
+          "value": "criminaliteit",
+          "label": "Criminaliteit"
+        },
+        {
+          "parent": "Veiligheid & Openbare Orde",
+          "value": "overlast",
+          "label": "Overlast"
+        },
+        {
+          "parent": "Werk & Inkomen",
+          "value": "werkgelegenheid",
+          "label": "Werkgelegenheid"
+        },
+        {
+          "parent": "Werk & Inkomen",
+          "value": "werkloosheid",
+          "label": "Werkloosheid"
+        },
+        {
+          "parent": "Werk & Inkomen",
+          "value": "sociale zaken",
+          "label": "Sociale zaken"
+        },
+        {
+          "parent": "Werk & Inkomen",
+          "value": "arbeidsongeschiktheid",
+          "label": "Arbeidsongeschiktheid"
+        },
+        {
+          "parent": "Werk & Inkomen",
+          "value": "inkomen",
+          "label": "Inkomen"
+        },
+        {
+          "parent": "Woningen & Gebouwen",
+          "value": "bouwnijverheid",
+          "label": "Bouwnijverheid"
+        },
+        {
+          "parent": "Woningen & Gebouwen",
+          "value": "bouwen & verbouwen",
+          "label": "Bouwen & verbouwen"
+        },
+        {
+          "parent": "Woningen & Gebouwen",
+          "value": "Huren & verhuren",
+          "label": "huren & verhuren"
+        },
+        {
+          "parent": "Woningen & Gebouwen",
+          "value": "Kopen & verkopen",
+          "label": "kopen & verkopen"
+        }
+      ],
+      "sort_order": 8,
+      "help_inline": true,
+      "help_text": {
+        "en": "Subtheme to which the data product relates to. [DCAT recommended]",
+        "nl": "Subthema waar de vermelding betrekking op heeft.",
+        "sv": "NA"
+      }
+    },
+    {
+      "field_name": "municipal_theme",
+      "sort_order": 10,
+      "form_snippet": "text.html",
+      "display_snippet": "text.html",
+      "label": {
+        "en": "Municipal Theme",
+        "nl": "Gemeentelijk Thema"
+      },
+      "help_inline": true,
+      "help_text": {
+        "en": "Municipal Theme",
+        "nl": "Gemeentelijk thema waar de vermelding betrekking op heeft.",
+        "sv": "NA"
+      },
+      "required": false,
+      "group": "language_theme"
+    },
+    {
+      "field_name": "publisher_user",
+      "sort_order": 9,
+      "required": false,
+      "preset": "select",
+      "choices_helper": "catalog_user_list_choices",
+      "default_value": "logged_in_user",
+      "label": {
+        "en": "Publisher User",
+        "nl": "Publiceerder Gebruiker"
+      },
+      "form_attrs": {
+        "data-module": "autocomplete"
+      }
+    },
+    {
+      "field_name": "publisher",
+      "sort_order": 10,
+      "default_value": "http://standaarden.overheid.nl/owms/terms/Leeuwarden_(gemeente)",
+      "help_inline": true,
+      "help_text": {
+        "en": "Subtheme to which the data product relates to. [DCAT recommended]",
+        "nl": "Organisatie verantwoordelijk voor het beschikbaar stellen van de vermelding.",
+        "sv": "NA"
+      }
+    },
+    {
+      "field_name": "authority",
+      "sort_order": 11,
+      "default_value": "http://standaarden.overheid.nl/owms/terms/Leeuwarden_(gemeente)",
+      "help_inline": true,
+      "help_text": {
+        "en": "Subtheme to which the data product relates to. [DCAT recommended]",
+        "nl": "Verantwoordelijke organisatie voor de vermelding.",
+        "sv": "NA"
+      }
+    },
+    {
+      "field_name": "contact_point_type",
+      "sort_order": 12,
+      "default_value": "organization"
+    },
+    {
+      "field_name": "contact_point_name",
+      "sort_order": 13
+    },
+    {
+      "field_name": "contact_point_email",
+      "sort_order": 14
+    },
+    {
+      "field_name": "temporal_start",
+      "sort_order": 15,
+      "help_text": {
+        "en": "A point in time, together with temporal_end it describes a period in time [DCAT recommended]",
+        "nl": "Begindatum van de vermelding",
+        "sv": "Startdatum för den period då datamängden innehåller data. [DCAT rekommenderad]"
+      },
+      "label": {
+        "en": "Temporal start",
+        "nl": "Begindatum",
+        "sv": "Startdatum"
+      },
+      "preset": "date",
+      "required": false,
+      "group": "version"
+    },
+    {
+      "field_name": "temporal_end",
+      "sort_order": 16,
+      "help_inline": true,
+      "help_text": {
+        "en": "A point in time, together with temporal_start it describes a period in time [DCAT recommended]",
+        "nl": "Einddatum van de vermelding; tot wanneer kan het gebruikt worden?",
+        "sv": "Den tidsperiod som täcker datasetet."
+      }
+    },
+    {
+      "field_name": "dataset_status",
+      "sort_order": 17,
+      "help_inline": true,
+      "help_text": {
+        "en": "Status van de vermelding",
+        "nl": "Status van de vermelding",
+        "sv": "NA"
+      }
+    },
+    {
+      "field_name": "issued",
+      "default_value": "now",
+      "sort_order": 18,
+      "help_inline": true,
+      "help_text": {
+        "en": "Date on which the dataset was published [DCAT recommended]",
+        "nl": "Datum waarop de vermelding is gepubliceerd",
+        "sv": "Egenskapen anger datamängdens utgivningsdatum."
+      }
+    },
+    {
+      "field_name": "update_frequency",
+      "sort_order": 19,
+      "default_value": "onregelmatig"
+    },
+    {
+      "field_name": "spatial_scheme",
+      "sort_order": 1,
+      "default_value": "http://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/overheid.gemeente",
+      "label": {
+        "en": "Spatial Scheme",
+        "nl": "Wijze van coderen",
+        "sv": "Namngivet geografiskt område"
+      },
+      "help_inline": true,
+      "help_text": {
+        "en": "Kies de manier van coderen voor de locatie",
+        "nl": "Kies de manier van coderen voor de locatie",
+        "sv": "Det geografiska området som omfattas av datamängden. Det rekommenderas att använda Geonames URI:er i följande form: http://sws.geonames.org/6695072"
+      },
+      "group": "geo"
+    },
+    {
+      "field_name": "spatial_value",
+      "sort_order": 2,
+      "label": {
+        "en": "Spatial value",
+        "nl": "Locatie"
+      },
+      "default_value": "http://standaarden.overheid.nl/owms/terms/Leeuwarden_(gemeente)",
+      "help_inline": true,
+      "help_text": {
+        "en": "Geografische locatie. Notatie volgens de wijze van coderen",
+        "nl": "Geografische locatie. Notatie volgens de wijze van coderen.",
+        "sv": "NA"
+      },
+      "group": "geo"
+    },
+    {
+      "field_name": "geo_ref_system",
+      "default_value": "RD (28992)",
+      "sort_order": 30,
+      "label": {
+        "en": "Reference system",
+        "nl": "Coördinaatsysteem",
+        "sv": "Reference system"
+      },
+      "help_text": {
+        "en": "Coordinate system source. [NGR]",
+        "nl": "Ruimtelijk referentiesysteem databron. [NGR]",
+        "sv": "Coordinate system source."
+      }
+    },
+    {
+      "field_name": "geo_datatype",
+      "harmonized_field_name": "geo_datatype",
+      "label": {
+        "en": "Geo datatype",
+        "nl": "Geo datatype",
+        "sv": "Geo datatype"
+      },
+      "preset": "select",
+      "choices": [
+        {
+          "value": "Vector",
+          "label": "Vector"
+        },
+        {
+          "value": "Raster",
+          "label": "Raster"
+        }
+      ],
+      "form_include_blank_choice": true,
+      "required": false,
+      "sort_order": 3,
+      "group": "geo"
+    },
+    {
+      "field_name": "denominator",
+      "sort_order": 4
+    },
+    {
+      "field_name": "geometric_accuracy",
+      "harmonized_field_name": "geometric_accuracy",
+      "label": {
+        "en": "Geometric Accuracy",
+        "nl": "Geometrische nauwkeurigheid",
+        "sv": "Geometric Accuracy"
+      },
+      "form_snippet": "text.html",
+      "display_snippet": "text.html",
+      "help_inline": true,
+      "help_text": {
+        "en": "Enter the maximum deviation of the x and y coordinates from the actual place on earth expressed in centimeters",
+        "nl": "Vul de maximale afwijking van de x- en y-coördinaten ten opzichte van de werkelijk plaats op aarde uitgedrukt in centimeters"
+      },
+      "required": false,
+      "group": "geo"
+    },
+    {
+      "field_name": "bounding_box",
+      "default_value": "[177973.5531, 562161.1319, 192548.3596, 584230.6541]",
+      "sort_order": 31
+    },
+    {
+      "field_name": "resolution",
+      "sort_order": 29,
+      "label": {
+        "en": "Resolution",
+        "nl": "Rasterresolutie"
+      }
+    },
+    {
+      "field_name": "denominator",
+      "sort_order": 28
+    },
+    {
+      "field_name": "source",
+      "sort_order": 24
+    },
+    {
+      "field_name": "privacy_sensitive",
+      "sort_order": 25,
+      "help_inline": true,
+      "help_text": {
+        "en": "Indicate whether personal data and / or privacy-sensitive data are included in this dataset.",
+        "nl": "Geef aan of in deze vermelding persoonsgegevens en/of privacygevoelige gegevens zijn opgenomen."
+      }
+    },
+    {
+      "field_name": "license_id",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "language",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "metadata_language",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "access_rights",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "changetype",
+      "preset": "hidden_in_form"
+    },
+    {
+      "field_name": "date_planned",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "version",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "version_notes",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "glo",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "quality",
+      "sort_order": 26,
+      "required": false,
+      "form_snippet": "text.html",
+      "display_snippet": "text.html",
+      "label": {
+        "en": "Quality",
+        "nl": "Kwaliteit"
+      },
+      "help_inline": true,
+      "help_text": {
+        "en": "Description of the quality of the data.",
+        "nl": "Beschrijving  van  de  kwaliteit  van  de  data.  Bijvoorbeeld:  is  er  sprake  van  dubbele  records,  verplichte  velden  die  leeg  zijn  etc."
+      }
+    },
+    {
+      "field_name": "geonetwork_link_enabled",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "donl_link_enabled",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "geoserver_link_enabled",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "dataplatform_link_enabled",
+      "classes": [
+        "hidden"
+      ]
+    }
+  ],
+  "resource_fields": [
+    {
+      "field_name": "name",
+      "form_snippet": "text.html",
+      "default_value": "same_as_package_title"
+    },
+    {
+      "field_name": "description",
+      "default_value": "same_as_package_notes"
+    },
+    {
+      "field_name": "language",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "metadata_language",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "resource_status",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "linked_schemas",
+      "classes": [
+        "hidden"
+      ]
+    },
+    {
+      "field_name": "download_url",
+      "classes": [
+        "hidden"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "field_name": "basic_info",
+      "label": {
+        "en": "General Information",
+        "nl": "Basisinformatie"
+      },
+      "sort_order": 1,
+      "accordion_expanded": true
+    },
+    {
+      "field_name": "language_theme",
+      "label": {
+        "en": "Language & Theme",
+        "nl": "Thema’s"
+      },
+      "sort_order": 2,
+      "accordion_expanded": true
+    },
+    {
+      "field_name": "contact",
+      "label": {
+        "en": "Contact Details",
+        "nl": "Contactgegevens"
+      },
+      "sort_order": 3,
+      "accordion_expanded": true
+    },
+    {
+      "field_name": "version",
+      "label": {
+        "en": "Version Management",
+        "nl": "Versiebeheer"
+      },
+      "sort_order": 4
+    },
+    {
+      "field_name": "geo",
+      "label": {
+        "en": "GEO Information",
+        "nl": "GEO Informatie"
+      },
+      "sort_order": 5
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{% ckan_extends %}
+{% block package_metadata_fields_visibility %}
+  {% set private_required = not h.check_config_permission('create_unowned_dataset') or h.scheming_field_required(field) %}
+  <div class="control-group form-group control-medium">
+    <label for="field-private" class="control-label">{% if private_required %}<span title="{{ _("This field is required") }}" class="control-required">*</span> {% endif %}{{ _('Visibility') }}</label>
+    <div class="controls">
+      <select id="field-private" name="private" class="form-control">
+        {% for option in [('False', _('Public')), ('True', _('Private'))] %}
+        <option value="{{ option[0] }}" {% if option[0] == data.private|trim %}selected="selected"{% endif %}>{{ option[1] }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  </div>
+{% endblock %}

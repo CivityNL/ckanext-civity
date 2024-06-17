@@ -1,0 +1,40 @@
+{% ckan_extends %}
+
+{% set excluded_types = h.civity_exclude_activity_types() %}
+{% set activities_not_excluded_counter = [ ] %}
+{% for activity in activities %}
+{% if activity.type|lower not in excluded_types %}
+{% set __ = activities_not_excluded_counter.append(1) %}
+{% endif %}
+{% endfor %}
+{% set activities_not_excluded = activities_not_excluded_counter | length %}
+
+{% block activity_stream %}
+{% if activities_not_excluded > 0 %}
+<ul class="activity" data-module="activity-stream" data-module-more="{{ has_more }}"
+    data-module-context="{{ controller }}" data-module-id="{{ id }}" data-module-offset="{{ offset }}">
+    {% block activity_stream_inner %}
+    {% if offset > 0 %}
+    <li class="load-less"><a
+            href="{{ h.url_for(controller=controller, action=action, id=id, offset=(offset-30 if offset-30 > 0 else 0)) }}"
+            class="btn btn-rounded">{{ _('Load less') }}</a></li>
+    {% endif %}
+    {% for activity in activities %}
+    {% if activity.type|lower not in excluded_types %}
+    {% if loop.index <= has_more_length %}
+    {% snippet 'snippets/activity_item.html', activity=activity %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% if has_more %}
+    <li class="load-more"><a href="{{ h.url_for(controller=controller, action=action, id=id, offset=offset+30) }}"
+                             class="btn btn-rounded">{{ _('Load more') }}</a></li>
+    {% endif %}
+    {% endblock %}
+</ul>
+{% else %}
+{% block activity_stream_empty %}
+{{ super() }}
+{% endblock %}
+{% endif %}
+{% endblock %}

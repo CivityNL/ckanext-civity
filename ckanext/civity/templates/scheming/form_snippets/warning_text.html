@@ -1,0 +1,5 @@
+{% import 'macros/form.html' as form %}
+
+{%- if field.warning_text -%}
+    <p class="controls" style="color:red;"> {{ h.scheming_language_text(field.warning_text) }}</p>
+{%- endif -%}

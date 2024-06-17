@@ -1,0 +1,109 @@
+{
+  "scheming_version": 1,
+  "dataset_type": "dataset",
+  "about": "Metadata to be consumed by Portal ",
+  "about_url": "https://gitlab.onetrail.net/Civity/Dataplatform/Dataplatform_Portal",
+  "dataset_fields": [
+    {
+      "field_name": "carousel_active",
+      "label": {
+        "en": "Show in Carousel",
+        "nl": "Toon in Carrousel",
+        "sv": "Visa i karusell"
+      },
+      "display_snippet": "select.html",
+      "form_snippet": "select.html",
+      "choices": [
+        {
+          "value": false,
+          "label": {
+            "en": "No",
+            "nl": "Nee",
+            "sv": "Nej"
+          }
+        },
+        {
+          "value": true,
+          "label": {
+            "en": "Yes",
+            "nl": "Ja",
+            "sv": "Ja"
+          }
+        }
+      ],
+      "default_value": false,
+      "required": false,
+      "help_text": {
+        "en": "Show this item in the Portal Home Page Carousel/Slideshow",
+        "nl": "Toon dit item in de Portaal Homepage Carrousel/Slideshow",
+        "sv": "Visa detta objekt på portalens startsida Karusell/bildspel"
+      },
+      "group": "portal"
+    },
+    {
+      "field_name": "carousel_order",
+      "label": {
+        "en": "Order in Carousel",
+        "nl": "Volgorde in Carrousel.",
+        "sv": "Sekvens i karusellen"
+      },
+      "display_snippet": "text.html",
+      "validators": "ignore_missing int_validator",
+      "form_snippet": "text.html",
+      "required": false,
+      "help_text": {
+        "en": "Set the order in which this item will appear in the Portal Home Page Carousel/Slideshow",
+        "nl": "Stel de volgorde in waarin dit item wordt weergegeven in de Portaal Homepage Carrousel/Slideshow",
+        "sv": "Ställ in i vilken ordning det här objektet ska visas i portalens startsida karusell/bildspel"
+      },
+      "group": "portal"
+    },
+    {
+      "field_name": "carousel_image",
+      "label": {
+        "en": "Carousel image",
+        "nl": "Carrousel afbeelding",
+        "sv": "Karusellbild"
+      },
+      "validators": "ignore_missing url_checker",
+      "form_placeholder": "URL",
+      "display_snippet": "link.html",
+      "required": false,
+      "help_text": {
+        "en": "Provide an URL to an Image to use as the background in the Portal Home Page Carousel/Slideshow",
+        "nl": "Geef een URL op naar een afbeelding om te gebruiken als achtergrond in de Portaal Homepage Carrousel/Slideshow",
+        "sv": "Ange en URL till en bild som ska användas som bakgrund i portalens startsida karusell/bildspel"
+      },
+      "group": "portal"
+    },
+    {
+      "field_name": "carousel_text",
+      "label": {
+        "en": "Carousel text",
+        "nl": "Carrousel tekst",
+        "sv": "Karuselltext"
+      },
+      "display_snippet": "text.html",
+      "form_snippet": "text.html",
+      "required": false,
+      "help_text": {
+        "en": "Short text to appear in the Portal Home Page Carousel/Slideshow. When empty defaults to the Title",
+        "nl": "Korte tekst die moet verschijnen in de Portaal Homepage Carrousel/Slideshow. Wanneer leeg standaard de titel",
+        "sv": "Kort text som visas i portalens startsida karusell/bildspel. När den är tom används som standard titeln"
+      },
+      "group": "portal"
+    }
+  ],
+  "groups": [
+    {
+      "field_name": "portal",
+      "label": {
+        "en": "Portal",
+        "nl": "Portaal",
+        "sv": "Portal"
+      },
+      "sort_order": 10,
+      "accordion_expanded": false
+    }
+  ]
+}

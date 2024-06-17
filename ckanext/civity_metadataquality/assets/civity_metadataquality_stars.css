@@ -1,0 +1,15 @@
+.star-rating,
+.star-rating-stars {
+  display: inline-block;
+}
+
+.rating-star {
+  color: #009fe3;
+  float: left;
+  font-size: 1.5em;
+  padding: 0 5px;
+}
+
+.rating-star-empty {
+  color: gray;
+}

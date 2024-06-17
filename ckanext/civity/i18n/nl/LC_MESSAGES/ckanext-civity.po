@@ -1,0 +1,338 @@
+# Dutch translations for ckanext-civity.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the ckanext-civity
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-civity 0.0.2\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-03-18 11:52+0100\n"
+"PO-Revision-Date: 2020-03-18 11:54+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ckanext/civity/validators.py:83
+msgid "You cannot change the URL of an organization containing datasets"
+msgstr "U kunt de URL van een organisatie met datasets niet wijzigen"
+
+msgid "Search Organizations"
+msgstr "Doorzoek Organisaties"
+
+msgid "Search Groups"
+msgstr "Doorzoek Thema's"
+
+msgid "Size (in bytes)"
+msgstr "Bestandsgrootte (in bytes)"
+
+#: ckan/logic/action/delete.py:358
+msgid "Organization cannot be deleted while it still has datasets"
+msgstr "Organisaties kunnen niet worden verwijderd zolang er nog datasets aan gekoppeld zijn"
+
+msgid "Theme"
+msgstr "Thema"
+
+msgid "Personal Data"
+msgstr "Aanwezigheid persoonsgegevens"
+
+msgid "Are you sure you want to delete this Organization? Note*: Deleting cannot be performed while public and private datasets are belonging to this organization."
+msgstr "Weet je zeker dat je deze Organisatie wilt verwijderen? Let op: Verwijderen is niet mogelijk zolang er nog publieke en/of privé vermeldingen in de Organisatie aanwezig zijn."
+
+msgid "Are you sure you want to delete this Organization?"
+msgstr "Weet je zeker dat je deze Organisatie wilt verwijderen?"
+
+msgid "active"
+msgstr "actief"
+
+msgid "Active"
+msgstr "Actief"
+
+msgid "Update Resource"
+msgstr "Werk de bron bij"
+
+msgid "Possible reasons why you cannot see the expected statements:"
+msgstr "Mogelijke oorzaken waarom u de verwachte overzichten niet kan zien:"
+
+msgid "No file has been uploaded in this attachment"
+msgstr "Er is geen bestand geüpload in deze bijlage"
+
+msgid "An overview cannot be created for the file type of this attachment"
+msgstr "Er kan geen overzicht worden aangemaakt voor het type bestand van deze bijlage"
+
+msgid "The overview has not yet been processed"
+msgstr "Het overzicht is nog niet verwerkt"
+
+#: ckan/templates/package/snippets/resource_view.html:32
+msgid "This resource view is not available at the moment."
+msgstr "Overzicht is niet beschikbaar op dit moment"
+
+msgid "Open Data Commons Open Database License (ODbL)"
+msgstr "Open Data Commons Open Database License (ODbL)"
+
+#: ckan/model/license.py:223
+msgid "License not specified"
+msgstr "Licentie is niet gespecificeerd"
+
+#: ckan/templates/package/snippets/resource_view.html:74
+msgid "Embed resource view"
+msgstr "Bronweergave insluiten"
+
+#: ckan/templates/package/snippets/resource_view.html:77
+msgid ""
+"You can copy and paste the embed code into a CMS or blog software that "
+"supports raw HTML"
+msgstr ""
+"U kunt de insluitcode kopiëren en plakken in een CMS of blogsoftware die onbewerkte HTML ondersteunt"
+
+msgid "Reorder resource view"
+msgstr "Sorteer bijlagen overzicht"
+
+#: ckan/authz.py:230
+msgid "Editor"
+msgstr ""
+
+#: ckan/templates/organization/member_new.html:88
+msgid ""
+" <p><strong>Admin:</strong> Can add/edit and delete datasets, as well as "
+"manage organization members.</p> <p><strong>Editor:</strong> Can add and "
+"edit datasets, but not manage organization members.</p> "
+"<p><strong>Member:</strong> Can view the organization's private datasets, "
+"but not add new datasets.</p> "
+msgstr ""
+" <p><strong>Beheerder:</strong> Kan datasets toevoegen/bewerken/verwijderen en "
+"leden van organisaties beheren.</p> <p><strong>Editor:</strong> Kan datasets"
+" toevoegen en bewerken, maar kan de leden van organisaties niet beheren.</p>"
+" <p><strong>Lid:</strong> Kan de datasets van organisaties bekijken , "
+"maar niet toevoegen.</p> "
+
+msgid "Save without data"
+msgstr "Opslaan zonder data"
+
+msgid "Password reset"
+msgstr "Wachtwoordherstel"
+
+#: ckan/templates/user/request_reset.html:34
+msgid "Enter your username into the box and we will send you an email with a link to enter a new password."
+msgstr "Voer je gebruikersnaam in en wij sturen je een e-mail met een link naar een nieuw wachtwoord."
+
+#: ckan/templates/user/request_reset.html:22
+msgid "Request reset"
+msgstr "Vraag wachtwoordherstel aan"
+
+#: ckan/templates/user/perform_reset.html:45
+msgid "Simply enter a new password and we'll update your account"
+msgstr "Voer een nieuw wachtwoord in."
+
+#: ckan/views/user.py:569
+msgid ""
+"A reset link has been emailed to you (unless the account specified does not "
+"exist)"
+msgstr "Er is een reset-link naar u gemaild (tenzij het account niet bestaat)"
+
+#: ckan/controllers/user.py:527 ckan/views/user.py:600
+msgid "Invalid reset key. Please try again."
+msgstr "Ongeldige herstellink."
+
+#: ckan/views/user.py:509
+msgid "Email is required"
+msgstr "E-mail adres is verplicht"
+
+#: ckanext/user_extra/controllers/extras.py:132
+#: ckanext/user_extra/controllers/extras.py:135
+msgid "Not authorized to see this page"
+msgstr "Je bent niet geautoriseerd om deze pagina te zien."
+
+#: ckan/templates/header.html:16
+msgid "View profile"
+msgstr "Profiel"
+
+#: ckan/templates/header.html:33 ckan/templates/user/dashboard.html:16
+msgid "Edit settings"
+msgstr "Instellingen"
+
+msgid "Dataplatform is a product of:"
+msgstr "Dataplatform is een product van:"
+
+msgid "This is an introduction page for this platform."
+msgstr "Dit is een introductie pagina voor deze data platform."
+
+#: ckan/templates/header.html:9
+msgid "Sysadmin settings"
+msgstr "Systeembeheerder instellingen"
+
+#: ckan/controllers/admin.py:58 ckan/templates/admin/config.html:29
+msgid "Customisable css inserted into the page header"
+msgstr "CSS in pagina header invoegen"
+
+msgid "Introductory area, search, featured group and featured organization"
+msgstr "Introductietekst, zoeken, thema en organisatie"
+
+msgid "Search, stats, introductory area, featured organization and featured group"
+msgstr "Zoeken, statistieken, introductietekst, organisatie en thema"
+
+msgid "Search, introductory area and stats"
+msgstr "Zoeken, introductietekst en statistieken"
+
+msgid "Set send notifications"
+msgstr "Instellingen verzenden notificaties"
+
+msgid "This is the title of this CKAN instance it appears in various places throughout CKAN."
+msgstr "Dit is de titel van deze CKAN installatie. De titel verschijnt op verschillende plaatsen in de applicatie."
+
+msgid "Choose from a list of simple variations of the main colour scheme to get a very quick custom theme working."
+msgstr "Kies uit een lijst met variaties van het standaard kleurenschema."
+
+msgid "This item is currently not in use."
+msgstr "Dit onderdeel is momenteel niet in gebruik."
+
+msgid "Upload the logo of your Data Platform here."
+msgstr "Upload hier het logo van uw dataplatform."
+
+msgid "This text will appear on this CKAN instances <a href=\"{{ about_url }}\">about page</a>."
+msgstr "Deze tekst verschijnt op de <a href=\"{{ about_url }}\">\"over\" pagina</a>."
+
+msgid "This text will appear on this CKAN instances <a href=\"{{ home_url }}\">home page</a> as a welcome to visitors."
+msgstr "Deze tekst verschijnt op de <a href=\"{{ home_url }}\">\"home\" pagina</a> als welkomstboodschap voor bezoekers."
+
+msgid "This is a block of CSS that appears in <code>&lt;head&gt;</code> tag of every page. If you wish to customize the templates more fully we recommend <a href=\"{{ docs_url }}\" target=\"_blank\">reading the documentation</a>."
+msgstr "Deze CSS verschijnt in de kop <code>&lt;head&gt;</code> sectie van elke pagina. Voor het geavanceerd aanpassen van de sjablonen van CKAN verwijzen we graag naar de <a href=\"{{ docs_url }}\" target=\"_blank\">documentatie</a>."
+
+msgid "This is for choosing a predefined layout for the modules that appear on your homepage."
+msgstr "Hiermee kan worden aangegeven in welke layout en welke modules op de home pagina worden getoond."
+
+#: ckan/templates/admin/config.html:35
+msgid "Reset"
+msgstr "Annuleren"
+
+#: ckan/templates/user/read.html:22
+msgid "Create one now?"
+msgstr "Nu een vermelding aanmaken?"
+
+#: ckan/templates/user/read_base.html:39
+msgid "You have not provided a biography."
+msgstr "Je hebt geen informatie toegevoegd."
+
+#: ckan/templates/user/edit_user_form.html:10
+msgid "eg. Joe Bloggs"
+msgstr "Bijvoorbeeld: Jan de Vries"
+
+#: ckan/templates/user/edit_user_form.html:50
+msgid "Are you sure you want to regenerate the API key?"
+msgstr "Weet u zeker dat u een API key wilt genereren?"
+
+#: ckan/templates/snippets/facet_list.html:89
+msgid "There are no {facet_type} that match this search"
+msgstr "Geen resultaten gevonden"
+
+#: ckan/templates/package/edit.html:3
+msgid "This dataset is currently public. Editing this dataset will result in it becoming private again until someone of this organization publishes it again."
+msgstr "Deze vermelding is momenteel gepubliceerd. Let op: door deze vermelding te wijzigen wordt deze automatisch gedepubliceerd (privé)."
+
+#: ckan/templates/package/resources.html:3
+msgid "These resources (if any) belong to a dataset that is currently public. Any changes made here will result in the dataset becoming private again until someone of this organization publishes it again"
+msgstr "Deze bijlagen (indien aanwezig) behoren tot een vermelding die momenteel gepubliceerd is. Door deze bijlagen te wijzigen wordt deze vermelding automatisch gedepubliceerd (privé)."
+
+#: ckan/templates/package/resource_edit_base.html:3
+msgid "This resource belongs to a dataset that is currently public. Editing this resource (and thus indirectly this dataset) will result in the dataset becoming private again until someone of this organization publishes it again."
+msgstr "Deze nieuwe bijlage behoort tot een vermelding die momenteel gepubliceerd is. Door deze bijlagen toe te voegen wordt deze vermelding automatisch gedepubliceerd (privé)."
+
+#: ckan/templates/user/dashboard.html:39
+msgid "Activity from items that I'm following"
+msgstr "Laatste updates van activiteiten en vermeldingen"
+
+#: ckan/templates/activity_streams/activity_stream_items.html:23
+msgid "No activities are within this activity stream"
+msgstr "Op dit moment is er geen nieuws."
+
+#: ckan/templates/user/read.html:20
+msgid "You haven't created any datasets."
+msgstr "Je hebt geen vermeldingen aangemaakt."
+
+#: ckan/templates/user/read.html:22
+msgid "Create one now?"
+msgstr "Nu een vermelding aanmaken?"
+
+#: ckan/controllers/group.py:649
+msgid "User %r not authorized to edit members of %s"
+msgstr "Gebruiker %r heeft geen rechten voor %s"
+
+msgid "User %r not authorized to edit %s"
+msgstr "Gebruiker %r heeft geen rechten voor %s"
+
+#: ckan/templates/group/member_new.html:86
+msgid ""
+" <p><strong>Admin:</strong> Can edit group information, as well as manage "
+"organization members.</p> <p><strong>Member:</strong> Can add/remove "
+"datasets from groups</p> "
+msgstr ""
+"<p><strong>Beheerder:</strong> Kan groepsinformatie wijzigen en organisatieleden"
+" beheren.</p> <p><strong>Lid:</strong> Kan datasets toevoegen/verwijderen"
+" van groepen</p>"
+
+#: ckan/logic/action/create.py:1274
+msgid "You cannot follow yourself"
+msgstr "Je kunt niet uzelf volgen"
+
+#: ckan/templates/macros/form.html:126
+msgid ""
+"You can use <a href=\"#markdown\" title=\"Markdown quick reference\" data-"
+"target=\"popover\" data-content=\"%(markdown_tooltip)s\" data-"
+"html=\"true\">Markdown formatting</a> here"
+msgstr ""
+"Je kunt hier <a href=\"#markdown\" title=\"Markdown quick reference\" data-"
+"target=\"popover\" data-content=\"%(markdown_tooltip)s\" data-"
+"html=\"true\">Markdown formatting</a> gebruiken"
+
+msgid "Forbidden"
+msgstr "Niet geautoriseerd"
+
+msgid "Access was denied to this resource."
+msgstr "Je hebt geen toegang tot deze bron."
+
+msgid 'The resource could not be found.'
+msgstr 'De pagina kon niet worden gevonden.'
+
+msgid "Not Found"
+msgstr "Niet gevonden"
+
+msgid "Internal Server Error"
+msgstr "Interne Server Fout"
+
+msgid "This is the title of this CKAN instance. It appears in various places throughout CKAN."
+msgstr "Dit is de titel van deze CKAN installatie. De titel verschijnt op verschillende plaatsen in de applicatie."
+
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+msgid "Email address"
+msgstr "E-mail adres"
+
+#: ckan/templates/organization/members.html:14
+msgid "{len} member"
+msgid_plural "{len} members"
+msgstr[0] "{len} lid"
+msgstr[1] "{len} leden"
+
+#: ckanext/civityscheming/templates/scheming/package/snippets/resource_form.html
+#: ckanext/civityscheming/templates/scheming/package/snippets/package_form.html
+msgid "Show only required fields"
+msgstr "Toon alleen verplichte velden"
+
+msgid "Portal Intro Text:"
+msgstr "Portaal introtekst:"
+
+msgid "Portal Intro Text"
+msgstr "Portaal introtekst"
+
+msgid "Text to show in the Home page of the Portal"
+msgstr "Tekst die moet worden weergegeven op de startpagina van het portaal"
+
+msgid "This text will be loaded in the Home Page of the Portal linked to this CKAN instance."
+msgstr "Deze tekst wordt geladen op de startpagina van de portal die is gekoppeld aan deze CKAN-instantie."

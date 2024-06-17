@@ -1,0 +1,43 @@
+{% import 'macros/form.html' as form %}
+
+{% asset 'ckanext-civity/select_child_js' %}
+
+{%- set choices = h.scheming_field_choices(field) -%}
+{%- set json_choices = h.civity_choices_to_json(choices) -%}
+
+{%- set options=[] -%}
+{%- set form_restrict_choices_to=field.get('form_restrict_choices_to') -%}
+{%- if not h.scheming_field_required(field) and
+    field.get('form_include_blank_choice', false) -%}
+  {%- do options.append({'value': '', 'text': ''}) -%}
+{%- endif -%}
+{%- for c in choices -%}
+  {%- if not form_restrict_choices_to or c.value in form_restrict_choices_to -%}
+    {%- do options.append({
+      'value': c.value,
+      'text': h.scheming_language_text(c.label) }) -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if field.get('sorted_choices') -%}
+  {%- set options = options|sort(case_sensitive=false, attribute='text') -%}
+{%- endif -%}
+
+{% call form.select(
+    field.field_name,
+    id='field-' + field.field_name,
+    label=h.scheming_language_text(field.label),
+    options=options,
+    selected=data[field.field_name] if data[field.field_name] else field.get('default_value'),
+    error=errors[field.field_name],
+    classes=field.classes if 'classes' in field else ['control-medium'],
+    attrs=field.form_attrs if 'form_attrs' in field else {
+        "class": "form-control",
+        "data-module": "select_child",
+        "data-module-choices": json_choices,
+        "data-module-parent_field": field.get('parent_field', field.field_name[3:] )
+    },
+    is_required=h.scheming_field_required(field)
+    )
+%}
+    {%- snippet 'scheming/form_snippets/help_text.html', field=field -%}
+{% endcall %}

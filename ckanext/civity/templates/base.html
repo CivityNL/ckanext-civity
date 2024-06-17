@@ -1,0 +1,63 @@
+{% ckan_extends %}
+
+{%- block meta -%}
+    <meta charset="utf-8"/>
+    {% block meta_generator %}
+        <meta name="generator" content="ckan"/>{% endblock %}
+    {% block meta_viewport %}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">{% endblock %}
+{%- endblock -%}
+
+{%- block styles %}
+    {% asset 'ckanext-civity/civity_css' %}
+    {{ super() }}
+{% endblock %}
+
+{%- block scripts %}
+    {{ super() }}
+    {%- block matomo_script %}
+        {% set matomo_id = h.civity_get_matomo_id() %}
+        {% set matomo_url = h.civity_get_matomo_url() %}
+        {% set matomo_custom_url = h.civity_get_matomo_custom_url() %}
+        {% if matomo_id and matomo_url %}
+            <script type="text/javascript">
+                var _paq = window._paq || [];
+                /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+                {% if matomo_custom_url %}
+                _paq.push(['setCustomUrl', "{{ matomo_custom_url | safe }}"]);
+                {% endif %}
+                _paq.push(['trackPageView']);
+                _paq.push(['enableLinkTracking']);
+                (function () {
+                    var u = "{{ matomo_url }}";
+                    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+                    _paq.push(['setSiteId', {{ matomo_id }}]);
+                    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+                    g.type = 'text/javascript';
+                    g.async = true;
+                    g.defer = true;
+                    g.src = u + 'matomo.js';
+                    s.parentNode.insertBefore(g, s);
+                })();
+            </script>
+        {% endif %}
+    {% endblock -%}
+    {%- block siteimprove_script %}
+        {% set siteimprove_src = h.civity_get_siteimprove_src() %}
+        {% if siteimprove_src %}
+            <script type="text/javascript">
+                <![CDATA[
+                (function () {
+                    var sz = document.createElement('script');
+                    sz.type = 'text/javascript';
+                    sz.async = true;
+                    sz.src = {{ siteimprove_src }};
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(sz, s);
+                })();
+                ]]>
+            </script>
+        {% endif %}
+    {% endblock -%}
+
+{% endblock -%}

@@ -1,0 +1,17 @@
+{
+  "organization_type": "organization",
+  "fields": [
+    {
+      "field_name": "portal_intro_text",
+      "label": {
+        "en": "Portal Intro Text",
+        "nl": "Portaal introtekst"
+      },
+      "form_snippet": "markdown.html",
+      "form_placeholder": {
+        "en": "Text to show in the Home page of the Portal",
+        "nl": "Tekst die moet worden weergegeven op de startpagina van het portaal"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{% ckan_extends %}
+
+{% block save_button %}
+
+    {% block save_without_resources_button %}
+      {% if form_style != 'edit' and not h.create_on_ui_requires_resources() %}
+        <button class="btn btn-primary" style="margin-bottom: 3px;" type="submit" name="save" value="go-read">{% block save_without_resources_button_text %}{{ _('Save without data') }}{% endblock %}</button>
+      {% endif %}
+    {% endblock %}
+{{ super() }}
+{% endblock %}

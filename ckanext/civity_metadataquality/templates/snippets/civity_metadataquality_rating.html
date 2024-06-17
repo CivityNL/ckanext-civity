@@ -1,0 +1,14 @@
+{#
+Renders a set of stars
+
+field  - The field name of the metadata_quality to be used (either 'total', 'mandatory' or 'optional'
+package  - The package for which the metadata_quality belongs to
+
+    {% snippet "snippets/civity_metadataquality_rating.html", field='mandatory', package=pkg_dict %}
+
+#}
+
+{% set valid = package.civity_metadataquality[field].valid %}
+{% set number = package.civity_metadataquality[field].number %}
+
+{{ '(' ~ valid ~ '/' ~ number ~ ')' }}

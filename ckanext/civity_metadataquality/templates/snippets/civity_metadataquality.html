@@ -1,0 +1,16 @@
+{% block metadata_quality %}
+      <section class="module module-narrow module-shallow context-info">
+        {% block metadata_quality_title %}
+          <h2 class="module-heading"><i class="fa fa-check-square"></i> {{ _('Metadata Quality') }}</h2>
+        {% endblock %}
+        {% block metadata_quality_content_mandatory %}
+          <section class="module-content">
+          <p>{{ _('Mandatory Fields') }} {% snippet "snippets/civity_metadataquality_rating.html", field='mandatory', package=pkg_dict %}</p>
+          {% snippet "snippets/civity_metadataquality_stars.html", field='mandatory', package=pkg_dict %}
+          <br><br>
+          <p>{{ _('Optional Fields') }} {% snippet "snippets/civity_metadataquality_rating.html", field='optional', package=pkg_dict %}</p>
+          {% snippet "snippets/civity_metadataquality_stars.html", field='optional', package=pkg_dict %}
+          </section>
+        {% endblock %}
+      </section>
+{% endblock %}

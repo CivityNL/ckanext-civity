@@ -1,0 +1,139 @@
+{
+  "scheming_version": 1,
+  "dataset_type": "all",
+  "about": "Dataset",
+  "about_url": "dataset",
+  "dataset_fields": [
+    {
+      "field_name": "source",
+      "required": true,
+      "form_snippet": "text.html",
+      "display_snippet": "text.html",
+      "label": {
+        "en": "Source",
+        "nl": "Bron",
+        "sv": "Källa"
+      },
+      "help_inline": true,
+      "help_text": {
+        "en": "The source(s) from which the data of the data product comes.",
+        "nl": "De bron(nen) waaruit de gegevens van het dataproduct komen.",
+        "sv": "Källan/källorna från vilken data för dataprodukten kommer."
+      },
+      "group": "basic_info"
+    },
+    {
+      "field_name": "privacy_sensitive",
+      "required": true,
+      "label": {
+        "en": "Privacy sensitive",
+        "nl": "Privacy gevoelig",
+        "sv": "Integritetskänslig"
+      },
+      "preset": "select",
+      "choices": [
+        {
+          "value": "onbekend",
+          "label": {
+            "en": "Unknown",
+            "nl": "Onbekend",
+            "sv": "okänd"
+          }
+        },
+        {
+          "value": "nee",
+          "label": {
+            "en": "No",
+            "nl": "Nee",
+            "sv": "Nej"
+          }
+        },
+        {
+          "value": "ja",
+          "label": {
+            "en": "Yes",
+            "nl": "Ja",
+            "sv": "Ja"
+          }
+        }
+      ],
+      "help_inline": true,
+      "help_text": {
+        "en": "Indicate whether personal data and / or privacy-sensitive data are included in this dataset.",
+        "nl": "Geef aan of in deze dataset persoonsgegevens en/of privacygevoelige gegevens zijn opgenomen.",
+        "sv": "Ange om personuppgifter och/eller integritetskänsliga uppgifter ingår i denna datauppsättning."
+      },
+      "group": "basic_info"
+    },
+    {
+      "field_name": "glo",
+      "required": false,
+      "form_snippet": "text.html",
+      "display_snippet": "text.html",
+      "label": {
+        "en": "GLO",
+        "nl": "Gegevensleveringsovereenkomst (GLO)",
+        "sv": "GLO"
+      },
+      "help_inline": true,
+      "help_text": {
+        "en": "If the dataset is made available through a data delivery agreement, then include a reference to this document.",
+        "nl": "Indien de dataset beschikbaar wordt gesteld middels een gegevensleverovereenkomst, neem hier dan een verwijzing naar dit document op.",
+        "sv": "Om datamängden görs tillgänglig genom ett dataleveransavtal, inkludera en hänvisning till detta dokument."
+      },
+      "group": "geo"
+    },
+    {
+      "field_name": "vermelding_type",
+      "required": true,
+      "label": {
+        "en": "Vermelding Type",
+        "nl": "Vermelding Type",
+        "sv": "Listningstyp"
+      },
+      "preset": "select",
+      "choices": [
+        {
+          "value": "bi_rapportage",
+          "label": "BI Rapportage"
+        },
+        {
+          "value": "bronbestand",
+          "label": "Bronbestand"
+        },
+        {
+          "value": "dashboard",
+          "label": "Dashboard"
+        },
+        {
+          "value": "databron",
+          "label": "Databron"
+        },
+        {
+          "value": "dataset",
+          "label": {
+            "en": "Dataset",
+            "nl": "Dataset"
+          }
+        },
+        {
+          "value": "geo_dataset",
+          "label": "Geo Dataset"
+        },
+        {
+          "value": "onderzoeksrapport",
+          "label": "Onderzoeksrapport"
+        },
+        {
+          "value": "voorspelmodel",
+          "label": "Voorspelmodel"
+        },
+        {
+          "value": "kaart",
+          "label": "Kaart"
+        }
+      ],
+      "group": "basic_info"
+    }
+  ]
+}
