@@ -99,7 +99,6 @@ class CivityPlugin(plugins.SingletonPlugin, DefaultTranslation):
                 'civity_get_matomo_url': h.get_matomo_url,
                 'civity_get_matomo_custom_url': h.get_matomo_custom_url,
                 'civity_get_siteimprove_src': h.get_siteimprove_src,
-                'civity_exclude_activity_types': h.exclude_activity_types,
                 'civity_get_scheming_package_types_list': h.get_scheming_package_types_list,
                 'civity_get_now_date': h.get_now_date,
                 'civity_get_package_title': h.get_package_title,

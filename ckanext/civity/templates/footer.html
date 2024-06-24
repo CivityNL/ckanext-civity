@@ -1,27 +1,28 @@
 {% ckan_extends %}
 
+{# TODO make generic Civity footer, and not mention product name like "Dataplatform or Datacatalogus" #}
 {% block footer_content %}
-<div class="row">
-  <div class="span7">
-        <p>{{ _('Dataplatform is a product of:') }} </p>
-        <p><img src="/../../../base/images/civity-logo-footer.png"
-             align="centre" class="footerlogo" ></p>
-        <p style="font-size:90%;">Handelsweg 6, 3707 NH Zeist<br>T: +31 30 697 32 86<br>Nederland</p>
-        <p><a href="http://www.civity.nl" target="civ">www.civity.nl</a></p>
-      {% block footer_nav %}
-      {% endblock %}
-  </div>
-  <div class="span3">
-      {% block footer_attribution %}
-      {% endblock %}
-      {% block footer_lang %}
-            {% set current_url = request.environ.CKAN_CURRENT_URL %}
-            {% if current_url != '/stats' %}
-                {{ super() }}
-            {% endif %}
-      {% endblock %}
-  </div>
-</div>
+    <div class="row">
+        <div class="span7">
+            <p>{{ _('Dataplatform is a product of:') }} </p>
+            <p><img src="/../../../base/images/civity-logo-footer.png"
+                    align="centre" class="footerlogo"></p>
+            <p style="font-size:90%;">Handelsweg 6, 3707 NH Zeist<br>T: +31 30 697 32 86<br>Nederland</p>
+            <p><a href="http://www.civity.nl" target="civ">www.civity.nl</a></p>
+            {% block footer_nav %}
+            {% endblock %}
+        </div>
+        <div class="span3">
+            {% block footer_attribution %}
+            {% endblock %}
+            {% block footer_lang %}
+                {% set current_url = request.environ.CKAN_CURRENT_URL %}
+                {% if current_url != '/stats' %}
+                    {{ super() }}
+                {% endif %}
+            {% endblock %}
+        </div>
+    </div>
 
 
 {% endblock %}

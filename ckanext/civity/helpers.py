@@ -40,7 +40,6 @@ def choices_to_json(choices):
     return json.dumps(choices)
 
 
-
 def donl_language_list_choices(field):
     language_dict = vocabulary_get.get_donl_language_dict()
     choices = []
@@ -229,15 +228,6 @@ def get_siteimprove_src():
     """
     siteimprove_src = toolkit.config.get('ckanext.civity.civity.siteimprove_src', None)
     return siteimprove_src
-
-
-def exclude_activity_types():
-    """
-    Return a list of activity types to be excluded from the Activity Stream tab
-    """
-    config_option_string = toolkit.config.get('civity.exclude_activity_types', '')
-    excluded_activity_types = config_option_string.split(' ')
-    return excluded_activity_types
 
 
 def create_group_memberships_from_theme(context, pkg_dict):

@@ -4,14 +4,6 @@
   "about_url": "http://github.com/ckan/ckanext-scheming#preset",
   "presets": [
     {
-      "preset_name": "text_with_datalist",
-      "values": {
-        "form_snippet": "text_with_datalist.html",
-        "display_snippet": "text.html",
-        "validators": "scheming_required scheming_choices"
-      }
-    },
-    {
       "preset_name": "select_civity",
       "values": {
         "form_snippet": "select_civity.html",

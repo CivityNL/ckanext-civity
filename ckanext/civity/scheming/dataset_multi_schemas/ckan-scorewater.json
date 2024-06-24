@@ -45,7 +45,7 @@
       "ckanext.tracker_ckantockan_donl:scheming/schemas/tracker_ckantockan_donl_schema.json",
       "ckanext.tracker_ogr:scheming/schemas/tracker_ogr_schema.json",
       "ckanext.scorewater:scheming/schemas/scorewater_factsheet_service.json",
-      "ckanext.civity:scheming/schemas/portal.json"
+      "ckanext.portal:scheming/schemas/portal.json"
     ]
   },
   {
@@ -78,7 +78,7 @@
       "ckanext.tracker_ckantockan_donl:scheming/schemas/tracker_ckantockan_donl_schema.json",
       "ckanext.tracker_ogr:scheming/schemas/tracker_ogr_schema.json",
       "ckanext.scorewater:scheming/schemas/scorewater_dataset.json",
-      "ckanext.civity:scheming/schemas/portal.json"
+      "ckanext.portal:scheming/schemas/portal.json"
     ]
   }
 ]
