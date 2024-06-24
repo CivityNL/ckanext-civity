@@ -25,7 +25,7 @@ class CivityResourceUpload(ResourceUpload):
 
     def __init__(self, resource):
         super(CivityResourceUpload, self).__init__(resource)
-        if self.upload_file is not None and resource.get('url_type', None) is 'upload':
+        if self.upload_file is not None and resource.get('url_type', None) == 'upload':
             # read the upload_file in chunks of BUF_SIZE and update the sha1 until finished and set the hash
             sha1 = hashlib.sha1()
             while True:
