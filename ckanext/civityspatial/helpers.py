@@ -1,6 +1,5 @@
-import urllib
-import urllib2
-import urlparse
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlparse, urlencode, urlunparse, parse_qsl, parse_qs
 from lxml.etree import XMLSyntaxError
 from owslib import wfs
 from owslib import wms
@@ -103,8 +102,8 @@ def populate_metadata_from_external_ows_resource(resource_dict):
 
 
 def strip_ows_url(resource_url):
-    url_params_raw = urlparse.urlparse(resource_url).query
-    url_params_dict = dict(urlparse.parse_qsl(url_params_raw))
+    url_params_raw = urlparse(resource_url).query
+    url_params_dict = dict(parse_qsl(url_params_raw))
 
     # Name of the layer as provided by the user
     layer_name_param = url_params_dict.get('layerName', url_params_dict.get('layername'))
@@ -129,8 +128,8 @@ def strip_ows_url(resource_url):
 
 def populate_metadata_from_wms_resource_without_capabilities(resource_dict):
     resource_url = resource_dict.get('url', '')
-    url_params_raw = urlparse.urlparse(resource_url).query
-    url_params_dict = dict(urlparse.parse_qsl(url_params_raw))
+    url_params_raw = urlparse(resource_url).query
+    url_params_dict = dict(parse_qsl(url_params_raw))
     layer_name_param = url_params_dict.get('layerName', url_params_dict.get('layername'))
     wms_version_param = url_params_dict.get('wmsVersion', DEFAULT_WMS_VERSION)
     stripped_url = resource_url.split('?')[0]
@@ -146,7 +145,7 @@ def populate_metadata_from_wms_resource_without_capabilities(resource_dict):
         'styles': '',
         'format': 'image/png'
     }
-    params = urllib.urlencode(params_dict)
+    params = urlencode(params_dict)
     wms_url = '{url}?{params}'.format(url=stripped_url, params=params)
     resource_dict.update({
         "wms_url": wms_url,
@@ -186,10 +185,10 @@ def generate_wms_layer(wfs_url, type_name, wms_version):
         else:
             log.warning('[Generated WMS layer] not found')
         return wms_layer
-    except ServiceException, service_error:
+    except ServiceException as service_error:
         log.error(service_error)
         return {}
-    except urllib2.HTTPError, http_error:
+    except HTTPError as http_error:
         log.error(http_error)
         return {}
 
@@ -217,14 +216,14 @@ def generate_wfs_layer(url, wms_layer, wfs_version):
         else:
             log.warning('[Generated WFS layer] not found')
         return wfs_layer
-    except AttributeError, attribute_error:
+    except AttributeError as attribute_error:
         # WFS service exists but does not include any feature layers
         log.error(attribute_error)
         return {}
-    except ServiceException, service_error:
+    except ServiceException as service_error:
         log.error(service_error)
         return {}
-    except urllib2.HTTPError, http_error:
+    except HTTPError as http_error:
         log.error(http_error)
         return {}
 
@@ -279,15 +278,15 @@ def is_wms_layer(url, layer_name, wms_version):
             return wms_service
         else:
             return None
-    except ServiceException, service_error:
+    except ServiceException as service_error:
         log.error(service_error)
-    except urllib2.HTTPError, http_error:
+    except HTTPError as http_error:
         log.error(http_error)
-    except urllib2.URLError, url_error:
+    except URLError as url_error:
         log.error(url_error)
-    except XMLSyntaxError, syntax_error:
+    except XMLSyntaxError as syntax_error:
         log.error(syntax_error)
-    except Exception, e:
+    except Exception as e:
         log.error(e)
 
 def is_wfs_layer(url, layer_name, wfs_version):
@@ -297,13 +296,13 @@ def is_wfs_layer(url, layer_name, wfs_version):
             return wfs_service
         else:
             return None
-    except ServiceException, service_error:
+    except ServiceException as service_error:
         log.error(service_error)
 
-    except urllib2.HTTPError, http_error:
+    except HTTPError as http_error:
         log.error(http_error)
 
-    except urllib2.URLError, url_error:
+    except URLError as url_error:
         log.error(url_error)
 
 
@@ -325,7 +324,7 @@ def build_external_wms_url(wms_service, url, layer_name):
         'styles': '',
         'format': 'image/png'
     }
-    params = urllib.urlencode(params_dict)
+    params = urlencode(params_dict)
     result = '{url}{params}'.format(url=url, params=params)
     return result
 
@@ -342,7 +341,7 @@ def build_external_wfs_url(wfs_service, url, layer_name):
         'maxFeatures': 50,
         'outputFormat': output_format
     }
-    params = urllib.urlencode(params_dict)
+    params = urlencode(params_dict)
     result = '{url}{params}'.format(url=url, params=params)
     return result
 
@@ -358,7 +357,7 @@ def warning_feedback(text):
 def bbox_to_str(bbox_raw):
     if isinstance(bbox_raw, (list, tuple)):
         bbox = ','.join(str(e) for e in bbox_raw)
-    elif (isinstance(bbox_raw, unicode)) or (isinstance(bbox_raw, str)):
+    elif (isinstance(bbox_raw, str)) or (isinstance(bbox_raw, str)):
         bbox = bbox_raw.strip('[]')
     else:
         bbox = None
@@ -380,9 +379,9 @@ def get_capabilities_url(resource_dict, service):
 
 
 def generate_capabilities_url(ows_url, service):
-    parsed_url = urlparse.urlparse(ows_url)
+    parsed_url = urlparse(ows_url)
     # Retrieve existing params, if any
-    existing_params = urlparse.parse_qs(parsed_url.query)
+    existing_params = parse_qs(parsed_url.query)
     capabilities_params = {
         "service": service,
         "request": "GetCapabilities"
@@ -390,9 +389,9 @@ def generate_capabilities_url(ows_url, service):
     # concatenate existing and new params
     existing_params.update(capabilities_params)
     # Encode the updated params
-    encoded_params = urllib.urlencode(existing_params, doseq=True)
+    encoded_params = urlencode(existing_params, doseq=True)
     # construct url with new params
-    capabilities_url = urlparse.urlunparse((
+    capabilities_url = urlunparse((
         parsed_url.scheme,
         parsed_url.netloc,
         parsed_url.path,

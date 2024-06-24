@@ -1,15 +1,12 @@
 # encoding: utf-8
-from ckan.plugins import toolkit
-from pylons import config
 import ckan.model as model
 from ckan.plugins import toolkit
 import json
 import logging
 import ckanext.civity.resources.vocabularies.get as vocabulary_get
 from datetime import datetime
-from urlparse import urlparse
+from urllib.parse import urlparse
 import uuid
-from webhelpers.html.builder import literal
 
 log = logging.getLogger(__name__)
 
@@ -192,7 +189,7 @@ def get_matomo_id():
     """
     Return the config option "ckanext.civity.civity.matomo_id" that will be a unique Matomo id.
     """
-    matomo_id = config.get('ckanext.civity.civity.matomo_id', None)
+    matomo_id = toolkit.config.get('ckanext.civity.civity.matomo_id', None)
     return matomo_id
 
 
@@ -200,7 +197,7 @@ def get_matomo_url():
     """
     Return the config option "ckanext.civity.civity.matomo_url" which will contain the base matomo URL to be used.
     """
-    matomo_url = config.get('ckanext.civity.civity.matomo_url', None)
+    matomo_url = toolkit.config.get('ckanext.civity.civity.matomo_url', None)
     if matomo_url and not matomo_url.endswith("/"):
         matomo_url += "/"
     return matomo_url
@@ -230,7 +227,7 @@ def get_siteimprove_src():
     """
     Return the config option "ckanext.civity.civity.siteimprove_src". An endpoint to the SiteImprove source js.
     """
-    siteimprove_src = config.get('ckanext.civity.civity.siteimprove_src', None)
+    siteimprove_src = toolkit.config.get('ckanext.civity.civity.siteimprove_src', None)
     return siteimprove_src
 
 
@@ -238,14 +235,14 @@ def exclude_activity_types():
     """
     Return a list of activity types to be excluded from the Activity Stream tab
     """
-    config_option_string = config.get('civity.exclude_activity_types', '')
+    config_option_string = toolkit.config.get('civity.exclude_activity_types', '')
     excluded_activity_types = config_option_string.split(' ')
     return excluded_activity_types
 
 
 def create_group_memberships_from_theme(context, pkg_dict):
     # TODO Check for values/Error Handling
-    theme_language = config.get('ckanext.civity.theme_language', 'en')
+    theme_language = toolkit.config.get('ckanext.civity.theme_language', 'en')
     package_id = pkg_dict.get('id')
 
     if 'theme' not in pkg_dict:
@@ -400,7 +397,7 @@ def create_on_ui_requires_resources():
     This helper will check the configuration setting if creating a dataset via the UI requires the adding of resources
     Default: false
     """
-    return toolkit.asbool(config.get('ckan.dataset.create_on_ui_requires_resources', 'False'))
+    return toolkit.asbool(toolkit.config.get('ckan.dataset.create_on_ui_requires_resources', 'False'))
 
 
 def i18n_error_document(code, content):
@@ -416,5 +413,5 @@ def i18n_error_document(code, content):
         log.info('Unable to translate error code {}. Default text loaded.'.format(code))
         pass
     # rebuild literal object
-    result = literal(content_str)
+    result = toolkit.literal(content_str)
     return result

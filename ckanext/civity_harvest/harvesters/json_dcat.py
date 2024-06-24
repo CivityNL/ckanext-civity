@@ -1,8 +1,7 @@
 from ckanext.dcat.harvesters import DCATJSONHarvester
 import ckan.plugins.toolkit as toolkit
 
-from urlparse import urlparse, parse_qsl, urlunparse
-from urllib import urlencode
+from urllib.parse import urlparse, parse_qsl, urlunparse, urlencode
 
 import logging
 

@@ -1,0 +1,9 @@
+{
+  "organization_type": "organization",
+  "about": "Organization for Catalogus Lelystad",
+  "about_url": "Organization for Catalogus Lelystad",
+  "schemas": [
+    "ckanext.lelystad:scheming/schemas/organization/core_schema.json",
+    "ckanext.portal:scheming/schemas/organization/portal_organization.json"
+  ]
+}

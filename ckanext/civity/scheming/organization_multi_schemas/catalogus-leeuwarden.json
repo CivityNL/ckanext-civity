@@ -1,0 +1,10 @@
+{
+  "organization_type": "organization",
+  "about": "Organization for Catalogus Leeuwarden",
+  "about_url": "Organization for Catalogus Leeuwarden",
+  "schemas": [
+    "ckanext.civity:scheming/schemas/organization/ckan_core_organization.json",
+    "ckanext.civity:scheming/schemas/organization/civity_organization.json",
+    "ckanext.tracker_geonetwork:scheming/schemas/organization_with_geonetwork.json"
+  ]
+}

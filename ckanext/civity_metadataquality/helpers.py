@@ -22,7 +22,7 @@ def _dict_has_value_for_key(dict, key):
     return has_value
 
 
-def validate_metadata_quality(pkg_dict):
+def validate_metadata_quality(context, pkg_dict):
     '''
     This method takes an package dictionary and based on the belonging schema it will check how many fields based on
     that schema have a value in the package. It will return the results as a dictionary in 3 groups:
@@ -36,10 +36,12 @@ def validate_metadata_quality(pkg_dict):
     :param pkg_dict:
     :return:
     '''
-    context = {
-        'model': model, 'session': model.Session,
-        'user': toolkit.c.user, 'auth_user_obj': toolkit.c.userobj
-    }
+
+    if not context:
+        context = {
+            'model': model, 'session': model.Session,
+            'user': toolkit.g.user, 'auth_user_obj': toolkit.g.userobj
+        }
 
     try:
         schemas_dict = toolkit.get_action('scheming_dataset_schema_show')(context, {'type': pkg_dict.get('type')})

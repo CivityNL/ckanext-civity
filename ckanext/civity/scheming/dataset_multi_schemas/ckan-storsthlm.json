@@ -1,0 +1,13 @@
+[
+  {
+    "dataset_type": "dataset",
+    "about": "Dataset",
+    "about_url": "https://dataplatform.nl/what-is-a-dataset",
+    "schemas": [
+      "ckanext.civity:scheming/dataset_schemas/01_core_schema.json",
+      "ckanext.civity:scheming/dataset_schemas/02_dcat_se.json",
+      "ckanext.tracker_ogr:scheming/schemas/tracker_ogr_schema.json",
+      "ckanext.tracker_geoserver:scheming/schemas/tracker_geoserver_schema.json"
+    ]
+  }
+]

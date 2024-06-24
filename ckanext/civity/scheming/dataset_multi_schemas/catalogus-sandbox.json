@@ -1,0 +1,21 @@
+[
+  {
+    "dataset_type": "dataset",
+    "about": "Dataset",
+    "about_url": "https://dataplatform.nl/what-is-a-dataset",
+    "schemas": [
+      "ckanext.civity:scheming/dataset_schemas/01_core_schema.json",
+      "ckanext.civity:scheming/dataset_schemas/02_dcat_nl.json",
+      "ckanext.civity:scheming/dataset_schemas/03_ngr.json",
+      "ckanext.catalog:scheming/schemas/04_catalogus.json",
+      "ckanext.definitions:scheming/schemas/definitions_schema.json",
+      "ckanext.tracker_ckantockan_oneckan:scheming/schemas/tracker_ckantockan_oneckan_schema.json",
+      "ckanext.tracker_geoserver:scheming/schemas/tracker_geoserver_schema.json",
+      "ckanext.tracker_geonetwork:scheming/schemas/tracker_geonetwork_schema.json",
+      "ckanext.tracker_ogr:scheming/schemas/tracker_ogr_schema.json",
+      "ckanext.catalog:scheming/schemas/catalog_dataset.json",
+      "ckanext.portal:scheming/schemas/portal.json"
+    ]
+  }
+]
+

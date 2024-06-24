@@ -13,7 +13,7 @@ class MetaDataQualityPlugin(plugins.SingletonPlugin):
 
     # IPackageController
     def after_show(self, context, pkg_dict):
-        metadataquality = helpers.validate_metadata_quality(pkg_dict)
+        metadataquality = helpers.validate_metadata_quality(context, pkg_dict)
         if metadataquality is not None:
             pkg_dict['civity_metadataquality'] = metadataquality
         return pkg_dict

@@ -2,10 +2,8 @@ from ckanext.spatial.harvesters import CSWHarvester
 import logging
 import urllib
 import re
-from pylons import config
 from ckan import model
-from urlparse import urlparse
-from datetime import datetime
+from urllib.parse import urlparse
 from string import Template
 from ckan import plugins as p
 from ckan.lib.helpers import json

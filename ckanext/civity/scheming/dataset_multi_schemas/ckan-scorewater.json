@@ -4,16 +4,15 @@
     "about": "Supplier",
     "about_url": "https://dataplatform.nl/what-is-a-supplier",
     "schemas": [
-      "ckanext.civity:scheming/schemas/01_core_schema.json",
-      "ckanext.civity:scheming/schemas/02_dcat_nl.json",
-      "ckanext.civity:scheming/schemas/03_ngr.json",
+      "ckanext.civity:scheming/dataset_schemas/01_core_schema.json",
+      "ckanext.civity:scheming/dataset_schemas/02_dcat_nl.json",
+      "ckanext.civity:scheming/dataset_schemas/03_ngr.json",
       "ckanext.definitions:scheming/schemas/definitions_schema.json",
-      "ckanext.linkeddatasets:scheming/schemas/linkeddatasets_schema.json",
       "ckanext.tracker_geoserver:scheming/schemas/tracker_geoserver_schema.json",
       "ckanext.tracker_geonetwork:scheming/schemas/tracker_geonetwork_schema.json",
       "ckanext.tracker_ckantockan_donl:scheming/schemas/tracker_ckantockan_donl_schema.json",
       "ckanext.tracker_ogr:scheming/schemas/tracker_ogr_schema.json",
-      "ckanext.platformscorewater:scheming/schemas/platformscorewater_factsheet_supplier.json"
+      "ckanext.scorewater:scheming/schemas/scorewater_factsheet_supplier.json"
     ]
   },
   {
@@ -21,16 +20,15 @@
     "about": "Sensor",
     "about_url": "https://dataplatform.nl/what-is-a-sensor",
     "schemas": [
-      "ckanext.civity:scheming/schemas/01_core_schema.json",
-      "ckanext.civity:scheming/schemas/02_dcat_nl.json",
-      "ckanext.civity:scheming/schemas/03_ngr.json",
+      "ckanext.civity:scheming/dataset_schemas/01_core_schema.json",
+      "ckanext.civity:scheming/dataset_schemas/02_dcat_nl.json",
+      "ckanext.civity:scheming/dataset_schemas/03_ngr.json",
       "ckanext.definitions:scheming/schemas/definitions_schema.json",
-      "ckanext.linkeddatasets:scheming/schemas/linkeddatasets_schema.json",
       "ckanext.tracker_geoserver:scheming/schemas/tracker_geoserver_schema.json",
       "ckanext.tracker_geonetwork:scheming/schemas/tracker_geonetwork_schema.json",
       "ckanext.tracker_ckantockan_donl:scheming/schemas/tracker_ckantockan_donl_schema.json",
       "ckanext.tracker_ogr:scheming/schemas/tracker_ogr_schema.json",
-      "ckanext.platformscorewater:scheming/schemas/platformscorewater_factsheet_sensor.json"
+      "ckanext.scorewater:scheming/schemas/scorewater_factsheet_sensor.json"
     ]
   },
   {
@@ -38,34 +36,32 @@
     "about": "Service",
     "about_url": "https://dataplatform.nl/what-is-a-service",
     "schemas": [
-      "ckanext.civity:scheming/schemas/01_core_schema.json",
-      "ckanext.civity:scheming/schemas/02_dcat_nl.json",
-      "ckanext.civity:scheming/schemas/03_ngr.json",
+      "ckanext.civity:scheming/dataset_schemas/01_core_schema.json",
+      "ckanext.civity:scheming/dataset_schemas/02_dcat_nl.json",
+      "ckanext.civity:scheming/dataset_schemas/03_ngr.json",
       "ckanext.definitions:scheming/schemas/definitions_schema.json",
-      "ckanext.linkeddatasets:scheming/schemas/linkeddatasets_schema.json",
       "ckanext.tracker_geoserver:scheming/schemas/tracker_geoserver_schema.json",
       "ckanext.tracker_geonetwork:scheming/schemas/tracker_geonetwork_schema.json",
       "ckanext.tracker_ckantockan_donl:scheming/schemas/tracker_ckantockan_donl_schema.json",
       "ckanext.tracker_ogr:scheming/schemas/tracker_ogr_schema.json",
-      "ckanext.platformscorewater:scheming/schemas/platformscorewater_factsheet_service.json",
+      "ckanext.scorewater:scheming/schemas/scorewater_factsheet_service.json",
       "ckanext.civity:scheming/schemas/portal.json"
     ]
   },
-    {
+  {
     "dataset_type": "source",
     "about": "Source",
     "about_url": "https://dataplatform.nl/what-is-a-source",
     "schemas": [
-      "ckanext.civity:scheming/schemas/01_core_schema.json",
-      "ckanext.civity:scheming/schemas/02_dcat_nl.json",
-      "ckanext.civity:scheming/schemas/03_ngr.json",
+      "ckanext.civity:scheming/dataset_schemas/01_core_schema.json",
+      "ckanext.civity:scheming/dataset_schemas/02_dcat_nl.json",
+      "ckanext.civity:scheming/dataset_schemas/03_ngr.json",
       "ckanext.definitions:scheming/schemas/definitions_schema.json",
-      "ckanext.linkeddatasets:scheming/schemas/linkeddatasets_schema.json",
       "ckanext.tracker_geoserver:scheming/schemas/tracker_geoserver_schema.json",
       "ckanext.tracker_geonetwork:scheming/schemas/tracker_geonetwork_schema.json",
       "ckanext.tracker_ckantockan_donl:scheming/schemas/tracker_ckantockan_donl_schema.json",
       "ckanext.tracker_ogr:scheming/schemas/tracker_ogr_schema.json",
-      "ckanext.platformscorewater:scheming/schemas/platformscorewater_factsheet_source.json"
+      "ckanext.scorewater:scheming/schemas/scorewater_factsheet_source.json"
     ]
   },
   {
@@ -73,16 +69,15 @@
     "about": "Dataset",
     "about_url": "https://dataplatform.nl/what-is-a-dataset",
     "schemas": [
-      "ckanext.civity:scheming/schemas/01_core_schema.json",
-      "ckanext.civity:scheming/schemas/02_dcat_nl.json",
-      "ckanext.civity:scheming/schemas/03_ngr.json",
+      "ckanext.civity:scheming/dataset_schemas/01_core_schema.json",
+      "ckanext.civity:scheming/dataset_schemas/02_dcat_nl.json",
+      "ckanext.civity:scheming/dataset_schemas/03_ngr.json",
       "ckanext.definitions:scheming/schemas/definitions_schema.json",
-      "ckanext.linkeddatasets:scheming/schemas/linkeddatasets_schema.json",
       "ckanext.tracker_geoserver:scheming/schemas/tracker_geoserver_schema.json",
       "ckanext.tracker_geonetwork:scheming/schemas/tracker_geonetwork_schema.json",
       "ckanext.tracker_ckantockan_donl:scheming/schemas/tracker_ckantockan_donl_schema.json",
       "ckanext.tracker_ogr:scheming/schemas/tracker_ogr_schema.json",
-      "ckanext.platformscorewater:scheming/schemas/platformscorewater_dataset.json",
+      "ckanext.scorewater:scheming/schemas/scorewater_dataset.json",
       "ckanext.civity:scheming/schemas/portal.json"
     ]
   }
