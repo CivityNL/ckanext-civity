@@ -8,5 +8,5 @@
 #}
 
 {% block previous_button %}
-  <a href="{{ h.url_for(controller='package', action='edit', id=pkg_name) }}" class="btn btn-default">{{ _('Previous') }}</a>
+  <a href="{{ h.url_for('dataset.edit', id=pkg_name) }}" class="btn btn-default">{{ _('Previous') }}</a>
 {% endblock %}
