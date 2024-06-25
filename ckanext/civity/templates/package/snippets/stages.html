@@ -27,7 +27,7 @@ Example:
     {% if s1 != 'complete' %}
       <span class="highlight">{{ _('Create dataset') }}</span>
     {% else %}
-      <a href="{{ h.url_for(controller='package', action='edit', id=pkg_name) }}" class="highlight">{{ _('Create dataset') }}</a>
+      <a href="{{ h.url_for('dataset.edit', id=pkg_name) }}" class="highlight">{{ _('Create dataset') }}</a>
     {% endif %}
   </li>
   <li class="last {{ s2 }}">
@@ -38,7 +38,7 @@ Example:
         {# stage 1 #}
         <button class="highlight" name="save" value="go-resources" type="submit">{{ _('Add data') }}</button>
       {% else %}
-        {% link_for _('Add data'), controller='package', action='new', class_="highlight" %}
+        {% link_for _('Add data'), named_route='dataset.new', class_="highlight" %}
       {% endif %}
     {% endif %}
   </li>
