@@ -35,7 +35,7 @@ class CivityResourceUpload(ResourceUpload):
                 sha1.update(data)
             self.upload_file.seek(0, os.SEEK_SET)
             resource['hash'] = sha1.hexdigest()
-        elif resource.get('url_type', None) is '' and resource.get('url', None) is not None:
+        elif resource.get('url_type', None) == '' and resource.get('url', None) is not None:
             url = resource.get('url')
             resource['size'] = None
             resource['hash'] = None
