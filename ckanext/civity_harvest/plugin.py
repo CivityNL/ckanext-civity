@@ -1,5 +1,6 @@
 import ckan.plugins as plugins
 from ckanext.spatial.interfaces import ISpatialHarvester
+from ckanext.civity_harvest.harmonization import harmonize_package_fields
 import json
 import os
 import logging
@@ -42,6 +43,8 @@ class CivityHarvestPlugin(plugins.SingletonPlugin):
         package_dict = self.populate_from_harvest_config(harvest_config, package_dict.copy())
         # Bring nested 'extras' dict keys to parent dict
         package_dict = self.normalize_extras(package_dict.copy())
+        # Harmonize data using schema reset
+        package_dict = self.harmonize_with_schema_preset(package_dict.copy(), harvest_schema_preset)
 
         return package_dict
 
@@ -52,6 +55,10 @@ class CivityHarvestPlugin(plugins.SingletonPlugin):
         result_dict.pop('extras')
         return result_dict
 
+    def harmonize_with_schema_preset(self, pkg_dict, schema_preset_name):
+        schema_preset = get_schema_preset(schema_preset_name)
+        harmonized_pkg_dict = harmonize_package_fields(schema_preset, pkg_dict)
+        return harmonized_pkg_dict
 
     def get_harvest_config_dict(self, harvest_config_str):
         harvest_config_raw = json.loads(harvest_config_str)
