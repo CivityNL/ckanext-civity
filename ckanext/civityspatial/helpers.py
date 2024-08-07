@@ -350,7 +350,7 @@ def warning_feedback(text):
     log.warning(text)
     try:
         toolkit.h.flash_notice(text, allow_html=True)
-    except TypeError:
+    except (TypeError, RuntimeError):
         log.debug('This is not UI action, skipping flash notice')
 
 
