@@ -1,9 +1,8 @@
 from ckanext.spatial.harvesters import CSWHarvester
 import logging
-import urllib
 import re
 from ckan import model
-from urllib.parse import urlparse
+import urllib.parse as urllib
 from string import Template
 from ckan import plugins as p
 from ckan.lib.helpers import json
@@ -197,7 +196,7 @@ class CivityCSWHarvester(CSWHarvester):
 
         def _extract_first_license_url(licences):
             for licence in licences:
-                o = urlparse(licence)
+                o = urllib.urlparse(licence)
                 if o.scheme and o.netloc:
                     return licence
             return None
@@ -251,7 +250,7 @@ class CivityCSWHarvester(CSWHarvester):
                         parties[party['organisation-name']].append(party['role'])
                 else:
                     parties[party['organisation-name']] = [party['role']]
-            extras['responsible-party'] = [{'name': k, 'roles': v} for k, v in parties.iteritems()]
+            extras['responsible-party'] = [{'name': k, 'roles': v} for k, v in parties.items()]
 
         if len(iso_values['bbox']) > 0:
             bbox = iso_values['bbox'][0]
@@ -305,7 +304,7 @@ class CivityCSWHarvester(CSWHarvester):
                         "url": url,
                         "name": resource_locator.get('name'),
                         "description": resource_locator.get('description') or '',
-                        "format": guess_resource_format(url)
+                        "format": guess_resource_format(resource_locator)
                     })
 
                     # skip generating resources with no format - https://civity.atlassian.net/browse/DEV-3913
@@ -321,7 +320,7 @@ class CivityCSWHarvester(CSWHarvester):
                             resource.update({"format": 'URL'})
 
                     if resource_format.lower() in ['wms', 'wfs'] and p.plugin_loaded('civity_spatial'):
-                        # Construct URL including params: layerName (mandatory), wmsVersion (optional), wfsVersion (optional)
+                        # Construct URL including params: layerName (mandatory), wmsVersion/wfsVersion (optional)
                         stripped_url = url.split('?')[0] if '?' in url else url
                         params_dict = {}
                         params_dict.update({
@@ -355,7 +354,7 @@ class CivityCSWHarvester(CSWHarvester):
         default_extras = self.source_config.get('default_extras', {})
         if default_extras:
             override_extras = self.source_config.get('override_extras', False)
-            for key, value in default_extras.iteritems():
+            for key, value in default_extras.items():
                 log.debug('Processing extra %s', key)
                 if not key in extras or override_extras:
                     # Look for replacement strings
@@ -368,7 +367,7 @@ class CivityCSWHarvester(CSWHarvester):
                     extras[key] = value
 
         extras_as_dict = []
-        for key, value in extras.iteritems():
+        for key, value in extras.items():
             if isinstance(value, (list, dict)):
                 extras_as_dict.append({'key': key, 'value': json.dumps(value)})
             else:

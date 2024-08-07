@@ -22,16 +22,15 @@ def get_schema_preset(schema_preset_name):
 
 
 def load_schema(json_schema):
-        filepath = os.path.join(os.path.dirname(__file__), json_schema)
-        with open(filepath, 'r') as file_contents:
-            schema_dict = json.loads(file_contents.read())
-        return schema_dict
+    filepath = os.path.join(os.path.dirname(__file__), json_schema)
+    with open(filepath, 'r') as file_contents:
+        schema_dict = json.loads(file_contents.read())
+    return schema_dict
 
 class CivityHarvestPlugin(plugins.SingletonPlugin):
     plugins.implements(ISpatialHarvester, inherit=True)
 
-
-     # ISpatialHarvester
+    # ISpatialHarvester
     def get_package_dict(self, context, data_dict):
 
         # Get Package converted from default ISpatialHarvester
@@ -47,10 +46,11 @@ class CivityHarvestPlugin(plugins.SingletonPlugin):
         return package_dict
 
     def normalize_extras(self, package_dict):
-        extras_to_dict = {x['key']: x['value'] for x in package_dict['extras']}
-        package_dict = dict(extras_to_dict.items() + package_dict.items())
-        package_dict.pop('extras')
-        return package_dict
+        "Converts extras into package fields"
+        result_dict = {x['key']: x['value'] for x in package_dict['extras']}
+        result_dict.update(package_dict)
+        result_dict.pop('extras')
+        return result_dict
 
 
     def get_harvest_config_dict(self, harvest_config_str):
