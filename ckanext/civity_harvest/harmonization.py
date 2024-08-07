@@ -140,7 +140,7 @@ def harmonize_field(field_schema, data_dict):
         '''
 
         if isinstance(field_schema['field_name'], dict):
-            nested_field_name = field_schema['field_name'].keys()[0]
+            nested_field_name = list(field_schema['field_name'].keys())[0]
             if isinstance(field_schema['field_name'][nested_field_name], list):
                 field_key = field_schema['field_name'][nested_field_name][0][u'key']
                 field_value = json.loads(data_dict[nested_field_name].replace("'", '"'))[0][field_key]
