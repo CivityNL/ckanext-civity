@@ -2,4 +2,7 @@ include README.rst
 include LICENSE
 include requirements.txt
 recursive-include ckanext/civity *.html *.json *.js *.less *.css *.mo *.yml *.jpg *.png
-recursive-include ckanext/civity/migration *.ini *.py *.mako
+recursive-include ckanext/civity_harvest *.html *.json *.js *.less *.css *.mo *.yml *.jpg *.png
+recursive-include ckanext/civity_metadataquality *.html *.json *.js *.less *.css *.mo *.yml *.jpg *.png
+recursive-include ckanext/civityspatial *.html *.json *.js *.less *.css *.mo *.yml *.jpg *.png
+recursive-include ckanext/useragent *.html *.json *.js *.less *.css *.mo *.yml *.jpg *.png
