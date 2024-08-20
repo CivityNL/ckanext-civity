@@ -56,8 +56,7 @@ def donl_theme_list_choices(field):
 
     theme_dict = vocabulary_get.get_donl_theme_dict()
     choices = []
-    context = {'user': toolkit.c.user}
-    groups = toolkit.get_action('group_list')(context, {'all_fields': True})
+    groups = toolkit.get_action('group_list')(None, {'all_fields': True})
 
     for group in groups:
         choice_value = theme_dict.get(group['name']) if theme_dict.get(group['name']) else group['name']
