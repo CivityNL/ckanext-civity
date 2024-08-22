@@ -583,7 +583,7 @@
         {"label":{"en":"Bimonthly", "nl": "Tweemaandelijks","sv":"Varannan månad"}, "value":"http://publications.europa.eu/resource/authority/frequency/BIMONTHLY"},
         {"label":{"en":"Biweekly", "nl": "Veertiendaags","sv":"Fjorton dagar"}, "value":"http://publications.europa.eu/resource/authority/frequency/BIWEEKLY"},
         {"label":{"en":"Continuous", "nl": "Voortdurend","sv":"Ständigt"}, "value":"http://publications.europa.eu/resource/authority/frequency/CONT"},
-        {"label":{"en":"Daily", "nl": "Dagelijks","sv":"Dagligen genom"}, "value":"http://publications.europa.eu/resource/authority/frequency/DAILY"},
+        {"label":{"en":"Daily", "nl": "Dagelijks","sv":"Dagligen"}, "value":"http://publications.europa.eu/resource/authority/frequency/DAILY"},
         {"label":{"en":"Twice a day", "nl": "Tweemaal per dag","sv":"Två gånger om dagen"}, "value":"http://publications.europa.eu/resource/authority/frequency/DAILY_2"},
         {"label":{"en":"Irregular", "nl": "Onregelmatig","sv":"Oregelbunden"}, "value":"http://publications.europa.eu/resource/authority/frequency/IRREG"},
         {"label":{"en":"Monthly", "nl": "Maandelijks","sv":"Månatlig"}, "value":"http://publications.europa.eu/resource/authority/frequency/MONTHLY"},
