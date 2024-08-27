@@ -1,0 +1,44 @@
+{#
+Creates the button to add packages.
+
+package_types  - A list of package_type dicts to be rendered for the button.
+button_text    - The text to be displayed in the button.
+div_class      - The class name for the div.
+hyperlink_class- The class name for the hyperlink.
+icon_class     - The class name to use the button icon.
+
+Example Usage:
+
+  {% snippet 'snippets/package_create_button.html', package_types=types %}
+
+#}
+{% block package_create_button %}
+
+  {% if package_types|length > 1 %}
+    <div class="page_primary_action dropdown btn-group">
+      <a href="" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <i class="fa fa-plus-square"></i>
+        {{ _('Add Vermelding') }}
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        {% block package_list_inner %}
+          {% for type in package_types %}
+            {% snippet 'snippets/package_create_button_item.html', package_type=type['package_type'], display_text=type['display_text'] %}
+          {% endfor %}
+        {% endblock %}
+      </ul>
+    </div>
+  {% else %}
+    {% set strings = ["/", package_types[0]['package_type'], "/new"] %}
+    {% set new_package_url = strings|join() %}
+
+    <div class="page_primary_action btn-group">
+        <a href="{{ new_package_url }}" class="btn btn-primary">
+            <i class="fa fa-plus-square"></i>
+            {{ _('Add Vermelding') }}
+        </a>
+    </div>
+  {% endif %}
+{% endblock %}
+

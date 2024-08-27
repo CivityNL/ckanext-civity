@@ -1,0 +1,26 @@
+{#
+Displays a single button for creating a new dataset.
+
+package_type   - The type of the package (String)
+display_text   - The text to be displayed in the button.
+new_package_url- An URL that points to the creation of the new package.
+icon_class     - The class name to use the button icon.
+
+Example Usage:
+
+  {% snippet 'snippets/package_create_button_item.html', package_type='dataset' %}
+
+#}
+
+{% set url = '/' ~ package_type ~ '/new'%}
+
+{% block package_create_button_item %}
+  <li>
+    <a href="{{ url }}">
+      <i class="far fa-file-alt"></i>
+      {{ display_text }}
+    </a>
+  </li>
+{% endblock %}
+
+

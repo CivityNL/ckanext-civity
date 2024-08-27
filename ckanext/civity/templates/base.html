@@ -1,0 +1,29 @@
+{% ckan_extends %}
+
+{%- block styles %}
+{#    {% asset 'ckanext-civity/civity_css' %}#}
+    {{ super() }}
+{% endblock %}
+
+{#TODO move/create to ckanext-siteimprove#}
+{%- block scripts %}
+    {{ super() }}
+    {%- block siteimprove_script %}
+        {% set siteimprove_src = h.civity_get_siteimprove_src() %}
+        {% if siteimprove_src %}
+            <script type="text/javascript">
+                <![CDATA[
+                (function () {
+                    var sz = document.createElement('script');
+                    sz.type = 'text/javascript';
+                    sz.async = true;
+                    sz.src = {{ siteimprove_src }};
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(sz, s);
+                })();
+                ]]>
+            </script>
+        {% endif %}
+    {% endblock -%}
+
+{% endblock -%}

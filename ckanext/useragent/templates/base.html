@@ -1,0 +1,8 @@
+{% ckan_extends %}
+
+{%- block styles %}
+	{{ super() }}
+	{% asset "ckanext-useragent/useragent_css" %}
+	{% asset "ckanext-useragent/ua_parser_js" %}
+	{% asset "ckanext-useragent/validate_ua_js" %}
+{% endblock %}

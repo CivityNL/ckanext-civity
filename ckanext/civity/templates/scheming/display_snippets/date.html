@@ -1,0 +1,5 @@
+{% if data[field.field_name] %}
+  {% set date_array = data[field.field_name].split("-") %}
+  {% set date_datetime = date_array[2] ~ '-' ~ date_array[1] ~ '-' ~ date_array[0] %}
+  {{  date_datetime }}
+{% endif %}

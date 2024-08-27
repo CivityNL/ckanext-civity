@@ -1,0 +1,24 @@
+{#
+Renders a set of stars
+
+field  - The field name of the metadata_quality to be used (either 'total', 'mandatory' or 'optional'
+package  - The package for which the metadata_quality belongs to
+
+    {% snippet "snippets/civity_metadataquality_stars.html", field='mandatory', package=pkg_dict %}
+
+#}
+
+{% asset 'ckanext-civity_metadataquality/civity_metadataquality_stars_css' %}
+{% set stars = 5 %}
+{% set filled_stars = (stars*package.civity_metadataquality[field].score)|round|int %}
+
+<span class="star-rating">
+  <span class="star-rating-stars">
+    {%- for index in range(filled_stars|int) -%}
+      <i class="rating-star fa fa-star"></i>
+    {%- endfor -%}
+    {%- for index in range(filled_stars|int, stars) -%}
+      <i class="rating-star rating-star-empty fa fa-star-o"></i>
+    {%- endfor -%}
+  </span>
+</span>

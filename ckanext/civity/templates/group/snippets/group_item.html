@@ -1,0 +1,37 @@
+{% ckan_extends %}
+
+{#
+Renders a media item for a group. This should be used in a list.
+
+group - A group dict.
+
+Example:
+
+    <ul class="media-grid">
+      {% for group in groups %}
+        {% snippet "group/snippets/group_item.html", group=group, position=loop.index %}
+      {% endfor %}
+    </ul>
+#}
+{% set type = group.type or 'group' %}
+{% set url = h.url_for(type ~ '_read', action='read', id=group.name) %}
+{% set group_title = h.get_translated(group, 'title') %}
+{% set title = group_title %}
+
+{% block title %}
+    <h3 class="media-heading">{{ title or group.display_name }}</h3>
+{% endblock %}
+
+{% block description %}
+    {% if h.get_translated(group, 'description') %}
+        <p class="media-description">{{ h.markdown_extract(h.get_translated(group, 'description'), extract_length=80) }}</p>
+    {% endif %}
+{% endblock %}
+
+{% block link %}
+    <a href="{{ url }}"
+       title="{{ _('View {name}').format(name=title or group.display_name) }}"
+       class="media-view">
+        <span>{{ _('View {name}').format(name=title or group.display_name) }}</span>
+    </a>
+{% endblock %}

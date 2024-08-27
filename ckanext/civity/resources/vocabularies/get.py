@@ -152,7 +152,7 @@ def get_donl_language_dict():
             "value": key
         })
 
-    language_dict_label_asc = sorted(language_dict, key=lambda i: i['label'])
+    language_dict_label_asc = sorted(language_dict, key=lambda i: i['label']['en'])
     return language_dict_label_asc
 
 
@@ -163,6 +163,6 @@ def get_eu_themes_dict_sv():
 
 def load_dictionary(json_file):
     filepath = os.path.join(os.path.dirname(__file__), json_file)
-    with open(filepath, 'r') as file_contents:
+    with open(filepath, 'r', encoding='utf-8') as file_contents:
         json_dict = json.loads(file_contents.read())
     return json_dict

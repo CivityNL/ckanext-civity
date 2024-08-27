@@ -1,0 +1,14 @@
+useragent_css:
+  output: ckanext-civity/%(version)s_useragent_css.css
+  contents:
+    - useragent.css
+
+ua_parser_js:
+  output: ckanext-civity/%(version)s_ua_parser_js.js
+  contents:
+    - ua_parser.js
+
+validate_ua_js:
+  output: ckanext-civity/%(version)s_validate_ua_js.js
+  contents:
+    - validate_ua.js

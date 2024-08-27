@@ -1,0 +1,4 @@
+civity_metadataquality_stars_css:
+  output: ckanext-civity_metadataquality/%(version)s_civity_metadataquality_stars_css.css
+  contents:
+    - civity_metadataquality_stars.css

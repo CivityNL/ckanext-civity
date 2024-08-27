@@ -1,0 +1,109 @@
+{
+  "scheming_version": 1,
+  "dataset_type": "all",
+  "about": "Dataset",
+  "about_url": "dataset",
+  "dataset_fields": [
+    {
+      "field_name": "geo_ref_system",
+      "harmonized_field_name": "geo_ref_system",
+      "harmonized_value_mapping": {
+        "Anders": "Onbekend",
+        "WGS84 (4326)": "WGS84 (4326)",
+        "RD (28992)": "RD (28992)",
+        "ETRS89 (4937)": "ETRS89 (4937)",
+        "Onbekend": "Onbekend"
+              },
+      "label": {
+        "en": "Reference system",
+        "nl": "Ruimtelijk referentiesysteem",
+        "sv": "Referenssystem"
+      },
+      "preset": "select",
+      "choices": [
+        {
+          "value": "WGS84 (4326)",
+          "label": "WGS84 (4326)"
+        },
+        {
+          "value": "RD (28992)",
+          "label": "RD (28992)"
+        },
+        {
+          "value": "ETRS89 (4937)",
+          "label": "ETRS89 (4937)"
+        },
+        {
+          "value": "Onbekend",
+          "label": "Onbekend"
+        }
+      ],
+      "form_include_blank_choice": true,
+      "help_inline": true,
+      "help_text": {
+        "en": "Coordinate system source. [NGR]",
+        "nl": "Coördinaatstelsel databron. [NGR]",
+        "sv": "Koordinatsystemkälla"
+      },
+      "required": false,
+      "group": "geo"
+    },
+    {
+      "field_name": "bounding_box",
+      "harmonized_field_name": "bounding_box",
+      "display_snippet": "text.html",
+      "form_snippet": "text.html",
+      "help_inline": true,
+      "help_text": {
+        "en": "Bounding Box [NGR]",
+        "nl": "Omgrenzende rechthoek [NGR]",
+        "sv": "TBD"
+      },
+      "label": {
+        "en": "Bounding box",
+        "nl": "Omgrenzende rechthoek",
+        "sv": "Begränsande låda"
+      },
+      "required": false,
+      "group": "geo"
+    },
+    {
+      "field_name": "resolution",
+      "harmonized_field_name": "resolution",
+      "required": false,
+      "form_snippet": "text.html",
+      "display_snippet": "text.html",
+      "label": {
+        "en": "Resolution",
+        "nl": "Resolutie",
+        "sv": "Upplösning"
+      },
+      "help_inline":true,
+      "help_text":{
+        "en": "Ground sample distance in meters [NGR]",
+        "nl": "De resolutie van de schaal in meters [NGR]",
+        "sv": "Markprovsavstånd i meter"
+      },
+      "group": "geo"
+    },
+    {
+      "field_name": "denominator",
+      "harmonized_field_name": "denominator",
+      "required": false,
+      "form_snippet": "text.html",
+      "display_snippet": "text.html",
+      "label": {
+        "en": "Denominator",
+        "nl": "Toepassingsschaal",
+        "sv": "Nämnare"
+      },
+      "help_inline":true,
+      "help_text":{
+        "en": "level of detail expressed as the scale denominator of a comparable hardcopy map or chart [NGR]",
+        "nl": "De beoogde schaal waarop het bestand waarheidsgetrouw gebruikt mag worden. Dit moet een positief numeriek getal zijn. [NGR]",
+        "sv": "Detaljnivå uttryckt som skalnämnaren för en jämförbar papperskopia eller ett diagram"
+      },
+      "group": "geo"
+    }
+  ]
+}
