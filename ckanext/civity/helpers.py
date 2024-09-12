@@ -381,14 +381,6 @@ def sanitize_id(id_):
         return result
 
 
-def create_on_ui_requires_resources():
-    """
-    This helper will check the configuration setting if creating a dataset via the UI requires the adding of resources
-    Default: false
-    """
-    return toolkit.asbool(toolkit.config.get('ckan.dataset.create_on_ui_requires_resources', 'False'))
-
-
 def i18n_error_document(code, content):
     content_str = content.encode('ascii', 'replace')
 

@@ -104,8 +104,7 @@ class CivityPlugin(plugins.SingletonPlugin, DefaultTranslation):
                 'civity_get_package_title': h.get_package_title,
                 'civity_get_package_notes': h.get_package_notes,
                 'civity_i18n_error_document': h.i18n_error_document,
-                'sanitize_id': h.sanitize_id,
-                'create_on_ui_requires_resources': h.create_on_ui_requires_resources
+                'sanitize_id': h.sanitize_id
                 }
 
     # IActions
