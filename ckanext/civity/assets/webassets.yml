@@ -19,21 +19,37 @@ jquery_ui_theme_css:
     - jquery-ui.theme.css
 
 datepicker_js:
+  filters: rjsmin
+  extra:
+    preload:
+      - base/main
   output: ckanext-civity/%(version)s_datepicker_js.js
   contents:
     - datepicker.js
 
 jquery_ui_js:
+  filters: rjsmin
+  extra:
+    preload:
+      - base/main
   output: ckanext-civity/%(version)s_jquery_ui_js.js
   contents:
     - jquery-ui.js
 
 select_boolean_child_js:
+  filters: rjsmin
+  extra:
+    preload:
+      - base/main
   output: ckanext-civity/%(version)s_select_boolean_child_js.js
   contents:
     - select_boolean_child.js
 
 select_child_js:
+  filters: rjsmin
+  extra:
+    preload:
+      - base/main
   output: ckanext-civity/%(version)s_select_child_js.js
   contents:
     - select_child.js
