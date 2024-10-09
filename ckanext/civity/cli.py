@@ -27,6 +27,7 @@ def init():
                 {'model': model, 'ignore_auth': True, 'user': site_user['name']},
                 pkg_dict
             )
+            click.secho("Updated package: %s" % pkg_id, fg="green", bold=True)
         except Exception as e:
             error_shout(e)
             error_shout(u"Package '{}' was not found".format(pkg_id))
