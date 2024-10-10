@@ -8,6 +8,7 @@ from ckanext.civity.interfaces import IFacetLabelFunction
 import ckanext.civity.logic.action.get as action_get
 from ckanext.civity.uploader import CivityResourceUpload
 from ckan.lib.plugins import DefaultTranslation
+import ckanext.civity.cli as cli
 
 
 class CivityPlugin(plugins.SingletonPlugin, DefaultTranslation):
@@ -18,6 +19,7 @@ class CivityPlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.IPackageController, inherit=True)
     plugins.implements(plugins.ITemplateHelpers)
     plugins.implements(plugins.IActions)
+    plugins.implements(plugins.IClick)
 
 
     users_assign_all_groups = toolkit.config.get('civity.users_assign_all_groups', False)
@@ -118,3 +120,7 @@ class CivityPlugin(plugins.SingletonPlugin, DefaultTranslation):
 
     def get_resource_uploader(self, data_dict):
         return CivityResourceUpload(data_dict)
+
+    # IClick
+    def get_commands(self):
+        return [cli.civity]

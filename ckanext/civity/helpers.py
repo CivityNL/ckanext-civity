@@ -263,20 +263,26 @@ def create_group_memberships_from_theme(context, pkg_dict):
     harmonized_theme_list = get_harmonized_theme_list(raw_theme_list, theme_language)
 
     # Erase deprecated subscriptions
+    member_delete = []
     for group in package_group_memberships:
         if group in harmonized_theme_list:
             continue
         else:
             delete_membership_payload = get_membership_payload(group, package_id)
             toolkit.get_action('member_delete')(context, delete_membership_payload)
+            member_delete.append(group)
 
     # Insert new subscriptions
+    member_create = []
     for theme in harmonized_theme_list:
         if theme in package_group_memberships:
             continue
         else:
             create_membership_payload = get_membership_payload(theme, package_id)
             toolkit.get_action('member_create')(context, create_membership_payload)
+            member_create.append(theme)
+
+    return member_delete, member_create
 
 
 def get_harmonized_theme_list(raw_theme_list, theme_language):
