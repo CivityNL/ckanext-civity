@@ -2,7 +2,7 @@
 
 The file contains all specific changes to the ckanext-civity.
 
-## 2.3.x (TBD)
+## 2.3.0 (TBD)
 - `civity`
   - Added a CLI command to assign all datasets to the correct theme groups -- ([CIVDEV-1056](https://civity.atlassian.net/browse/CIVDEV-1056))
 
