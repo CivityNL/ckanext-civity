@@ -2,6 +2,12 @@
 
 The file contains all specific changes to the ckanext-civity.
 
+## 2.4.0 (???)
+- `civity`
+  - Improved CivityHarvester -- ([CIVDEV-1067](https://civity.atlassian.net/browse/CIVDEV-1067))
+    - Fixed issues when imported package changes name
+    - Added support for easier extendability when creating Resource, DataStore and Default Resource Views.
+
 ## 2.3.0 (2024-10-28)
 - `civity`
   - Added a CLI command to assign all datasets to the correct theme groups -- ([CIVDEV-1056](https://civity.atlassian.net/browse/CIVDEV-1056))
