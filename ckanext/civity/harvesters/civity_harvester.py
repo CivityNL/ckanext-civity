@@ -154,7 +154,7 @@ class CivityHarvester(HarvesterBase):
 
         logger = logging.getLogger(__name__ + '.fetch_stage')
 
-        logger.debug('Starting fetch_stage for harvest object [%s]', harvest_object.id)
+        logger.debug('Starting fetch_stage for harvest object [%s]', harvest_object)
 
         self.setup_record_provider(harvest_object.source.url, self._get_harvest_config(harvest_object.source.config))
 
@@ -341,6 +341,12 @@ class CivityHarvester(HarvesterBase):
             # Updating existing package, if all is well...
             package_dict[ID] = harvest_object.package_id
 
+            # _find_existing_package can be overridden if necessary
+            existing_package_dict = self._find_existing_package(package_dict)
+
+            # In case name has been modified when first importing. See issue #101.
+            package_dict['name'] = existing_package_dict['name']
+
             # Update existing package
             package_id = self._create_or_update_package(package_dict, 'update', context, harvest_object)
 
@@ -390,30 +396,44 @@ class CivityHarvester(HarvesterBase):
 
         return result
 
-    def _create_resources(self, resource_dicts, package_id, package_title, context, harvest_object):
-        result = True;
+    def _create_resources(self, resource_dict_list, package_id, package_title, context, harvest_object):
+        result = True
 
-        for resource_dict in resource_dicts:
-            if 'id' in resource_dict.keys():
-                resource_dict.pop('id')
+        for resource_dict in resource_dict_list:
+            created_res_dict = self._create_resource(resource_dict, package_id, package_title, context, harvest_object)
+            if created_res_dict and created_res_dict.get('url_type', '') == 'datastore':
+                self.create_datastore(created_res_dict, package_id, package_title, context, harvest_object)
+                created_res_dict = self._resource_show(context, created_res_dict.get('id'))
 
-            if 'revision_id' in resource_dict.keys():
-                resource_dict.pop('revision_id')
-
-            resource_dict['package_id'] = package_id
-            try:
-                resource_dict = toolkit.get_action('resource_create')(context.copy(), resource_dict)
-                log.info('Created resource with id [%s]', resource_dict.get('id', 'NO ID Found'))
-            except toolkit.ValidationError as e:
-                log.error('Error creating resource: [%s]', e.message)
-                self._save_object_error(
-                    'Error creating resource [%s] for identifier [%s] [%r]' % (
-                        package_title, harvest_object.id, e),
-                    harvest_object
-                )
-                result = False
+            self.resource_create_default_resource_views(context, created_res_dict)
 
         return result
+
+    def _create_resource(self, resource_dict, package_id, package_title, context, harvest_object):
+        result = None
+
+        if 'id' in resource_dict.keys():
+            resource_dict.pop('id')
+
+        if 'revision_id' in resource_dict.keys():
+            resource_dict.pop('revision_id')
+
+        resource_dict['package_id'] = package_id
+        try:
+            result = toolkit.get_action('resource_create')(context.copy(), resource_dict)
+            log.info('Created resource with id [%s]', result.get('id'))
+
+        except toolkit.ValidationError as e:
+            log.error('Error creating resource: [%s]', e.message)
+            self._save_object_error(
+                'Error creating resource [%s] for identifier [%s] [%r]' % (package_title, harvest_object.id, e),
+                harvest_object)
+
+        return result
+
+    def create_datastore(self, resource_dict, package_id, package_title, context, harvest_object):
+        log.warning(f'create_datastore has been called but not yet implemented')
+        pass
 
     @staticmethod
     def _get_guids_to_package_ids_from_database(harvest_job):
@@ -544,3 +564,32 @@ class CivityHarvester(HarvesterBase):
             name = package.name
 
         return name
+
+    def resource_create_default_resource_views(self, context, resource_dict):
+        result = True
+        data_dict = {
+            'resource': resource_dict,
+            'create_datastore_views': False
+        }
+
+        try:
+            created_views = toolkit.get_action('resource_create_default_resource_views')(context.copy(), data_dict)
+            log.info(f'Created default views for resource {resource_dict.get("id")} --> {created_views}')
+
+        except toolkit.ValidationError as e:
+            log.info(f'Error creating default views for resource {resource_dict.get("id")} -->  {e.message}')
+            self._save_object_error(f'Error creating default views for resource {resource_dict.get("id")}')
+            result = False
+        return result
+
+    def _resource_show(self, context, resource_id):
+        log.info(f'resource_show for {resource_id}')
+        result = None
+        data_dict = {'id': resource_id}
+        try:
+            result = toolkit.get_action('resource_show')(context.copy(), data_dict)
+
+        except toolkit.ActionError as e:
+            log.info(f'Error showing resource {resource_id} -->  {e.message}')
+            self._save_object_error(f'Error showing resource {resource_id}')
+        return result
