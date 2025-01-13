@@ -2,6 +2,14 @@
 
 The file contains all specific changes to the ckanext-civity.
 
+## 2.4.1 (2025-01-13)
+- `civity`
+  - Improved CivityHarvester -- ([CIVDEV-1067](https://civity.atlassian.net/browse/CIVDEV-1067))
+    - Fixed issues when imported package changes name
+    - Added support for easier extendability when creating Resource, DataStore and Default Resource Views.
+  - Fixed bug in IPackageController after_search implementation of the IFacetLabelFunction not being called on each item -- ([CIVDEV-1195](https://civity.atlassian.net/browse/CIVDEV-1195))
+  - Update `ckanext/civity/scheming/organization_multi_schemas/ckan-dataplatform-nl.json` to a list, to avoid issues with `load_multi_schema` function.
+
 ## 2.3.0 (2024-10-28)
 - `civity`
   - Added a CLI command to assign all datasets to the correct theme groups -- ([CIVDEV-1056](https://civity.atlassian.net/browse/CIVDEV-1056))

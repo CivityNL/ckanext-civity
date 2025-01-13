@@ -82,9 +82,12 @@ class CivityPlugin(plugins.SingletonPlugin, DefaultTranslation):
             label_functions = plugin.get_label_functions(label_functions)
 
         for field_name, search_facet in search_facets.items():
-            if field_name in label_functions:
-                search_facet = label_functions[field_name](search_facet)
-
+            search_facet_items = search_facet.get('items', [])
+            if field_name in label_functions and search_facet_items:
+                for search_facet_item in search_facet_items:
+                    search_facet_item['display_name'] = label_functions[field_name](search_facet_item)
+                search_facet['items'] = search_facet_items
+ 
         return search_results
 
     # ITemplateHelpers
