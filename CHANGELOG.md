@@ -2,6 +2,10 @@
 
 The file contains all specific changes to the ckanext-civity.
 
+## v2.5.x (tbd)
+- `civity` 
+  - Updated company address values in footer  ([CIVDEV-1076](https://civity.atlassian.net/browse/CIVDEV-1076))
+
 ## 2.4.1 (2025-01-13)
 - `civity`
   - Improved CivityHarvester -- ([CIVDEV-1067](https://civity.atlassian.net/browse/CIVDEV-1067))
