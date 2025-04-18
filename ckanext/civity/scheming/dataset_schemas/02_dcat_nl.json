@@ -36,7 +36,7 @@
       "choices_helper": "civity_donl_language_list_choices",
       "default_value": "http://publications.europa.eu/resource/authority/language/NLD",
       "required": true,
-      "group": "language_theme"
+      "field_group": "language_theme"
     },
     {
       "field_name": "metadata_language",
@@ -71,7 +71,7 @@
       "choices_helper": "civity_donl_language_list_choices",
       "default_value": "http://publications.europa.eu/resource/authority/language/NLD",
       "required": true,
-      "group": "language_theme"
+      "field_group": "language_theme"
     },
     {
       "field_name": "theme",
@@ -126,7 +126,7 @@
         "sv": "En kategori för datamängden. En datamängd kan associeras med flera teman."
       },
       "required": true,
-      "group": "language_theme"
+      "field_group": "language_theme"
     },
     {
       "field_name": "subtheme",
@@ -617,7 +617,7 @@
         "nl": "Subthema waar het dataproduct betrekking op heeft. [DCAT aanbevolen]",
         "sv": "Undertema som dataprodukten relaterar till."
       },
-      "group": "language_theme"
+      "field_group": "language_theme"
     },
     {
       "field_name": "publisher",
@@ -639,7 +639,7 @@
         "sv": "Egenskapen hänvisar till en enhet (organisation) som ansvarar för att göra datamängden tillgänglig."
       },
       "required": true,
-      "group": "contact"
+      "field_group": "contact"
     },
     {
       "field_name": "authority",
@@ -661,7 +661,7 @@
         "data-module": "autocomplete"
       },
       "required": true,
-      "group": "contact"
+      "field_group": "contact"
     },
     {
       "field_name": "contact_point_type",
@@ -698,7 +698,7 @@
       ],
       "default_value": false,
       "required": false,
-      "group": "contact"
+      "field_group": "contact"
     },
     {
       "field_name": "contact_point_name",
@@ -719,7 +719,7 @@
       "form_snippet": "text.html",
       "display_snippet": "text.html",
       "required": true,
-      "group": "contact"
+      "field_group": "contact"
     },
     {
       "field_name": "contact_point_email",
@@ -741,7 +741,7 @@
       "display_snippet": "email.html",
       "required": true,
       "unharmonized_default_value": "is_missing",
-      "group": "contact"
+      "field_group": "contact"
     },
     {
       "field_name": "contact_point_phone",
@@ -792,7 +792,7 @@
         "sv": "Det geografiska området som omfattas av datamängden. Det rekommenderas att använda Geonames URI:er i följande form: http://sws.geonames.org/6695072"
       },
       "required": false,
-      "group": "contact"
+      "field_group": "contact"
     },
     {
       "field_name": "spatial_value",
@@ -813,7 +813,7 @@
         "sv": "Geografiskt område"
       },
       "required": false,
-      "group": "contact"
+      "field_group": "contact"
     },
     {
       "field_name": "temporal_end",
@@ -831,7 +831,7 @@
       },
       "preset": "date",
       "required": false,
-      "group": "version"
+      "field_group": "version"
     },
     {
       "field_name": "access_rights",
@@ -885,7 +885,7 @@
       ],
       "sorted_choices": false,
       "required": true,
-      "group": "version"
+      "field_group": "version"
     },
     {
       "field_name": "dataset_status",
@@ -948,7 +948,7 @@
       ],
       "default_value": "http://data.overheid.nl/status/beschikbaar",
       "required": false,
-      "group": "version"
+      "field_group": "version"
     },
     {
       "field_name": "issued",
@@ -966,7 +966,7 @@
       },
       "preset": "date",
       "required": false,
-      "group": "version"
+      "field_group": "version"
     },
     {
       "field_name": "changetype",
@@ -1012,7 +1012,7 @@
       ],
       "sorted_choices": false,
       "required": false,
-      "group": "version"
+      "field_group": "version"
     },
     {
       "field_name": "date_planned",
@@ -1031,7 +1031,7 @@
       },
       "preset": "date",
       "required": false,
-      "group": "version"
+      "field_group": "version"
     },
     {
       "field_name": "update_frequency",
@@ -1224,7 +1224,7 @@
         "en": "How often is the data product updated. Click on the field (when empty) to choose an option from the list otherwise fill your own value. [DCAT recommended]",
         "nl": "Hoe vaak wordt het dataproduct bijgewerkt? Klik op het veld (indien leeg) om een ​​optie uit de lijst te kiezen. [DCAT aanbevolen]"
       },
-      "group": "version"
+      "field_group": "version"
     },
     {
       "field_name": "version",
@@ -1243,7 +1243,7 @@
       "form_snippet": "text.html",
       "display_snippet": "text.html",
       "required": false,
-      "group": "version"
+      "field_group": "version"
     },
     {
       "field_name": "version_notes",
@@ -1267,7 +1267,7 @@
       "form_snippet": "text.html",
       "display_snippet": "text.html",
       "required": false,
-      "group": "version"
+      "field_group": "version"
     }
   ],
   "resource_fields": [
