@@ -160,6 +160,9 @@ msgstr "Instellingen"
 msgid "Dataplatform is a product of:"
 msgstr "Dataplatform is een product van:"
 
+msgid "A product of:"
+msgstr "Een product van:"
+
 msgid "This is an introduction page for this platform."
 msgstr "Dit is een introductie pagina voor deze data platform."
 

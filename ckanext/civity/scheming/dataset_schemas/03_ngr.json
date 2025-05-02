@@ -46,7 +46,7 @@
         "sv": "Koordinatsystemkälla"
       },
       "required": false,
-      "group": "geo"
+      "field_group": "geo"
     },
     {
       "field_name": "bounding_box",
@@ -65,7 +65,7 @@
         "sv": "Begränsande låda"
       },
       "required": false,
-      "group": "geo"
+      "field_group": "geo"
     },
     {
       "field_name": "resolution",
@@ -84,7 +84,7 @@
         "nl": "De resolutie van de schaal in meters [NGR]",
         "sv": "Markprovsavstånd i meter"
       },
-      "group": "geo"
+      "field_group": "geo"
     },
     {
       "field_name": "denominator",
@@ -103,7 +103,7 @@
         "nl": "De beoogde schaal waarop het bestand waarheidsgetrouw gebruikt mag worden. Dit moet een positief numeriek getal zijn. [NGR]",
         "sv": "Detaljnivå uttryckt som skalnämnaren för en jämförbar papperskopia eller ett diagram"
       },
-      "group": "geo"
+      "field_group": "geo"
     }
   ]
 }

@@ -255,7 +255,7 @@
         "nl": "1 of meerdere thema's die de dataset omschrijven [DCAT aanbevolen]",
         "sv": "En kategori för datamängden. En datamängd kan associeras med flera teman. [DCAT rekommenderad]"
       },
-      "group": "basic_info",
+      "field_group": "basic_info",
       "sort_order": 100,
       "required": true
     },
