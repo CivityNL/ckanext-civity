@@ -1,0 +1,10 @@
+# Swedish translations for ckanext-civity.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the ckanext-civity
+# project.
+# FIRST AUTHOR <info@civity.nl>, 2025.
+
+
+#: /templates/footer.html:7
+msgid "A product of:"
+msgstr "En produkt av:"
