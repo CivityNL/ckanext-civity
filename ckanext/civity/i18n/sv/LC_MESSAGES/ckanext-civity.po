@@ -1,10 +1,49 @@
-# Swedish translations for ckanext-civity.
+# Swedish translations for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
-# This file is distributed under the same license as the ckanext-civity
-# project.
-# FIRST AUTHOR <info@civity.nl>, 2025.
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-03-18 11:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
 
+#: ckanext/civity/validators.py:83
+msgid "You cannot change the URL of an organization containing datasets"
+msgstr ""
 
-#: /templates/footer.html:7
+#: ckanext/civity/templates/footer.html:10
 msgid "A product of:"
 msgstr "En produkt av:"
+
+#: ckanext/civity/templates/footer.html:7
+#: ckanext/civity/templates/accessibility/index.html:8
+msgid "Accessibility"
+msgstr "Tillgänglighet"
+
+#: ckanext/civity/templates/accessibility/index.html:10
+msgid "We are currently working on improving our accessibility to meet WCAG guidelines."
+msgstr "Vi arbetar för närvarande med att förbättra vår tillgänglighet för att uppfylla WCAG:s riktlinjer."
+
+#: ckanext/civity/templates/accessibility/index.html:11
+msgid "We strive to make our website accessible to everyone, regardless of any disabilities."
+msgstr "Vi strävar efter att göra vår webbplats tillgänglig för alla, oavsett funktionsnedsättning."
+
+#: ckanext/civity/templates/accessibility/index.html:12
+msgid "In the meantime, we want you to know that we are working hard on these improvements and we appreciate your patience and understanding."
+msgstr "Under tiden vill vi att du ska veta att vi arbetar hårt med dessa förbättringar och vi uppskattar ditt tålamod och din förståelse."
+
+#: ckanext/civity/templates/accessibility/index.html:13
+msgid "If you have any questions or comments, or if you need help navigating our website, please do not hesitate to contact us using the contact details given in the footer below."
+msgstr "Om du har några frågor eller kommentarer, eller om du behöver hjälp med att navigera på vår webbplats, tveka inte att kontakta oss med hjälp av kontaktuppgifterna i sidfoten nedan."
+
