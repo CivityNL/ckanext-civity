@@ -4,6 +4,7 @@ import ckanext.civity.helpers as h
 import ckanext.civity.logic.auth.get as auth_get
 import ckanext.civity.logic.auth.create as auth_create
 import ckanext.civity.validators as validators
+import ckanext.civity.views as views
 from ckanext.civity.interfaces import IFacetLabelFunction
 import ckanext.civity.logic.action.get as action_get
 from ckanext.civity.uploader import CivityResourceUpload
@@ -20,6 +21,7 @@ class CivityPlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.ITemplateHelpers)
     plugins.implements(plugins.IActions)
     plugins.implements(plugins.IClick)
+    plugins.implements(plugins.IBlueprint)
 
 
     users_assign_all_groups = toolkit.config.get('civity.users_assign_all_groups', False)
@@ -127,3 +129,8 @@ class CivityPlugin(plugins.SingletonPlugin, DefaultTranslation):
     # IClick
     def get_commands(self):
         return [cli.civity]
+
+    # IBlueprint
+    def get_blueprint(self):
+        u'''Return a Flask Blueprint object to be registered by the app.'''
+        return views.get_blueprints()

@@ -1,10 +1,13 @@
 # Changelog
-
 The file contains all specific changes to the ckanext-civity.
 
-## v2.5.x (tbd)
+## v2.6.x (tbd)
 - `civity` 
   - Updated company address values in footer  ([CIVDEV-1076](https://civity.atlassian.net/browse/CIVDEV-1076))
+  - Added Accessibility Page + Updated Footer with link to it ([CIVDEV-1589](https://civity.atlassian.net/browse/CIVDEV-1589))
+
+## v2.5.0 (2025-05-05)
+- `civity` 
   - Update schema to comply with ckanext-scheming `3.0.0+civity.3` -- ([CIVDEV-1350](https://civity.atlassian.net/browse/CIVDEV-1350)) 
     - Replace `group` with `field_group` in the schema fields attributes.
 
