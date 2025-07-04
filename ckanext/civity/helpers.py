@@ -228,6 +228,13 @@ def get_siteimprove_src():
     siteimprove_src = toolkit.config.get('ckanext.civity.civity.siteimprove_src', None)
     return siteimprove_src
 
+def get_accessibility_info_enabled():
+    """
+    Return the config option "ckanext.civity.civity.accessibility_info_enabled", a boolean value that controls if the
+    Accessibility Information (Accessibility Page + Link in Footer) is shown.
+    """
+    accessibility_info_enabled = toolkit.asbool(toolkit.config.get('ckanext.civity.civity.accessibility_info_enabled', False))
+    return accessibility_info_enabled
 
 def create_group_memberships_from_theme(context, pkg_dict):
     # TODO Check for values/Error Handling

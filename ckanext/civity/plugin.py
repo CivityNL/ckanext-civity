@@ -102,6 +102,7 @@ class CivityPlugin(plugins.SingletonPlugin, DefaultTranslation):
                 'civity_donl_spatial_scheme_list_choices': h.donl_spatial_scheme_list_choices,
                 'civity_donl_spatial_value_list_choices': h.donl_spatial_value_list_choices,
                 'sweden_theme_list_choices': h.sweden_theme_list_choices,
+                'civity_get_accessibility_info_enabled': h.get_accessibility_info_enabled,
                 'civity_get_matomo_id': h.get_matomo_id,
                 'civity_get_matomo_url': h.get_matomo_url,
                 'civity_get_matomo_custom_url': h.get_matomo_custom_url,
