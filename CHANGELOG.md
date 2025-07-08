@@ -5,6 +5,7 @@ The file contains all specific changes to the ckanext-civity.
 * `civity`
   * WCAG-2.2 AA Compliance
     * Adjust `text-decoration: underline` for URL elements, to resolve 'link-in-text' violation - [CIVDEV-1559](https://civity.atlassian.net/browse/CIVDEV-1559)
+    * Add `alt` attribute to footer image, to resolve 'image-alt' violation - [CIVDEV-1558](https://civity.atlassian.net/browse/CIVDEV-1558)
 
 ## v2.5.x (tbd)
 - `civity` 
