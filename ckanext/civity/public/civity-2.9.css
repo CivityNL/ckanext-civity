@@ -1,0 +1,7 @@
+.underlined {
+    text-decoration: underline;
+}
+
+.editor .editor-info-block a {
+    text-decoration: underline !important;
+}
