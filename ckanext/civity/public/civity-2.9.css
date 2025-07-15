@@ -1,7 +1,49 @@
+/* --- UPDATES TO FIX ACCESSIBILITY RELATED COLOR-CONTRAST VIOLATIONS --- */
+
+/* targeting templates/admin/config.html, templates/admin/index.html  */
 .underlined {
     text-decoration: underline;
 }
-
+/* targeting templates/macros/form.html  */
 .editor .editor-info-block a {
     text-decoration: underline !important;
 }
+
+/* all elements under class="error-block" */
+.error-block {
+  border-radius: 0 0 3px 3px;
+  display: block;
+  padding: 6px 8px 3px;
+  background: #8b3a3f !important;
+  color: #fff;
+  width: auto;
+}
+
+/* all elements under class="label-default" */
+.label-default {
+    background-color: #757575 !important;
+    font-size: 90% !important;
+}
+
+/* all elements under class="label-default" */
+.select2-chosen {
+    color: #5e5e5e;
+}
+
+/* targeting ckanext/stats/index.html */
+#stats-most-create th {
+    background-color: #757575 !important;
+    color: #ffffff;
+}
+
+/* targeting organization/member_new.hml */
+.add-member-or {
+    color: #757575 !important;
+}
+
+/* targeting snippets/job_details.html */
+.label.label-important[data-diff="error"] {
+  color: #ffffff;
+}
+
+/* ---------------------------------------------------------------------- */
