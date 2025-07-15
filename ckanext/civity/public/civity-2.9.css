@@ -1,7 +1,14 @@
+/* --- UPDATES TO FIX ACCESSIBILITY RELATED COLOR-CONTRAST VIOLATIONS --- */
+
+/* targeting templates/admin/config.html, templates/admin/index.html  */
 .underlined {
     text-decoration: underline;
 }
-
+/* targeting templates/macros/form.html  */
 .editor .editor-info-block a {
     text-decoration: underline !important;
+}
+
+.module-content a {
+  text-decoration: underline;
 }
