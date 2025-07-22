@@ -1,9 +1,8 @@
 # Changelog
 The file contains all specific changes to the ckanext-civity.
 
-## v2.7.0 (tbd)
+## v2.7.0 (2025-07-21)
   - Added Config Option to enable/disable Accessibility Page and Footer ([CIVDEV-1604](https://civity.atlassian.net/browse/CIVDEV-1604))
-
 
 ## v2.6.0 (2025-06-30)
 - `civity` 
