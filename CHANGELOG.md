@@ -2,7 +2,10 @@
 The file contains all specific changes to the ckanext-civity.
 
 ## v2.8.0 (Unreleased)
-
+* `civity`
+  * WCAG-2.2 AA Compliance
+    * Extend 'core' template `bulk_process.html` to include attribute `aria-label` to all elements of `<input type="checkbox"`, to resolve 'label' violation - [CIVDEV-1563](https://civity.atlassian.net/browse/CIVDEV-1563)
+  
 ## v2.7.0 (2025-07-21)
   - Added Config Option to enable/disable Accessibility Page and Footer ([CIVDEV-1604](https://civity.atlassian.net/browse/CIVDEV-1604))
 
