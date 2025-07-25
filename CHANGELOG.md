@@ -4,7 +4,7 @@ The file contains all specific changes to the ckanext-civity.
 ## v2.6.x
 * `civity`
   * WCAG-2.2 AA Compliance
-    * Adjust `text-decoration: underline` for URL elements, to resolve 'link-in-text' violation - [CIVDEV-1559](https://civity.atlassian.net/browse/CIVDEV-1559)
+    * Adjust `text-decoration: underline` for URL elements, excluding `class=btn`, to resolve 'link-in-text' violation - [CIVDEV-1559](https://civity.atlassian.net/browse/CIVDEV-1559)
 
 ## v2.5.x (tbd)
 - `civity` 

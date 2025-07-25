@@ -9,6 +9,6 @@
     text-decoration: underline !important;
 }
 
-.module-content a {
+.module-content a:not(.btn) {
   text-decoration: underline;
 }
