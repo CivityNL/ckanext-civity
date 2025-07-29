@@ -2,6 +2,9 @@
 The file contains all specific changes to the ckanext-civity.
 
 ## v2.8.0 (Unreleased)
+- `civity` 
+  * WCAG-2.2 AA Compliance
+    * Extend development snippet `context`, add `aria-label` in `<a>` elements to resolve 'link-name' violation. - [CIVDEV-1562](https://civity.atlassian.net/browse/CIVDEV-1562)
 
 ## v2.7.0 (2025-07-21)
   - Added Config Option to enable/disable Accessibility Page and Footer ([CIVDEV-1604](https://civity.atlassian.net/browse/CIVDEV-1604))
