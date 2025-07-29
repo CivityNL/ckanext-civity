@@ -13,6 +13,11 @@
   text-decoration: underline;
 }
 
+.btn-remove-url {
+  line-height: 24px !important;
+  margin-top: -2px;
+}
+
 /* all elements under class="error-block" */
 .error-block {
   border-radius: 0 0 3px 3px;
