@@ -4,6 +4,7 @@ The file contains all specific changes to the ckanext-civity.
 ## v2.8.0 (Unreleased)
 * `civity`
   * WCAG-2.2 AA Compliance
+    * Extend snippet `user_search`, add `aria-label` and adjust css attributes to resolve 'target-size' violation - [CIVDEV-1561](https://civity.atlassian.net/browse/CIVDEV-1561)
     * Extend 'core' template `bulk_process.html` to include attribute `aria-label` to all elements of `<input type="checkbox"`, to resolve 'label' violation - [CIVDEV-1563](https://civity.atlassian.net/browse/CIVDEV-1563)
     * Add `alt` attribute to footer image, to resolve 'image-alt' violation - [CIVDEV-1558](https://civity.atlassian.net/browse/CIVDEV-1558)
     * Adjust `text-decoration: underline` for URL elements, to resolve 'link-in-text' violation - [CIVDEV-1559](https://civity.atlassian.net/browse/CIVDEV-1559)
