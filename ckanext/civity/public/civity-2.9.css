@@ -19,6 +19,14 @@
   width: auto;
 }
 
+.btn.disabled {
+  opacity: 0.70 !important;
+}
+
+.label-danger {
+  background-color: #d43f3a !important;
+}
+
 /* all elements under class="label-default" */
 .label-default {
     background-color: #757575 !important;
