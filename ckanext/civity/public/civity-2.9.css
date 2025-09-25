@@ -62,5 +62,12 @@
 .label.label-important[data-diff="error"] {
   color: #ffffff;
 }
+/* targeting all template form.html */
+.control-required {
+  color: #000000 !important;
+}
 
+.date {
+  color: #757575 !important;
+}
 /* ---------------------------------------------------------------------- */
