@@ -9,6 +9,10 @@
     text-decoration: underline !important;
 }
 
+.module-content a:not(.btn) {
+  text-decoration: underline;
+}
+
 /* all elements under class="error-block" */
 .error-block {
   border-radius: 0 0 3px 3px;
