@@ -59,13 +59,11 @@ To install ckanext-civity:
 
 ## Config settings
 
-None at present
+### civity plugin
 
-**TODO:** Document any optional config settings here. For example:
-
-	# The minimum number of hours to wait before re-checking a resource
-	# (optional, default: 24).
-	ckanext.civity.some_setting = some_default_value
+    # Boolean that toogles if the Accessibility Information (Accessibility Page + Link in Footer) is shown.
+	# (optional, default: False).
+	ckanext.civity.civity.accessibility_info_enabled = False
 
 
 ## Developer installation

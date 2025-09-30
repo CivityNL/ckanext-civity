@@ -1,0 +1,19 @@
+{% extends "user/dashboard.html" %}
+
+{% block primary_content_inner %}
+  <h2 class="hide-heading">{{ _('My Groups') }}</h2>
+  {% set groups = h.groups_available(am_member=True) %}
+  {% if groups %}
+    <div class="wide">
+      {% snippet "group/snippets/group_list.html", groups=groups %}
+    </div>
+  {% else %}
+    <p class="empty">
+      {{ _('You are not a member of any groups.') }}
+      {% if h.check_access('group_create') %}
+        {# assign class 'underlined' to make the url 'accessibility compliant' #}
+        {% link_for _('Create one now?'), controller='group', action='new', class_='underlined'%}
+      {% endif %}
+    </p>
+  {% endif %}
+{% endblock %}

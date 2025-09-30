@@ -32,6 +32,27 @@ msgstr "Doorzoek Thema's"
 msgid "Size (in bytes)"
 msgstr "Bestandsgrootte (in bytes)"
 
+#: ckanext/civity/templates/footer.html:7
+#: ckanext/civity/templates/accessibility/index.html:8
+msgid "Accessibility"
+msgstr "Toegankelijkheid"
+
+#: ckanext/civity/templates/accessibility/index.html:10
+msgid "We are currently working on improving our accessibility to meet WCAG guidelines."
+msgstr "We zijn momenteel bezig met het verbeteren van onze toegankelijkheid om te voldoen aan de WCAG-richtlijnen."
+
+#: ckanext/civity/templates/accessibility/index.html:11
+msgid "We strive to make our website accessible to everyone, regardless of any disabilities."
+msgstr "We streven ernaar om onze website voor iedereen toegankelijk te maken, ongeacht eventuele beperkingen."
+
+#: ckanext/civity/templates/accessibility/index.html:12
+msgid "In the meantime, we want you to know that we are working hard on these improvements and we appreciate your patience and understanding."
+msgstr "In de tussentijd willen we je laten weten dat we hard werken aan deze verbeteringen en we waarderen je geduld en begrip."
+
+#: ckanext/civity/templates/accessibility/index.html:13
+msgid "If you have any questions or comments, or if you need help navigating our website, please do not hesitate to contact us using the contact details given in the footer below."
+msgstr "Als je vragen of opmerkingen hebt, of als je hulp nodig hebt bij het navigeren op onze website, aarzel dan niet om contact met ons op te nemen via de contactgegevens die u kunt vinden in de footer hieronder."
+
 #: ckan/logic/action/delete.py:358
 msgid "Organization cannot be deleted while it still has datasets"
 msgstr "Organisaties kunnen niet worden verwijderd zolang er nog datasets aan gekoppeld zijn"
