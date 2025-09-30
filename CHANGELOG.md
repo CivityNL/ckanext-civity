@@ -1,6 +1,5 @@
 # Changelog
 The file contains all specific changes to the ckanext-civity.
-## v2.6.x
 
 ## v2.7.0 (2025-07-21)
   - Added Config Option to enable/disable Accessibility Page and Footer ([CIVDEV-1604](https://civity.atlassian.net/browse/CIVDEV-1604))
@@ -12,6 +11,7 @@ The file contains all specific changes to the ckanext-civity.
   * WCAG-2.2 AA Compliance
     * Adjust `text-decoration: underline` for URL elements, excluding `class=btn`, to resolve 'link-in-text' violation - [CIVDEV-1559](https://civity.atlassian.net/browse/CIVDEV-1559)
     * Adjust multiple css properties to resolve 'color-contrast' violation - [CIVDEV-1560](https://civity.atlassian.net/browse/CIVDEV-1560)
+    * Add `alt` attribute to footer image, to resolve 'image-alt' violation - [CIVDEV-1558](https://civity.atlassian.net/browse/CIVDEV-1558)
 
 ## v2.5.0 (2025-05-05)
 - `civity` 
