@@ -1,0 +1,17 @@
+{% extends "page.html" %}
+
+{% block subtitle %}{{ _("Accessibility") }}{% endblock %}
+
+{% block breadcrumb_content %}
+  <li class="active">{{ h.nav_link(_('Accessibility'), named_route='civity.accessibility') }}</li>
+{% endblock %}
+
+{% block primary_content %}
+    <h1>{{ _("Accessibility") }}</h1>
+
+    <p>{{ _("We are currently working on improving our accessibility to meet WCAG guidelines.") }}</p>
+    <p>{{ _("We strive to make our website accessible to everyone, regardless of any disabilities.") }}</p>
+    <p>{{ _("In the meantime, we want you to know that we are working hard on these improvements and we appreciate your patience and understanding.") }}</p>
+    <p>{{ _("If you have any questions or comments, or if you need help navigating our website, please do not hesitate to contact us using the contact details given in the footer below.") }}</p>
+
+{% endblock %}
